@@ -57,6 +57,7 @@ class CommitManager():
             '''.format(self.repository))
         else:
             self.commands('''
+            git pull
             git add -A
             git commit -m "update"
             git push origin source
@@ -79,6 +80,7 @@ class CommitManager():
             '''.format(self.repository))
         else:
             self.commands('''
+            git pull
             git add -A
             git commit -m "update"
             git push origin master
