@@ -39,11 +39,11 @@ def build_content(output='output'):
         p.run()
         build_manager.delete_output_theme()
         build_manager.render_stylesheets()
-        build_manager.lf2crlfs()
         if minify:
             build_manager.minify_stylesheets()
             build_manager.minify_javascripts()
             build_manager.minify_templates()
+        build_manager.lf2crlfs()
 
     except SystemExit:
         pass
