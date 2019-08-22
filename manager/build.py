@@ -167,6 +167,25 @@ class BuildManager():
         print('MINIFY BUILD ELAPSED: {:3.3f} {}'.format(time.time() - tic, extensions))
         sys.stdout.flush()
 
+    def lf2crlf(self, path):
+        if not os.path.exists(path) or os.path.isdir(path):
+            return
+
+        with open(path, 'rb') as file:
+            content = file.read()
+
+        if '\0' in content:
+            return
+        newcontent = re.sub('\r?\n', '\r\n', content)
+        if newcontent == content:
+            return
+
+        with open(path, 'wb') as file:
+            file.write(newcontent)
+
+        # with open('filename.in', 'rU') as infile, open('filename.out', 'w', newline='\n') as outfile:
+        #        outfile.writelines(infile.readlines())
+
 
 build_manager = BuildManager()
 
