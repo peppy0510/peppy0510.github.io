@@ -38,11 +38,13 @@ def build_content(output='output'):
         build_manager.delete_output()
         p.run()
         build_manager.delete_output_theme()
+        build_manager.lf2crlfs()
         build_manager.render_stylesheets()
         if minify:
             build_manager.minify_stylesheets()
             build_manager.minify_javascripts()
             build_manager.minify_templates()
+
     except SystemExit:
         pass
 
@@ -131,7 +133,7 @@ class BuildManager():
             with open(path, 'wb') as file:
                 file.write(content.encode('utf-8'))
 
-    def search_pattern(self, filepath, pattern=u'*'):
+    def search_pattern(self, filepath, pattern=u'*.*'):
         retlist = glob.glob(os.path.join(filepath, pattern))
         findlist = os.listdir(filepath)
         for f in findlist:
@@ -167,16 +169,26 @@ class BuildManager():
         print('MINIFY BUILD ELAPSED: {:3.3f} {}'.format(time.time() - tic, extensions))
         sys.stdout.flush()
 
+    def lf2crlfs(self):
+        paths = self.search_pattern(self.output)
+        for path in paths:
+            self.lf2crlf(path)
+
     def lf2crlf(self, path):
+        _, extension = os.path.splitext(path)
+        extension = extension.lower().strip('.')
+        if extension not in ('xml', 'js', 'css', 'sass', 'scss', 'svg'):
+            return
+
         if not os.path.exists(path) or os.path.isdir(path):
             return
 
         with open(path, 'rb') as file:
             content = file.read()
 
-        if '\0' in content:
+        if b'\0' in content:
             return
-        newcontent = re.sub('\r?\n', '\r\n', content)
+        newcontent = re.sub(b'\r?\n', b'\r\n', content)
         if newcontent == content:
             return
 
