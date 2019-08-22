@@ -19,6 +19,7 @@ def main():
         manager.build.build_content()
         manager.serve_livereload()
     if 'commit' in sys.argv:
+        manager.build.build_content()
         manager.commit.commit_source()
         manager.commit.commit_output()
 
