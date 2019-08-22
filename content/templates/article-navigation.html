@@ -1,0 +1,28 @@
+<aside class="article-nav">
+    {% if article.next_article %}
+    <a class="article-nav-left" href="/{{ article.next_article.url}}">
+        <i class="ic ic-arrow-left"></i>
+        <div class="article-nav-teaser">
+            <h2 class="article-nav-title">{{ article.next_article.title }}</h2>
+            <p class="article-nav-excerpt">{{ article.next_article.summary|striptags|truncate(90) }}</p>
+        </div>
+    </a>
+    {% else %}
+    <a class="article-nav-left article-nav-left-empty"></a>
+    {% endif %}
+    <!--  -->
+    {% if article.next_article or article.prev_article %}
+    <div class="article-nav-seperator"></div>
+    {% endif %}
+    <!--  -->
+    {% if article.prev_article %}
+    <a class="article-nav-right" href="/{{ article.prev_article.url}}">
+        <div class="article-nav-teaser">
+            <h2 class="article-nav-title">{{ article.prev_article.title }}</h2>
+            <p class="article-nav-excerpt">{{ article.prev_article.summary|striptags|truncate(90) }}</p>
+        </div>
+        <i class="ic ic-arrow-right"></i>
+    </a>
+    {% endif %}
+    <div class="clear"></div>
+</aside>

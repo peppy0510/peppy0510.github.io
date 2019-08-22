@@ -1,0 +1,33 @@
+{% extends "common.html" %}
+<!--  -->
+{% block header %}
+<header class="index-header">
+    <div class="container">
+        <!-- <h1 class="header-title">{{ SITENAME }}</h1> -->
+        <h1 class="header-title">MUTEKLAB.COM</h1>
+        <span class="article-meta"></span>
+    </div>
+    <div class="container">
+        <div class="avatar">
+            <img src="https://avatars1.githubusercontent.com/u/21299773?s=460&v=4">
+        </div>
+        <div class="author-name">Taehong Kim</div>
+        <div class="author-informations">
+            <!-- <div>Seoul, South Korea</div> -->
+            <div>{{ articles|count }} Articles</div>
+        </div>
+    </div>
+    <!-- <a class="avatar" href="/resume.html"> -->
+    <!-- </a> -->
+</header>
+{% endblock header %}
+<!--  -->
+{% block content %}
+<div class="{% if page_name=='index' %}index{% else %}category{% endif %}-body">
+    <div class="container">
+        <div class="content">
+            {% include "common-index-loop.html" %}
+        </div>
+    </div>
+</div>
+{% endblock content %}

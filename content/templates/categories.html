@@ -1,0 +1,29 @@
+{% extends "common.html" %}
+<!--  -->
+{% block title %}
+{{ SITENAME }} - Categories
+{% endblock %}
+<!--  -->
+{% block header %}
+<header class="categories-header">
+    <div class="container">
+        <h1 class="header-title">Categories</h1>
+        <span class="article-meta"></span>
+    </div>
+</header>
+{% endblock header %}
+<!--  -->
+{% block content %}
+<div class="categories-body">
+    <div class="container">
+        <!-- {% for category, articles in categories|sort %} -->
+        <article class="article">
+            <a href="/{{ category.url }}">
+                <span class="title">{{ category }}</span>
+                <span class="count"><label>{{ articles|count }}<label></span>
+            </a>
+        </article>
+        <!-- {% endfor %} -->
+    </div>
+</div>
+{% endblock content %}

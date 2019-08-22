@@ -1,0 +1,15 @@
+{% extends "common-index.html" %}
+<!--  -->
+{% block title %}
+{{ SITENAME }} - Tag {{ tag }}
+{% endblock %}
+<!--  -->
+{% block header %}
+<header class="tag-header">
+    <div class="container">
+        <h1 class="header-title">{{ tag }}</h1>
+        <span class="article-meta"></span>
+        <!-- <span class="blog-description">Posts: {{ articles|count }}</span> -->
+    </div>
+</header>
+{% endblock header %}

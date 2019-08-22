@@ -1,0 +1,37 @@
+<nav id="menu">
+    <a class="close-button">Close</a>
+    <div class="nav-wrapper">
+        <!-- <p class="nav-label">Menu</p> -->
+        <p class="nav-label">
+            <a href="/" role="presentation">
+                peppy0510
+            </a>
+        </p>
+        <ul>
+            <!-- {% for title, link in MENUITEMS %} -->
+            <li>
+                <a href="{{ link }}" role="presentation">
+                    {{ title }}
+                </a>
+            </li>
+            <!-- {% endfor %} -->
+            <!-- {% if DISPLAY_PAGES_ON_MENU %} -->
+            <!-- {% for p in PAGES %} -->
+            <li {% if p==page %} class="nav-{{p.slug}} active" {% endif %} role="presentation">
+                <a href="/{{ p.url }}">
+                    {{ p.title }}
+                </a>
+            </li>
+            <!-- {% endfor %} -->
+            <!-- {% elif DISPLAY_CATEGORIES_ON_MENU%} -->
+            <!-- {% for cat, null in categories %} -->
+            <li {% if cat==category %} class="nav-{{cat.slug}} active" {% endif %} role="presentation">
+                <a href="/{{ cat.url }}">
+                    {{ cat }}
+                </a>
+            </li>
+            <!-- {% endfor %} -->
+            <!-- {% endif %} -->
+        </ul>
+    </div>
+</nav>

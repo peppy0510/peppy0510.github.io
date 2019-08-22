@@ -1,0 +1,44 @@
+<!-- {% for article in articles_page.object_list %} -->
+<article class="article-loop">
+    <div class="container">
+        <header class="article-loop-header">
+            <h2 class="article-loop-title">
+                <a href="/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+                    {{ article.title }}
+                </a>
+            </h2>
+            <span class="article-loop-meta">
+                <!-- {% if 'category' not in page_name.split('/').0 %} -->
+                <!-- {% endif %} -->
+                <!-- <a class="category" href="{{ SITEURL }}/{{ article.category.url }}"> -->
+                <a class="category" href="/{{ article.category.url }}">
+                    {{ article.category }}
+                </a>
+                <span class="seperator">|</span>
+                <!-- {% if 'about' not in page_name.split('/').1 %} -->
+                <!-- {% endif %} -->
+                <time datetime="{{ article.locale_date }}">
+                    {{ article.locale_date }}
+                </time>
+            </span>
+            <div class="clear"></div>
+        </header>
+        <!-- {% if SHOW_FULL_ARTICLE %} -->
+        <section class="article-loop-content">
+            {{ article.content }}
+        </section>
+        <!-- {% else %} -->
+        <section class="article-loop-excerpt">
+            <p>
+                <!-- {% if article.has_summary %} -->
+                {{ article.summary }}
+                <!-- {% elif article.summary %} -->
+                {{ article.summary|striptags|truncate(250) }}
+                <!-- {% endif %} -->
+            </p>
+        </section>
+        <!-- {% endif %} -->
+    </div>
+</article>
+<!-- {% endfor %} -->
+{% include "common-pagination.html" %}

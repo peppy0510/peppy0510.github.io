@@ -1,0 +1,29 @@
+{% extends "common.html" %}
+<!--  -->
+{% block title %}
+{{ SITENAME }} - Tags
+{% endblock %}
+<!--  -->
+{% block header %}
+<header class="tags-header">
+    <div class="container">
+        <h1 class="header-title">Tags</h1>
+        <span class="article-meta"></span>
+    </div>
+</header>
+{% endblock header %}
+<!--  -->
+{% block content %}
+<div class="tags-body">
+    <div class="container">
+        <!-- {% for tag, articles in tags|sort %} -->
+        <article class="article">
+            <a href="/{{ tag.url }}">
+                <span class="title">{{ tag }}</span>
+                <span class="count"><label>{{ articles|count }}<label></span>
+            </a>
+        </article>
+        <!-- {% endfor %} -->
+    </div>
+</div>
+{% endblock content %}

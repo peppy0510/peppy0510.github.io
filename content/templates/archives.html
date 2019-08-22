@@ -1,0 +1,30 @@
+{% extends "common.html" %}
+<!--  -->
+{% block title %}
+{{ SITENAME }} - Archives
+{% endblock %}
+<!--  -->
+{% block header %}
+<header class="archives-header">
+    <div class="container">
+        <h1 class="header-title">Archives</h1>
+        <span class="article-meta"></span>
+    </div>
+</header>
+{% endblock header %}
+<!--  -->
+{% block content %}
+
+<div class="archives-body">
+    <div class="container">
+        <!-- {% for article in dates %} -->
+        <article class="article">
+            <a href="/{{ article.url }}">
+                <span class="title">{{ article.title }}</span>
+                <span class="datetime"><label>{{ article.locale_date }}<label></span>
+            </a>
+        </article>
+        <!-- {% endfor %} -->
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,7 @@
+*/__pycache__
+*/__test__
+*.pyc
+*.pyo
+/venv
+/output
+desktop.ini
