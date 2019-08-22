@@ -60,7 +60,7 @@ class CommitManager():
             git pull
             git add -A
             git commit -m "update"
-            git push origin source
+            git push origin source --force
             ''')
         print(tsencode('-' * 80, 'gray'))
 
@@ -83,7 +83,7 @@ class CommitManager():
             git pull
             git add -A
             git commit -m "update"
-            git push origin master
+            git push origin master --force
             ''')
 
         print(tsencode('-' * 80, 'gray'))
