@@ -57,10 +57,10 @@ class CommitManager():
             '''.format(self.repository))
         else:
             self.commands('''
-            git pull
+            git pull origin source
             git add -A
             git commit -m "update"
-            git push origin source --force
+            git push origin source
             ''')
         print(tsencode('-' * 80, 'gray'))
 
@@ -80,10 +80,10 @@ class CommitManager():
             '''.format(self.repository))
         else:
             self.commands('''
-            git pull
+            git pull origin master
             git add -A
             git commit -m "update"
-            git push origin master --force
+            git push origin master
             ''')
 
         print(tsencode('-' * 80, 'gray'))
