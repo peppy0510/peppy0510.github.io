@@ -38,6 +38,7 @@ def build_content(output='output'):
         build_manager.delete_output()
         p.run()
         build_manager.delete_output_theme()
+        build_manager.make_cname()
         build_manager.render_stylesheets()
         if minify:
             build_manager.minify_stylesheets()
@@ -68,6 +69,10 @@ class BuildManager():
                 shutil.rmtree(os.path.join(self.output, name))
             else:
                 os.remove(path)
+
+    def make_cname(self, cname='muteklab.com'):
+        with open(os.path.join(self.output, 'CNAME'), 'w') as file:
+            file.write(cname)
 
     def delete_output_theme(self):
         path = os.path.join(self.output, 'theme')
