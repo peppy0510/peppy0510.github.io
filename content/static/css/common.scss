@@ -624,6 +624,17 @@ body {
     }
 }
 
+
+.article-header .container .header-title {
+    font-size: 18pt;
+    line-height: 28pt;
+}
+
+.article-loop .article-loop-header .article-loop-title a {
+    font-size: 18pt;
+    line-height: 26pt;
+}
+
 .article-content {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -711,17 +722,33 @@ body {
     blockquote {
         font-size: 100%;
     }
+    p {
+        font-size: 11pt;
+        line-height: 18pt;
+        padding-top: 4px;
+        // padding-bottom: 2px;
+    }
     ul {
         list-style: none;
-        // padding-left: 16px;
         padding-left: 0;
         li {
+            font-size: 11pt;
+            line-height: 18pt;
+            padding-top: 4px;
+            // padding-bottom: 2px;
             padding-left: 16px;
             text-indent: -16px;
             &:before {
                 color: #606060;
                 content: '\2022';
                 margin-right: 10px;
+            }
+            code {
+                // margin-top: -20px !important;
+                // margin-bottom: 20px !important;
+                // line-height: 16pt;
+                // padding-top: 0;
+                // padding-bottom: 8px;
             }
         }
     }
@@ -986,6 +1013,6 @@ body {
 }
 
 div#disqus_thread {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,.5);
     padding: 15px;
 }

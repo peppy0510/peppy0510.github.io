@@ -1,0 +1,23 @@
+---
+Title: HTML 템플릿에 Linter 사용 시 발생하는 문제
+Date: 2019-08-22 00:00
+Tags: Development, HTML, Python
+---
+
+
+Django, Jinja 등의 HTML 템플릿에 Linter 사용 시 발생하는 문제 해결 방법을 소개한다.
+
+* Python 웹 개발 시 Django, Jinja 등의 HTML 템플릿 렌더링 엔진을 많이 사용한다.
+* 템플릿에 HTML Linter를 사용하게 되면 `{% %}`로 인클로저된 제어문으로 인하여 인덴테이션 구조가 흐트러지고 가독성이 떨어지는 경우가 발생한다.
+* `{% %}`를 `{ % % }`로 변환해 버리는 경우도 발생한다.
+* 다음과 같이 제어문을 주석처리하는 방법으로 간단하게 해결할 수 있다.
+
+```html
+<!-- {% for name in names %} -->
+<!-- {% if name %} -->
+<div>{{ name }}</div>
+<!-- {% endif %} -->
+<!-- {% endfor %} -->
+```
+
+* 단, `{% includes "template.html" %}`와 같이 `includes` 명령어에 주석처리하면 렌더링 결과가 주석처리 되어 버리기 때문에 주의해야 한다.

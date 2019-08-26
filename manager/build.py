@@ -103,6 +103,7 @@ class BuildManager():
             v.string = text
         content = str(soup)
         content = htmlmin.minify(content, remove_empty_space=True)
+        # ptrn = r'(<!--.*?-->)'
         ptrn = r'(<!--)([^!^[^]]*)(-->)'
         content = re.sub(ptrn, '', content)
         return content
