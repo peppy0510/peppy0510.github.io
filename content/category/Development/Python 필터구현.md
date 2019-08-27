@@ -1,15 +1,14 @@
 ---
-Title: Python 필터 구현
+Title: Python 필터구현
 Date: 2019-08-22 00:00
 Tags: Development, Python, DSP
 ---
 
-Python으로 필터를 구현해 보았다.
 
-* Matlab 예제로 많이 소개되는 필터구현 소스코드를 참조 하였다.
+Python으로 필터를 구현했다. Matlab 예제로 많이 소개되는 구현체를 참조하였다.
 
 
-#### FIR Filter
+###### FIR Filter
 
 ```python
 from scipy import signal
@@ -33,7 +32,7 @@ def fir_filter(data, lowcut, highcut, fs, order=29):
     return output
 ```
 
-#### Butterworth Filter
+###### Butterworth Filter
 
 ```python
 from scipy import signal
@@ -55,7 +54,7 @@ def butter_filter(data, lowcut, highcut, fs, order=5):
     return output
 ```
 
-#### Type I Chebyshev Filter
+###### Type I Chebyshev Filter
 
 ```python
 from scipy import signal
@@ -77,8 +76,7 @@ def cheby1_filter(data, lowcut, highcut, fs, order=5, riple=5):
     return output
 ```
 
-#### Type II Chebyshev Filter
-
+###### Type II Chebyshev Filter
 
 ```python
 from scipy import signal

@@ -44,7 +44,7 @@ body {
         margin-bottom: 10px;
 
         a {
-            height: 32px;
+            min-height: 32px;
             display: flex;
             color: #FFFFFF;
             border-radius: 4px;
@@ -59,7 +59,8 @@ body {
                 font-weight: normal;
                 margin: auto;
                 font-size: 11pt;
-                line-height: 11pt;
+                line-height: 14pt;
+                padding: 2px 0;
             }
             .count,
             .datetime {
@@ -71,6 +72,7 @@ body {
                 padding: 1px 7px 1px 6px;
                 background-color: #C0C0C0;
                 label {
+                    white-space: nowrap;
                     color: #707070;
                     font-weight: bold;
                     margin: auto;
@@ -377,16 +379,16 @@ body {
     .article-nav-title {
         padding: 0;
         font-weight: bold;
-        margin: 0 0 5px 0;
+        margin: 0 0 0 0;
         font-size: 10pt;
-        line-height: 10pt;
+        line-height: 15pt;
         color: inherit;
     }
 
     .article-nav-excerpt {
         margin: 0;
         font-size: 8pt;
-        line-height: 11pt;
+        line-height: 12pt;
     }
 
     .article-nav-seperator {
@@ -407,12 +409,14 @@ body {
     .article-nav-teaser {
         padding: 20px 0;
         min-height: 60px;
+        // display: block;
     }
 
     .article-nav-left {
         float: left;
         .article-nav-teaser {
             padding-right: 20px;
+            padding-left: 16px;
         }
     }
 
@@ -420,6 +424,7 @@ body {
         float: right;
         .article-nav-teaser {
             padding-left: 20px;
+            padding-right: 16px;
         }
     }
 
@@ -453,14 +458,20 @@ body {
             text-align: center;
             &.ic-arrow-left {
                 left: 0;
-                margin-left: -10px;
-                padding-right: 8px;
+                // padding-right: 8px;
+                &::before {
+                    margin-left: -6px;
+                    margin-right: -6px;
+                }
             }
             &.ic-arrow-right {
                 right: 0;
-                padding-left: 8px;
+                // padding-left: 8px;
                 margin-left: auto;
-                margin-right: -10px;
+                &::before {
+                    margin-right: -6px;
+                    margin-left: -6px;
+                }
             }
         }
     }
@@ -558,7 +569,12 @@ body {
 .article-loop {
     .container {
         margin: 0;
-        padding: 5px 30px 15px 0;
+        padding: 5px 0 15px 0;
+        @media (min-width: 768px) {
+            padding: 5px 30px 15px 0;
+            // width: 750px;
+        }
+        // padding: 5px 0 15px 0;
     }
     .article-loop-header {
         .article-loop-title {
@@ -631,8 +647,8 @@ body {
 }
 
 .article-loop .article-loop-header .article-loop-title a {
-    font-size: 18pt;
-    line-height: 26pt;
+    font-size: 16pt;
+    line-height: 24pt;
 }
 
 .article-content {
@@ -670,6 +686,17 @@ body {
         }
     }
 
+    div.highlight {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        pre {
+            // margin-top: 20px;
+            // margin-bottom: 20px;
+            padding: 8px 15px;
+            border: 1px solid #E0E0E0;
+            background-color: #F8F8F8;
+        }
+    }
     p {
         font-size: 10pt;
         // line-height: 12pt;
@@ -728,6 +755,30 @@ body {
         padding-top: 4px;
         // padding-bottom: 2px;
     }
+    p,
+    ul li {
+        code {
+            // display: flex;
+            // margin-top: -20px !important;
+            // background-color: #000000;
+            // margin-top: -20px !important;
+            // margin-bottom: 20px !important;
+            // line-height: 16pt;
+            // padding-top: 0;
+            // padding-bottom: 8px;
+            height: 21px;
+            font-size: 9pt;
+            line-height: 16pt;
+            margin-top: -4px;
+            margin-left: 3px;
+            margin-right: 3px;
+            padding: 0 5px;
+            display: inline-flex;
+            vertical-align: middle;
+            align-items: center;
+            border-radius: 2px;
+        }
+    }
     ul {
         list-style: none;
         padding-left: 0;
@@ -742,13 +793,6 @@ body {
                 color: #606060;
                 content: '\2022';
                 margin-right: 10px;
-            }
-            code {
-                // margin-top: -20px !important;
-                // margin-bottom: 20px !important;
-                // line-height: 16pt;
-                // padding-top: 0;
-                // padding-bottom: 8px;
             }
         }
     }
