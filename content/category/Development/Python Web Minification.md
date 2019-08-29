@@ -2,6 +2,7 @@
 Title: Python Web Minification
 Date: 2019-08-22 00:00
 Tags: Development, Python
+Status: hidden
 ---
 
 

@@ -11,7 +11,7 @@ HTML 소스 코드에 base64 인코딩된 이미지를 삽입하는 방법을 �
 <img src="data:image/[extension];base64,[base64 encoded data]">
 ```
 
-다음은 python에서 태그를 생성하는 예제이다.
+다음은 python에서 파일을 읽어 base64 인코딩된 태그를 생성하는 예제이며, Django Template Filter를 만드는 등으로 활용 할 수 있겠다.
 
 ```python
 import base64

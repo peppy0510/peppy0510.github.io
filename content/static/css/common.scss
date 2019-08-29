@@ -692,7 +692,7 @@ body {
         pre {
             // margin-top: 20px;
             // margin-bottom: 20px;
-            padding: 8px 15px;
+            padding: 8px 15dpx;
             border: 1px solid #E0E0E0;
             background-color: #F8F8F8;
         }
@@ -870,6 +870,28 @@ body {
         audio {
             width: 100%;
             height: 60px;
+            outline: none;
+            &::-webkit-media-controls-panel {
+                background: transparent;
+                background-color: transparent;
+                border-radius: 4px !important;
+            }
+            // border-radius: 0;
+            // &::-webkit-media-controls-panel
+            // &::-webkit-media-controls-mute-button
+            // &::-webkit-media-controls-play-button
+            // &::-webkit-media-controls-timeline-container
+            // &::-webkit-media-controls-current-time-display
+            // &::-webkit-media-controls-time-remaining-display
+            // &::-webkit-media-controls-timeline
+            // &::-webkit-media-controls-volume-slider-container
+            // &::-webkit-media-controls-volume-slider
+            // &::-webkit-media-controls-seek-back-button
+            // &::-webkit-media-controls-seek-forward-button
+            // &::-webkit-media-controls-fullscreen-button
+            // &::-webkit-media-controls-rewind-button
+            // &::-webkit-media-controls-return-to-realtime-button
+            // &::-webkit-media-controls-toggle-closed-captions-button
             source {
             }
         }
