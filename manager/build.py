@@ -59,6 +59,8 @@ class BuildManager():
         self.output = output
 
     def delete_output(self):
+        if not os.path.exists(self.output):
+            return
         for name in os.listdir(self.output):
             if name == '.git':
                 continue

@@ -52,3 +52,9 @@ git add -a
 git commit -m "update"
 git push origin source
 ```
+
+### 깃 클론
+
+```
+git clone -b source git@github.com:peppy0510/peppy0510.github.io.git
+```
