@@ -6,7 +6,7 @@ Status: hidden
 ---
 
 
-Python에서 웹 콘텐츠를 minification 하는 방법이다. HTML, JavaScript, CSS 등의 소스 파일에서 불필요한 공백문자 등을 제거하여 웹 서비스 시 네트워크로 전송량을 줄이는 방법이다. 우선 예제에 필요한 라이브러리를 모두 설치한다.
+Python에서 웹 콘텐츠를 minification 하는 방법을 소개한다. HTML, JavaScript, CSS 등의 소스 파일에서 불필요한 공백 문자나 주석을 제거하여 네트워크 전송량을 줄이는 방법이다. 우선 예제에 필요한 라이브러리를 모두 설치한다.
 
 ```bash
 pip install jsmin htmlmin beautifulsoup4

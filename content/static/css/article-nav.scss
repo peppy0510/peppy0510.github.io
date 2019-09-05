@@ -1,0 +1,118 @@
+/*
+author: Taehong Kim
+email: peppy0510@hotmail.com
+*/
+
+
+.article-nav {
+    display: flex;
+    margin-top: 0;
+    position: relative;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    // margin-bottom: 40px;
+    // margin-bottom: 10px;
+    margin-bottom: 0;
+    &:after {
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 100%;
+        left: 50%;
+        top: 0;
+        background: #E5E4E1;
+        z-index: 2;
+    }
+
+    .article-nav-title {
+        padding: 0;
+        font-weight: bold;
+        margin: 0 0 0 0;
+        font-size: 10pt;
+        line-height: 15pt;
+        color: inherit;
+    }
+
+    .article-nav-excerpt {
+        margin: 0;
+        font-size: 8pt;
+        line-height: 12pt;
+    }
+
+    .article-nav-seperator {
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 1px;
+        position: absolute;
+        background-color: #000000;
+    }
+
+    .article-nav-left,
+    .article-nav-right {
+        width: 50%;
+        display: flex;
+    }
+
+    .article-nav-teaser {
+        padding: 20px 0;
+        min-height: 60px;
+    }
+
+    .article-nav-left {
+        float: left;
+        .article-nav-teaser {
+            padding-right: 20px;
+            padding-left: 16px;
+        }
+    }
+
+    .article-nav-right {
+        float: right;
+        .article-nav-teaser {
+            padding-left: 20px;
+            padding-right: 16px;
+        }
+    }
+
+    a:not(.article-nav-left-empty) {
+        text-decoration: none;
+        &:hover {
+            background-color: #F8F8F8;
+        }
+    }
+
+    a {
+        color: #606060;
+        &:hover {
+            i {
+                color: #FF8080;
+            }
+        }
+        i {
+            display: flex;
+            align-items: center;
+            color: #E0E0E0;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 20pt;
+            line-height: 20pt;
+            text-align: center;
+            &.ic-arrow-left {
+                left: 0;
+                &::before {
+                    margin-left: -6px;
+                    margin-right: -6px;
+                }
+            }
+            &.ic-arrow-right {
+                right: 0;
+                margin-left: auto;
+                &::before {
+                    margin-right: -6px;
+                    margin-left: -6px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+<div class="navbar navbar-inverse">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img src="/static/images/logo-muteklab.png">
+        </a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right" style="text-align: right;">
+                <li class="dropdown">
+                    <a href="" id="menu-content" class="dropdown-toggle" data-toggle="dropdown">
+                        Author<b class="caret" style="margin-left: 5px;"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/authors-information.html">Information</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/category/authors-music.html">Music</a></li>
+                        <li><a href="/category/authors-mixset.html">Mixset</a></li>
+                        <li><a href="/category/authors-development.html">Development</a></li>
+                    </ul>
+                </li>
+                <!-- <li><a href="/category/development.html">Development</a></li> -->
+                <!-- <li><a href="/category/music.html">Music</a></li> -->
+                <li class="dropdown">
+                    <a href="" id="menu-content" class="dropdown-toggle" data-toggle="dropdown">
+                        Find<b class="caret" style="margin-left: 5px;"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="/archives.html">Archives</a></li>
+                        <li><a href="/categories.html">Categories</a></li>
+                        <li><a href="/tags.html">Tags</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="" id="menu-content" class="dropdown-toggle" data-toggle="dropdown">
+                        Articles<b class="caret" style="margin-left: 5px;"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="/category/music-articles.html">Music</a></li>
+                        <li><a href="/category/development-articles.html">Development</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

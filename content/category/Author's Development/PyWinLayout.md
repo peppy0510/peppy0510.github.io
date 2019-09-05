@@ -27,4 +27,6 @@ Summary: 윈도우 데스크탑 애플리케이션
 
 ---
 
-<img src="https://github.com/peppy0510/PyWinLayout/blob/master/assets/icon/icon.png?raw=true" width="80">
+<!-- <img src="https://github.com/peppy0510/PyWinLayout/blob/master/assets/icon/icon.png?raw=true" width="80"> -->
+
+![2019-09-04_172216](https://user-images.githubusercontent.com/21299773/64308026-790de880-cf87-11e9-9165-12ccef82026f.png)

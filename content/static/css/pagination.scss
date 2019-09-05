@@ -1,0 +1,83 @@
+/*
+author: Taehong Kim
+email: peppy0510@hotmail.com
+*/
+
+
+.pagination {
+    // height: 66px;
+    display: flex;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 0;
+    // margin-bottom: 10px;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    .container {
+        // margin-top: auto;
+        // margin-bottom: auto;
+        width: 100%;
+        height: 28px;
+        // padding-left: 0;
+        // padding-right: 0;
+        padding: 0;
+        a {
+            z-index: 100;
+            color: #808080;
+            height: 28px;
+            font-size: 8pt;
+            line-height: 8pt;
+            display: block;
+            padding: 8px 8px;
+            position: relative;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid #D8D8D8;
+            min-width: 110px;
+            margin-top: -1px;
+            &:hover {
+                background-color: #F8F8F8;
+            }
+            .pagination-label {
+                position: relative;
+                display: inline-block;
+                height: 1em;
+                line-height: 1em;
+            }
+            i {
+                top: 0px;
+                width: auto;
+                margin: auto;
+                color: inherit;
+                font-size: 8pt;
+                line-height: 8pt;
+                position: relative;
+                color: #A0A0A0;
+            }
+            &.pagination-next {
+                float: right;
+                padding-left: 14px;
+            }
+            &.pagination-prev {
+                float: left;
+                padding-right: 14px;
+            }
+        }
+        .pagination-info {
+            width: 100%;
+            height: 28px;
+            display: block;
+            font-size: 8pt;
+            color: #808080;
+            // margin-top: 1px;
+            line-height: 8pt;
+            padding: 8px 8px;
+            text-align: center;
+            position: absolute;
+            box-sizing: border-box;
+        }
+    }
+}

@@ -4,7 +4,7 @@ Date: 2019-08-22 00:00
 Tags: Development, SublimeText
 ---
 
-SublimeText에서 맞춤법 검사기를 활용하는 방법이다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원한다. 사용자 환경설정 파일 `Preference.sublime-settings`에 `spell_check`와 `dictionary` 항목이 있으며, 다음과 같이 이를 수정하여 기능 활성화와 언어 선택이 가능하다. 해당 항목이 없다면 추가하면 된다.
+SublimeText에서 맞춤법 검사기 활용 방법을 소개한다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원한다. 사용자 환경설정 파일 `Preference.sublime-settings`에 `spell_check`와 `dictionary` 항목이 있으며, 다음과 같이 이를 수정하여 기능 활성화와 언어 선택이 가능하다. 해당 항목이 없다면 추가하면 된다.
 
 ```json
 "spell_check": true,
