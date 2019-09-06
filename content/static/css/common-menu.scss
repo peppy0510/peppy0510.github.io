@@ -207,19 +207,17 @@ email: peppy0510@hotmail.com
             .navbar-modal-mask {
                 left: 0;
                 right: 0;
-                bottom: 0;
                 top: 50px;
                 opacity: .8;
                 display: none;
                 position: fixed;
-                // -webkit-filter: blur(10px);
-                //         filter: blur(5px);
+                bottom: -1000px;
                 background-color: #808080;
             }
             .navbar-menu {
                 right: 0;
                 top: 50px;
-                bottom: 0;
+                bottom: -100px;
                 // height: initial;
                 height: auto;
                 position: fixed;
