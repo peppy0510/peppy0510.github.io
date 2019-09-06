@@ -7,8 +7,7 @@
 {% block header %}
 <header class="tags-header">
     <div class="container">
-        <h1 class="header-title">Find in Tags</h1>
-        <span class="article-meta"></span>
+        <div class="header-title">Find in Tags</div>
     </div>
 </header>
 {% endblock header %}
@@ -18,10 +17,12 @@
     <div class="container">
         <!-- {% for tag, articles in tags|sort %} -->
         <article class="article">
-            <a href="/{{ tag.url }}">
-                <span class="title">{{ tag }}</span>
-                <span class="count"><label>{{ articles|count }}<label></span>
-            </a>
+            <span class="title">
+                <a href="/{{ tag.url }}">{{ tag }}</a>
+            </span>
+            <span class="count">
+                <label>{{ articles|count }}<label>
+            </span>
         </article>
         <!-- {% endfor %} -->
     </div>

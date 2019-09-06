@@ -196,9 +196,11 @@ email: peppy0510@hotmail.com
     a {
         color: #808080;
         font-size: 11pt;
-        line-height: 11pt;
+        // line-height: 18pt;
+        line-height: 16pt;
         text-decoration: none;
         word-break: break-all;
+        display: inline-block;
         // display: block;
         // overflow: hidden;
         // white-space: nowrap;

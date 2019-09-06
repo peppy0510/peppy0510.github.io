@@ -7,8 +7,7 @@
 {% block header %}
 <header class="categories-header">
     <div class="container">
-        <h1 class="header-title">Find in Categories</h1>
-        <span class="article-meta"></span>
+        <div class="header-title">Find in Categories</div>
     </div>
 </header>
 {% endblock header %}
@@ -18,10 +17,12 @@
     <div class="container">
         <!-- {% for category, articles in categories|sort %} -->
         <article class="article">
-            <a href="/{{ category.url }}">
-                <span class="title">{{ category }}</span>
-                <span class="count"><label>{{ articles|count }}<label></span>
-            </a>
+            <span class="title">
+                <a href="/{{ category.url }}">{{ category }}</a>
+            </span>
+            <span class="count">
+                <label>{{ articles|count }}<label>
+            </span>
         </article>
         <!-- {% endfor %} -->
     </div>

@@ -7,22 +7,25 @@
 {% block header %}
 <header class="archives-header">
     <div class="container">
-        <h1 class="header-title">Find in Archives</h1>
+        <div class="header-title">Find in Archives</div>
         <span class="article-meta"></span>
     </div>
 </header>
 {% endblock header %}
 <!--  -->
 {% block content %}
-
 <div class="archives-body">
     <div class="container">
         <!-- {% for article in dates %} -->
         <article class="article">
-            <a href="/{{ article.url }}">
-                <span class="title">{{ article.title }}</span>
-                <span class="datetime"><label>{{ article.locale_date }}<label></span>
-            </a>
+            <span class="title">
+                <a href="/{{ article.url }}">
+                    {{ article.title }}
+                </a>
+            </span>
+            <span class="datetime">
+                <label>{{ article.locale_date }}<label>
+            </span>
         </article>
         <!-- {% endfor %} -->
     </div>
