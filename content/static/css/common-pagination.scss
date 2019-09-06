@@ -5,23 +5,17 @@ email: peppy0510@hotmail.com
 
 
 .pagination {
-    // height: 66px;
     display: flex;
     margin-top: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
     margin-bottom: 0;
-    // margin-bottom: 10px;
     border-top: 1px solid #E8E8E8;
     border-bottom: 1px solid #E8E8E8;
     .container {
-        // margin-top: auto;
-        // margin-bottom: auto;
         width: 100%;
         height: 28px;
-        // padding-left: 0;
-        // padding-right: 0;
         padding: 0;
         a {
             z-index: 100;
@@ -40,6 +34,12 @@ email: peppy0510@hotmail.com
             margin-top: -1px;
             &:hover {
                 background-color: #F8F8F8;
+            }
+            &:active {
+                background-color: #F8F8F8;
+                -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
+                   -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
+                        box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
             }
             .pagination-label {
                 position: relative;

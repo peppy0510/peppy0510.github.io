@@ -10,6 +10,7 @@
     <meta name="description" content="muteklab.com">
     <meta name="referrer" content="origin">
     <meta name="generator" content="Pelican">
+    <meta name="theme-color" content="#000000">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- {% if GOOGLE_SITE_VERIFICATION %} -->
@@ -21,7 +22,7 @@
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
     <script src="/static/js/jquery.min.js" type="text/javascript"></script>
-    <script src="/static/js/common.min.js" type="text/javascript"></script>
+    <script src="/static/js/common-menu.min.js" type="text/javascript"></script>
     <!-- <script src="/static/js/bootstrap.min.js" type="text/javascript"></script> -->
     <!-- <script src="/static/js/comment.min.js" type="text/javascript"></script> -->
     <!-- <script src="/{{ THEME_STATIC_DIR }}/js/script.min.js" type="text/javascript"></script> -->
@@ -30,11 +31,12 @@
     <link href="/static/css/code_blocks/github.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/icons.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/common.min.css" type="text/css" rel="stylesheet">
-    <link href="/static/css/menu.min.css" type="text/css" rel="stylesheet">
-    <link href="/static/css/footer.min.css" type="text/css" rel="stylesheet">
+    <link href="/static/css/common-menu.min.css" type="text/css" rel="stylesheet">
+    <link href="/static/css/common-footer.min.css" type="text/css" rel="stylesheet">
+    <link href="/static/css/common-pagination.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/article-content.min.css" type="text/css" rel="stylesheet">
+    <link href="/static/css/article-loop.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/article-nav.min.css" type="text/css" rel="stylesheet">
-    <link href="/static/css/pagination.min.css" type="text/css" rel="stylesheet">
     <script type="text/javascript">
     let ua = window.navigator.userAgent;
     if (ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0 || ua.indexOf('Edge/') > 0) {
@@ -68,7 +70,6 @@
     <!-- {% endfor %} -->
     {% endblock opengraph %}
 </head>
-<!-- <body onclick="toggleMenu()"> -->
 
 <body>
     {% include 'common-menu.html' %}

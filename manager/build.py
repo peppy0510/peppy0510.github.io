@@ -29,7 +29,7 @@ p = Pelican(read_settings('pelicanconf.py'))
 
 def build_content(output='output'):
 
-    # minify = 'minify' in sys.argv[1:]
+    # minify = 'nomin' not in sys.argv[1:]
     minify = True
 
     tic = time.time()
