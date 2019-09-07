@@ -1,16 +1,21 @@
 ---
 Title: Style O Sanda
 Date: 2012-01-03 00:00
-Tags: About, About Music, Music Production
-Summary: Music Production / Deep House
+Summary:
 ---
 
+<!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Deep House
+-->
 
+<!--
 ### Description
 
 * Release Type: TV Commercial
 * Genre: Deep House
 * BPM: 120
+-->
 
 <div class="audio-player"></div>
 

@@ -1,7 +1,6 @@
 ---
 Title: Eastcontrol Web
 Date: 2017-07-03 00:00
-Tags: About, About Development
 Summary: 반응형 웹 페이지
 ---
 

@@ -1,15 +1,21 @@
 ---
 Title: Olympus Camera
 Date: 2011-12-24 00:00
-Tags: About, About Music, Music Production
-Summary: Music Production / Break Beat
+Summary:
 ---
 
+<!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Break Beat
+-->
+
+<!--
 ### Description
 
 * Release Type: TV Commercial
 * Genre: Break Beat
 * BPM: 126
+-->
 
 <div class="audio-player"></div>
 

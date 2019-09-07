@@ -1,15 +1,21 @@
 ---
 Title: On And On
 Date: 2009-08-15 00:00
-Tags: About, About Music, Music Production
-Summary: Music Production / Deep House
+Summary:
 ---
 
+<!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Deep House
+-->
+
+<!--
 ### Description
 
 * Release Type: TV Commercial
 * Genre: Deep House
 * BPM: 125
+-->
 
 <div class="audio-player"></div>
 

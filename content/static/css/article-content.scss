@@ -260,6 +260,15 @@ email: peppy0510@hotmail.com
         // &:not(:nth-child(1)) {
         //     margin-top: -5px;
         // }
+        margin-top: 7px;
+        // flex-direction: column;
+        // margin-right: auto;
+        // &:first-child {
+        //     margin-top: 8px;
+        // }
+        // &:not(:first-child) {
+        //     margin-top: 8px;
+        // }
         &[src*='#mw25'] {
             margin: 1px 0;
             max-width: calc(25% - 1px);
@@ -412,16 +421,18 @@ email: peppy0510@hotmail.com
     .mixcloud-container {
         padding: 0;
         display: flex;
-        height: 120px;
+        padding-top: 0;
         margin-top: 18px;
-        padding-bottom: 4px;
+        // padding-bottom: 6px;
+        // margin-bottom: 40px;
         overflow: hidden;
         position: relative;
         iframe {
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 120px;
+            margin-bottom: 4px;
         }
     }
     .video-container {

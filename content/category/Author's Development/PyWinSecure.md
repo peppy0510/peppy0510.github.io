@@ -1,7 +1,6 @@
 ---
 Title: PyWinSecure
 Date: 2019-04-22 00:00
-Tags: About, About Development
 Summary: 윈도우 데스크탑 애플리케이션
 ---
 
@@ -25,7 +24,5 @@ Summary: 윈도우 데스크탑 애플리케이션
 ---
 
 ### Screenshots
-
-<!-- 메인창 -->
 
 ![screenshot-001](https://user-images.githubusercontent.com/21299773/62962845-4c830880-bdef-11e9-8b0d-5fc3ad20f8b2.png)

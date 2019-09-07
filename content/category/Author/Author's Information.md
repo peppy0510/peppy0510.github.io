@@ -1,7 +1,6 @@
 ---
 Title: Author's Information
 Date: 2019-08-01 23:00
-Tags: Author
 Summary:
 ---
 

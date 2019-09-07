@@ -1,7 +1,6 @@
 ---
 Title: Calculator App
 Date: 2018-11-06 00:00
-Tags: About, About Development
 Summary: 하이브리드 앱
 ---
 

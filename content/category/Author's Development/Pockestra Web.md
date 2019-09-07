@@ -1,7 +1,6 @@
 ---
 Title: Pockestra Web
 Date: 2019-03-10 00:00
-Tags: About, About Development
 Summary: 반응형 웹 페이지
 ---
 

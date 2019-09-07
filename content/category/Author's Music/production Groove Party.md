@@ -1,16 +1,21 @@
 ---
 Title: Groove Party
 Date: 2005-08-01 00:00
-Tags: About, About Music, Music Production
-Summary: Music Production / Break Beat
+Summary:
 ---
 
+<!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Break Beat
+-->
 
+<!--
 ### Description
 
 * Release Type: PC Game
 * Genre: Break Beat
 * BPM: 110
+-->
 
 <div class="audio-player"></div>
 

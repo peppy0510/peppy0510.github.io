@@ -1,7 +1,6 @@
 ---
 Title: Muteklab Web
 Date: 2014-08-01 00:00
-Tags: About, About Development
 Summary: 반응형 웹 페이지
 ---
 

@@ -1,7 +1,6 @@
 ---
 Title: PyMusicPlayer
 Date: 2014-11-03 00:00
-Tags: About, About Development
 Summary: 윈도우 데스크탑 애플리케이션
 ---
 
@@ -28,18 +27,10 @@ Summary: 윈도우 데스크탑 애플리케이션
 
 ### Screenshots
 
-<!-- 메인창 -->
-
 ![screenshot-001](https://user-images.githubusercontent.com/21299773/62962587-ba7b0000-bdee-11e9-9f1c-0e18e2767180.png)
-
-<!-- 태그정보 편집창 -->
 
 ![screenshot-002](https://user-images.githubusercontent.com/21299773/62962588-ba7b0000-bdee-11e9-8d8a-90ab17ae9053.png)
 
-<!-- 일반정보 설정창 -->
-
 ![screenshot-003](https://user-images.githubusercontent.com/21299773/62962591-bb139680-bdee-11e9-8c68-57cd994a6bb3.png)
-
-<!-- 키보드 단축키 설정창 -->
 
 ![screenshot-004](https://user-images.githubusercontent.com/21299773/62962592-bb139680-bdee-11e9-8938-8c73c407d7ef.png)

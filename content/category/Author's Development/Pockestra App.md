@@ -1,7 +1,6 @@
 ---
 Title: Pockestra App
 Date: 2018-12-20 00:00
-Tags: About, About Development
 Summary: 하이브리드 앱
 ---
 

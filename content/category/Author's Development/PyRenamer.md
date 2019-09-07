@@ -1,7 +1,6 @@
 ---
 Title: PyRenamer
 Date: 2018-07-05 00:00
-Tags: About, About Development
 Summary: 윈도우 데스크탑 애플리케이션
 ---
 
