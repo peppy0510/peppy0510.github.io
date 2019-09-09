@@ -4,7 +4,8 @@ Date: 2014-11-03 00:00
 Summary: 윈도우 데스크탑 애플리케이션
 ---
 
-### Description
+
+#### Description
 
 * 윈도우 데스크탑 애플리케이션, 음악 플레이어
 * 음악 오디오파일에서 하이라이트 구간, 템포, 조성 정보를 인식하여 표기
@@ -14,7 +15,7 @@ Summary: 윈도우 데스크탑 애플리케이션
 
 ---
 
-### Development Stack
+#### Development Stack
 
 * Python, wxPython, PyInstaller, InnoSetup, un4seen BASS, NumPy, SciPy
 
@@ -25,7 +26,7 @@ Summary: 윈도우 데스크탑 애플리케이션
 
 ---
 
-### Screenshots
+#### Screenshots
 
 ![screenshot-001](https://user-images.githubusercontent.com/21299773/62962587-ba7b0000-bdee-11e9-9f1c-0e18e2767180.png)
 

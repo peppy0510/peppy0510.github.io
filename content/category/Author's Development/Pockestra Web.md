@@ -5,13 +5,13 @@ Summary: 반응형 웹 페이지
 ---
 
 
-### Description
+#### Description
 
 * 반응형 웹 페이지
 
 ---
 
-### Development Stack
+#### Development Stack
 
 * Python, Django, JavaScript, HTML, SCSS
 
@@ -21,6 +21,6 @@ Summary: 반응형 웹 페이지
 
 ---
 
-### Screenshots
+#### Screenshots
 
 ![screenshot-001](https://user-images.githubusercontent.com/21299773/62962193-eb0e6a00-bded-11e9-8b91-831d84860e6b.png)

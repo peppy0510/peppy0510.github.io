@@ -8,10 +8,21 @@ email: peppy0510@hotmail.com
     // clear: both;
     padding-top: 15px;
     padding-bottom: 30px;
+    div.table {
+        display: table-cell;
+        // flex-direction: column;
+        div {
+            &:first-child {
+                background-color: #F0F0F0;
+            }
+            div {
+            }
+        }
+    }
+
     table {
         clear: both;
         border-spacing: 0;
-        box-sizing: border-box;
         border-collapse: collapse;
         thead,
         tbody,
@@ -21,7 +32,6 @@ email: peppy0510@hotmail.com
         tbody tr td {
             margin: 0;
             clear: both;
-            box-sizing: border-box;
         }
         thead tr th,
         tbody tr td {
@@ -103,14 +113,36 @@ email: peppy0510@hotmail.com
         margin-top: 20px;
     }
     h4 {
-        font-size: 12pt;
-        margin-bottom: 8px;
-        margin-top: 20px;
+        font-size: 11pt;
+        // margin-top: 20px;
+        // margin-bottom: 8px;
+        // box-sizing: padding-box;
+        margin-top: 6px;
+        margin-bottom: 8px !important;
+        color: #FFFFFF;
+        background-color: #808080;
+        padding: 3px 5px 2px 4px !important;
+        // width: auto !important;
+        // max-width: auto !important;
+        // min-width: auto !important;
+        display: inline-flex;
+        // clear: both;
+        // border-spacing: 0;
+        // border-collapse: collapse;
+        // &:after {
+        //     // width: 100%;
+        //     content: '';
+        //     width: 100%;
+        //     height: 50px;
+        //     margin-bottom: 8px !important;
+        // }
     }
     h5 {
-        font-size: 10pt;
+        font-size: 11pt;
         margin-bottom: 8px;
         margin-top: 20px;
+        text-decoration: none;
+        font-weight: bold;
     }
     h6 {
         font-size: 10pt;
@@ -179,6 +211,14 @@ email: peppy0510@hotmail.com
                 content: '\2022';
                 margin-right: 10px;
             }
+        }
+    }
+    ul li ul li {
+        // margin-left: -16px;
+        &:before {
+            // color: #606060;
+            content: '\25E6';
+            // margin-right: 10px;
         }
     }
     hr {

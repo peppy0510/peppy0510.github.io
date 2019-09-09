@@ -4,7 +4,7 @@ Date: 2019-04-22 00:00
 Summary: 윈도우 데스크탑 애플리케이션
 ---
 
-### Description
+#### Description
 
 * 윈도우 데스크탑 애플리케이션
 * 파일 및 폴더 숨김 도구
@@ -12,7 +12,7 @@ Summary: 윈도우 데스크탑 애플리케이션
 
 ---
 
-### Development Stack
+#### Development Stack
 
 * Python, wxPython, PyInstaller, InnoSetup
 
@@ -23,6 +23,6 @@ Summary: 윈도우 데스크탑 애플리케이션
 
 ---
 
-### Screenshots
+#### Screenshots
 
 ![screenshot-001](https://user-images.githubusercontent.com/21299773/62962845-4c830880-bdef-11e9-8b0d-5fc3ad20f8b2.png)

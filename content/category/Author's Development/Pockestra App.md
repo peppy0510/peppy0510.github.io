@@ -4,7 +4,7 @@ Date: 2018-12-20 00:00
 Summary: 하이브리드 앱
 ---
 
-### Description
+#### Description
 
 * 하이브리드 앱
 * 애플앱스토어, 구글플레이스토어 출시
@@ -15,7 +15,7 @@ Summary: 하이브리드 앱
 
 ---
 
-### Development Stack
+#### Development Stack
 
 * IONIC 3, TypeScript, JavaScript, HTML, SCSS
 * Web Audio API, WebWorker
@@ -29,19 +29,19 @@ Summary: 하이브리드 앱
 
 ---
 
-### Apple AppStore
+#### Apple AppStore
 
 ![screenshot-101](https://user-images.githubusercontent.com/21299773/62961570-8acaf880-bdec-11e9-8b29-87be03a504a2.png)
 
 ---
 
-### Google PlayStore
+#### Google PlayStore
 
 ![screenshot-102](https://user-images.githubusercontent.com/21299773/64308504-069e0800-cf89-11e9-956d-75b722fcae85.png)
 
 ---
 
-### Screenshots
+#### Screenshots
 
 ![screenshot-001](https://user-images.githubusercontent.com/21299773/62960033-599cf900-bde9-11e9-887b-0bed9b72c082.png)
 

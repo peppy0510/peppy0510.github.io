@@ -4,7 +4,8 @@ Date: 2018-11-06 00:00
 Summary: 하이브리드 앱
 ---
 
-### Description
+
+#### Description
 
 * 하이브리드 앱
 * 계산기
@@ -15,18 +16,20 @@ Summary: 하이브리드 앱
 
 ---
 
-### Development Stack
+#### Development Stack
 
 * IONIC 3, TypeScript, JavaScript, HTML, SCSS
 
+<!--
 ---
 
 [GitHub](https://github.com/peppy0510/calculator-app){:target="_blank" class="button"}
 [Download](https://github.com/peppy0510/calculator-app/releases){:target="_blank" class="button"}
+-->
 
 ---
 
-### Screenshots
+#### Screenshots
 
 ![screenshot-001](https://user-images.githubusercontent.com/21299773/62963069-c87d5080-bdef-11e9-9fc6-7d6bf9a7f9b9.png)
 
