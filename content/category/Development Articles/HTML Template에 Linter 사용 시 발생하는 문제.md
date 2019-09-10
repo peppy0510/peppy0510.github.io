@@ -1,7 +1,6 @@
 ---
 Title: HTML Template에 Linter 사용 시 발생하는 문제
 Date: 2019-08-22 00:00
-Tags: Development, HTML, Python
 ---
 
 

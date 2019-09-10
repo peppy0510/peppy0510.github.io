@@ -20,13 +20,6 @@ Summary: 하이브리드 앱
 
 * IONIC 3, TypeScript, JavaScript, HTML, SCSS
 
-<!--
----
-
-[GitHub](https://github.com/peppy0510/calculator-app){:target="_blank" class="button"}
-[Download](https://github.com/peppy0510/calculator-app/releases){:target="_blank" class="button"}
--->
-
 ---
 
 #### Screenshots

@@ -22,26 +22,3 @@ Summary:
         </td>
     </tr>
 </table>
-
-<!-- ---
-
-|        |                                                                                |
-|:------:|:------------------------------------------------------------------------------:|
-| Name   | 김태홍 (Taehong Kim)                                                           |
-| Email  | peppy0510@hotmail.com                                                          |
-| GitHub | [https://github.com/peppy0510](https://github.com/peppy0510){:target="_blank"} |
- -->
-<!--
-<div class="table center rotate">
-    <div>Name</div>
-    <div>김태홍 (Taehong Kim)</div>
-    <div>Email</div>
-    <div>peppy0510@hotmail.com</div>
-    <div>GitHub</div>
-    <div>
-        <a href="https://github.com/peppy0510" target="_blank">
-            https://github.com/peppy0510
-        </a>
-    </div>
-</div>
- -->

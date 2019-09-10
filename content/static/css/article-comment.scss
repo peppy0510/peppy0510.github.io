@@ -1,0 +1,158 @@
+/*
+author: Taehong Kim
+email: peppy0510@hotmail.com
+*/
+
+.article-comment {
+    margin-top: 30px;
+    $border-color: #E8E8E8;
+    .comment-title {
+        .comment-count {
+            font-size: 10pt;
+            color: #808080;
+            padding: 0 8px 8px 0;
+        }
+    }
+    .comment-input {
+        display: flex;
+        margin-bottom: 10px;
+        flex-direction: column;
+        overflow: hidden;
+        border: 1px solid $border-color;
+        // border-radius: 4px;
+        input {
+            // border: 1px solid $border-color;
+            border: none;
+            box-shadow: none;
+            &:not(:first-child) {
+                border-left: 1px solid $border-color;
+            }
+        }
+        input,
+        textarea {
+            outline: none;
+            font-size: 10pt;
+            padding: 5px 8px;
+            font-family: Arial, Helvetica, sans-serif;
+            &::placeholder {
+                font-size: 10pt;
+                color: #C0C0C0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        .comment-body {
+            width: 100%;
+            display: flex;
+            #comment-content {
+                width: 100%;
+                border: none;
+                min-width: 100%;
+                max-width: 100%;
+                min-height: 50px;
+                box-shadow: none;
+                line-height: 12pt;
+
+                // border-top: 1px solid $border-color;
+                border-bottom: 1px solid $border-color;
+            }
+        }
+        .comment-foot {
+            width: 100%;
+            display: flex;
+            #comment-username {
+                width: 100%;
+            }
+            #comment-email {
+                width: 100%;
+            }
+            #comment-submit-button {
+                border: none;
+                outline: none;
+                font-size: 10pt;
+                cursor: pointer;
+                box-shadow: none;
+                background: none;
+                color: #808080;
+                // height: 26px;
+                width: 100%;
+                // min-width: 80px;
+                // width: 33.333%;
+                padding: 4px 8px;
+                margin-left: auto;
+                align-items: center;
+                background-color: #F8F8F8;
+                border-left: 1px solid $border-color;
+                &:hover {
+                    background-color: #F0F0F0;
+                }
+                &:active {
+                    background-color: #E8E8E8;
+                }
+            }
+        }
+    }
+    .comment-list {
+        .comment-instance {
+            // padding-top: 10px;
+            // padding-bottom: 10px;
+            // border-top: 1px solid #E8E8E8;
+            display: flex;
+            color: #808080;
+            font-size: 10pt;
+            overflow: hidden;
+            flex-direction: column;
+            border: 1px solid #E8E8E8;
+            &:not(:last-child) {
+                border-bottom: none;
+            }
+            // margin-top: 10px;
+            // border-radius: 4px;
+            .comment-head {
+                display: flex;
+                background-color: #F8F8F8;
+                padding: 5px 8px;
+                // border-bottom: 1px solid #E8E8E8;
+                min-height: 35px;
+                align-items: center;
+                .username {
+                    // margin-right: auto;
+                    font-weight: bold;
+                    &:before {
+                        // content: 'Username: ';
+                    }
+                }
+                .email {
+                    // margin-left: auto;
+                    // margin-right: auto;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    &:before {
+                        content: '(';
+                        // content: 'Email: ';
+                    }
+                    &:after {
+                        content: ')';
+                        // content: 'Email: ';
+                    }
+                }
+                .registered {
+                    margin-left: auto;
+                    &:before {
+                        // content: 'commented on ';
+                        // content: 'Email: ';
+                    }
+                }
+            }
+            .comment-body {
+                min-height: 35px;
+                padding: 8px 8px 8px 8px;
+                align-items: center;
+                color: #404040;
+                font-size: 10pt;
+                line-height: 14pt;
+                .comment-content {
+                }
+            }
+        }
+    }
+}

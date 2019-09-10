@@ -1,7 +1,6 @@
 ---
 Title: HTML 소스 코드에 base64 이미지 삽입하기
 Date: 2019-08-22 00:00
-Tags: Development, HTML, Python
 ---
 
 

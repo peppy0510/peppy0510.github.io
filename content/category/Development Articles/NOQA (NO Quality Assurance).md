@@ -1,7 +1,6 @@
 ---
 Title: NOQA (NO Quality Assurance)
 Date: 2019-08-24 00:00
-Tags: Development, Python
 ---
 
 
@@ -13,6 +12,6 @@ from manager import *  # noqa
 
 참고로 Python에서는 이와 같은 싱글 라인 방법만 존재한다. 자세한 내용은 다음의 링크를 참조하자.
 
-[https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments](https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments)
+[https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments](https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments){:target="_blank"}
 
-[http://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors](http://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors)
+[http://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors](http://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors){:target="_blank"}

@@ -1,7 +1,6 @@
 ---
 Title: Mac OSX에 대한 불만
 Date: 2019-08-24 00:00
-Tags: Development
 Status: hidden
 ---
 

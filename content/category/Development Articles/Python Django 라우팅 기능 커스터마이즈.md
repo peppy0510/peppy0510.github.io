@@ -1,7 +1,6 @@
 ---
 Title: Python Django 라우팅 기능 커스터마이즈
 Date: 2019-08-24 00:00
-Tags: Development
 Status: hidden
 ---
 

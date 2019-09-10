@@ -1,7 +1,6 @@
 ---
 Title: Python Django와 JavaScript 요청
 Date: 2019-08-24 00:00
-Tags: Development
 Status: hidden
 ---
 

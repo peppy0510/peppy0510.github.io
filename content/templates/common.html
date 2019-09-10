@@ -18,23 +18,28 @@
     <!-- {% endif %} -->
     <title>{% block title %}{{ SITENAME }}{% if SITESUBTITLE and SHOW_SITESUBTITLE_IN_HTML %} - {{ SITESUBTITLE }}{% endif %}{% endblock title %}</title>
     <link href="{{ SITEURL }}" rel="canonical">
-    <!-- <link href="/static/assets/ico/favicon.png" rel="icon"> -->
+    <link href="/static/images/favicon.png" rel="icon">
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
     <script src="/static/js/jquery.min.js" type="text/javascript"></script>
     <script src="/static/js/common-menu.min.js" type="text/javascript"></script>
+    <script src="/static/js/md5.min.js"></script>
+    <script src="/static/js/js-sha256.min.js"></script>
+    <script src="/static/js/moment-with-locales.min.js" type="text/javascript"></script>
     <!-- <script src="/static/js/comment.min.js" type="text/javascript"></script> -->
     <!-- <script src="/{{ THEME_STATIC_DIR }}/js/script.min.js" type="text/javascript"></script> -->
     <!-- <link href="/static/css/code_blocks/tomorrow.min.css" type="text/css" rel="stylesheet"> -->
     <link href="/static/css/code_blocks/github.min.css" type="text/css" rel="stylesheet">
-    <link href="/static/css/icons.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/common.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/common-menu.min.css" type="text/css" rel="stylesheet">
+    <link href="/static/css/common-icons.min.css" type="text/css" rel="stylesheet">
+    <link href="/static/css/common-alert.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/common-footer.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/common-pagination.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/article-content.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/article-loop.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/article-nav.min.css" type="text/css" rel="stylesheet">
+    <link href="/static/css/article-comment.min.css" type="text/css" rel="stylesheet">
     <script type="text/javascript">
     let ua = window.navigator.userAgent;
     if (ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0 || ua.indexOf('Edge/') > 0) {

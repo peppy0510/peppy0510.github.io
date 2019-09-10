@@ -1,7 +1,6 @@
 ---
 Title: SublimeText 맞춤법 검사기 활용하기
 Date: 2019-08-22 00:00
-Tags: Development, SublimeText
 ---
 
 SublimeText에서 맞춤법 검사기 활용 방법을 소개한다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원한다. 사용자 환경설정 파일 `Preference.sublime-settings`에 `spell_check`와 `dictionary` 항목이 있으며, 다음과 같이 이를 수정하여 기능 활성화와 언어 선택이 가능하다. 해당 항목이 없다면 추가하면 된다.
@@ -15,7 +14,7 @@ SublimeText에서 맞춤법 검사기 활용 방법을 소개한다. 참고로 S
 
 미국 영어와 영국 영어 사전이 기본 내장되어 있으며, 한글을 추가하고 싶다면 다음의 링크에서 한국어 사전을 내려받자. `*.dic`와 `*.aff` 파일만 있으면 된다. 참고로 아래가 유일한 hunspell 한국어 사전 공개 프로젝트이므로 다른 선택지는 없다.
 
-[https://github.com/spellcheck-ko/hunspell-dict-ko](https://github.com/spellcheck-ko/hunspell-dict-ko)
+[https://github.com/spellcheck-ko/hunspell-dict-ko](https://github.com/spellcheck-ko/hunspell-dict-ko){:target="_blank"}
 
 그 다음 사용자가 원하는 경로에 사전을 저장하고 다음과 같이 `dictionary` 항목에 경로를 지정해주면 된다.
 
@@ -132,4 +131,4 @@ class DicToggleCommand(sublime_plugin.WindowCommand):
 
 애석하게도 SublimeText에서는 영어와 한국어 사전을 동시에 사용하지 못한다. hunspell 자체는 여러 개의 사전을 동시에 사용할 수 있도록 구현되어 있지만, SublimeText에서는 그렇게까지 사용할 수 있도록 구현되어 있지 않았다. 대안으로 영어와 한글 사전을 병합하는 방법이 있을 수 있겠다. 다음의 링크에서 병합 도구를 내려받을 수 있다. 그런데 다시 한번 더 애석하게도 병합이 잘 되지 않는다. 단, 영어, 라틴어 등 유사한 언어 체계를 가진 사전들 사이의 병합은 잘 되는 것 같다. 다음 버전의 SublimeText에는 이 문제가 해결되어 있기를 바란다.
 
-[https://github.com/arty-name/hunspell-merge/tree/master/dist](https://github.com/arty-name/hunspell-merge/tree/master/dist)
+[https://github.com/arty-name/hunspell-merge/tree/master/dist](https://github.com/arty-name/hunspell-merge/tree/master/dist){:target="_blank"}
