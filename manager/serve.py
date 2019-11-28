@@ -7,8 +7,14 @@ email: peppy0510@hotmail.com
 '''
 
 
+import sys
+
+import asyncio
+
 from . import build
 from livereload import Server
+if sys.platform == 'win32':
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 
 def serve_livereload(port=8000, delay=1):

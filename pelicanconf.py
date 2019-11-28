@@ -48,8 +48,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
+# RELATIVE_URLS = True
 
 # COLOR_SCHEME_CSS = 'monokai.css'
 # CSS_OVERRIDE = [
@@ -59,6 +58,9 @@ DEFAULT_PAGINATION = 10
 
 
 PLUGIN_PATHS = ['plugins']
+# ARTICLE_EXCLUDES = []
+# PAGE_EXCLUDES = []
+# PLUGIN_PATHS = ["plugins", "/content/plugins"]
 
 PLUGINS = [
     'sitemap',
@@ -102,8 +104,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
-
+# OUTPUT_SOURCES =
+# OUTPUT_SOURCES_EXTENSION = '.md'
 USE_FOLDER_AS_CATEGORY = True
 # DEFAULT_CATEGORY = 'Review'
 DISPLAY_PAGES_ON_MENU = False
@@ -114,6 +116,7 @@ DELETE_OUTPUT_DIRECTORY = False
 PORT = 8000
 
 ARTICLE_PATHS = ['category']
+
 # ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
 # ARTICLE_URL = '{date:%Y}/{slug}.html'
 

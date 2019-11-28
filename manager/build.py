@@ -45,7 +45,6 @@ def build_content(output='output'):
             build_manager.minify_javascripts()
             build_manager.minify_templates()
         build_manager.lf2crlfs()
-
     except SystemExit:
         pass
 
