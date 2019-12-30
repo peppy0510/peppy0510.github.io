@@ -1,13 +1,15 @@
 ---
 Title: Python Django 라우팅 기능 커스터마이즈
 Date: 2019-08-24 00:00
-Status: hidden
 ---
 
+<!-- Status: hidden -->
 
-Python Django urls.py의 라우팅 기능을 커스터마이즈하는 방법을 소개한다. 사실 별것은 아니다. 공식적인 Django 예제에서는 정규식 기반으로 라우팅하는 예제를 주로 다룬다. 그래서 인지 urls.py 내에 라우팅 규칙을 담은 함수나 클래스를 적용할 수 있다는 사실을 흔히 망각하고 잘 활용하지 않게 된다. 가령 회사 소개 웹 페이지, 특정 모바일 앱 소개 웹 페이지, 특정 모바일 앱 서비스 API 등 각각의 접근 도메인 주소가 다르며, 각 도메인의 여러 자원을 공유하여 하나의 Django 프로젝트로 서비스해야 한다고 가정해보자. urlpatterns에 url을 등록할 때는 도메인 주소를 제외한 path만 지정할 수 있어 난감한 상황이 된다. 다음과 같은 방법을 urls.py에 적용하면 도메인 주소를 사용하여 라우팅 할 수 있게 된다.
+Python Django 프로젝트에서 `urls.py`의 라우팅 기능을 커스터마이즈하는 방법을 소개합니다. Monolithic Architecture에서 유용하게 사용할 수 있는 방법입니다. 공식적인 Django 예제에서는 정규식 기반으로 라우팅하는 예제를 주로 다룹니다. 그래서 인지 `urls.py` 내에 라우팅 규칙을 담은 함수나 클래스를 적용할 수 있다는 사실을 잊고 views에서 복잡하게 처리하는 경우를 종종 볼 수 있습니다. 가령 회사 소개 웹 서비스, 제품에 대한 웹 서비스, 모바일 앱 서비스 API 등 각각의 접근 도메인 주소가 다른 경우를 가정합니다. urlpatterns에 url을 등록할 때는 도메인 주소를 제외한 path만 지정할 수 있으나 다음과 같은 방법을 사용하면 도메인 주소를 사용하여 라우팅 할 수 있게 됩니다. `UrlParser` 클래스는 서비스 아키텍처에 따라 간소하게 구현할 수도 있겠습니다.
 
-urls.py
+######
+
+`urls.py`
 
 ```python
 from django.conf.urls import url
@@ -37,7 +39,9 @@ urlpatterns = [
 ]
 ```
 
-urlparser.py
+######
+
+`urlparser.py`
 
 ```python
 import re

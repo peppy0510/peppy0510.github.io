@@ -1,22 +1,20 @@
 ---
-Title: Python 필터구현
+Title: Python으로 신호처리 필터 구현하기
 Date: 2019-08-22 00:00
-Status: hidden
 ---
 
 
-Python으로 필터를 구현했다. Matlab 예제로 많이 소개되는 구현체를 참조하였다.
+신호처리의 기본이 되는 필터를 Python으로 구현해봤습니다. Matlab 예제로 많이 소개되는 필터 구현체를 참고 하였습니다.
 
+######
 
-###### FIR Filter
+##### FIR Filter
 
 ```python
 from scipy import signal
 
 
 def fir_filter(data, lowcut, highcut, fs, order=29):
-    # order: Length of the filter
-    # (number of coefficients, i.e. the filter order + 1)
     nyq = 0.5 * fs
     low = lowcut / nyq
     high = highcut / nyq
@@ -32,7 +30,9 @@ def fir_filter(data, lowcut, highcut, fs, order=29):
     return output
 ```
 
-###### Butterworth Filter
+######
+
+##### Butterworth Filter
 
 ```python
 from scipy import signal
@@ -50,11 +50,13 @@ def butter_filter(data, lowcut, highcut, fs, order=5):
         b, a = signal.butter(order, lowcut / nyq, btype='high')
     elif low != 0 and high != 1:
         b, a = signal.butter(order, [low, high], btype='band')
-    output = signal.filtfilt(b, a, data)  # lfilter(b, a, data)
+    output = signal.filtfilt(b, a, data)
     return output
 ```
 
-###### Type I Chebyshev Filter
+######
+
+##### Type I Chebyshev Filter
 
 ```python
 from scipy import signal
@@ -72,11 +74,13 @@ def cheby1_filter(data, lowcut, highcut, fs, order=5, riple=5):
         b, a = signal.cheby1(order, riple, lowcut / nyq, btype='high')
     elif low != 0 and high != 1:
         b, a = signal.cheby1(order, riple, [low, high], btype='band')
-    output = signal.filtfilt(b, a, data)  # lfilter(b, a, data)
+    output = signal.filtfilt(b, a, data)
     return output
 ```
 
-###### Type II Chebyshev Filter
+######
+
+##### Type II Chebyshev Filter
 
 ```python
 from scipy import signal
@@ -94,6 +98,6 @@ def cheby2_filter(data, lowcut, highcut, fs, order=5, riple=5):
         b, a = signal.cheby2(order, riple, lowcut / nyq, btype='high')
     elif low != 0 and high != 1:
         b, a = signal.cheby2(order, riple, [low, high], btype='band')
-    output = signal.filtfilt(b, a, data)  # lfilter(b, a, data)
+    output = signal.filtfilt(b, a, data)
     return output
 ```
