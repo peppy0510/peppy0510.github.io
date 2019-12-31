@@ -1,0 +1,31 @@
+---
+Title: HTTP 서버 시장 점유율
+Date: 2019-12-30 00:00
+status: hidden
+---
+
+<!-- | Ranking | Technology                       | Domains   | Market Share |
+|:-------:|:--------------------------------:|:---------:|:------------:|
+| 1       | Apache HTTP Server               | 6,908,538 |       55.53% |
+| 2       | nginx                            | 2,884,144 |       23.18% |
+| 3       | Microsoft IIS                    | 1,545,685 |       12.42% |
+| 4       | OpenResty                        |   373,666 |        3.00% |
+| 5       | LiteSpeed Web Server             |   350,502 |        2.82% |
+| 6       | Phusion Passenger                |   127,603 |        1.03% |
+| 7       | Apache                           |    39,084 |        0.31% |
+| 8       | Apache Coyote HTTP/1.1 Connector |    28,492 |        0.23% |
+| 9       | Apache Servers                   |    25,367 |        0.20% |
+| 10      | Tengine                          |    17,260 |        0.14% |
+
+######
+
+출처 마다 수치가 다르니 자세한 내용은 다음의 링크를 참조 해주시기 바랍니다.
+
+[https://www.similartech.com/categories/web-server](https://www.similartech.com/categories/web-server){:target="_blank"}
+
+[https://ko.hostadvice.com/marketshare/server/](https://ko.hostadvice.com/marketshare/server/){:target="_blank"}
+
+[https://www.datanyze.com/market-share/web-and-application-servers](https://www.datanyze.com/market-share/web-and-application-servers){:target="_blank"}
+ -->
+
+<iframe src="https://ko.hostadvice.com/marketshare/os/?embedded=chart" style="width: 100%; height: 1500px; border: 0;"></iframe>

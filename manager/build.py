@@ -44,6 +44,7 @@ def build_content(output='output'):
             build_manager.minify_stylesheets()
             build_manager.minify_javascripts()
             build_manager.minify_templates()
+            build_manager.expand_mediatags()
         build_manager.lf2crlfs()
     except SystemExit:
         pass
@@ -152,7 +153,7 @@ class BuildManager():
             retlist += [next_path]
         return retlist
 
-    def minify_handler(self, handler, extensions=[], thread_number=2):
+    def minify_handler(self, handler, extensions=[], thread_number=1):
         tic = time.time()
         paths = self.search_pattern(self.output)
         paths = [v for v in paths if not os.path.splitext(v)[0].endswith('.min')]
@@ -175,6 +176,54 @@ class BuildManager():
 
         print('MINIFY BUILD ELAPSED: {:3.3f} {}'.format(time.time() - tic, extensions))
         sys.stdout.flush()
+
+    def expand_mediatags(self):
+        extensions = ('html', 'htm',)
+        paths = self.search_pattern(self.output)
+        paths = [v for v in paths if os.path.splitext(v)[-1].strip('.').lower() in extensions]
+        for path in paths:
+            filename, extension = os.path.splitext(path)
+            with open(path, 'rb') as file:
+                content = file.read().decode('utf-8')
+                try:
+                    content = self.expand_mediatag(content)
+                except Exception:
+                    pass
+            if content:
+                with open(path, 'wb') as file:
+                    file.write(content.encode('utf-8'))
+
+    def expand_mediatag(self, content):
+        soup = BeautifulSoup(content, 'html.parser')
+
+        title_template = '''<h4>{}</h4>'''
+        youtube_template = '''
+        <div class="fluid-width-video-wrapper">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/{}?html5=1" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        '''
+        changed = 0
+        for v in soup.find_all('youtube'):
+            try:
+                source = v.get('source')
+                source = youtube_template.format(source)
+                title = v.get_text().strip()
+                if title:
+                    title = title_template.format(title)
+                    source = title + source
+                rendered = BeautifulSoup(source, 'html.parser')
+                v.replace_with(rendered)
+                changed += 1
+            except Exception:
+                continue
+        if changed == 0:
+            return
+        content = str(soup)
+        return content
 
     def lf2crlfs(self):
         paths = self.search_pattern(self.output)

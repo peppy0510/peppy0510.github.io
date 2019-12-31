@@ -60,6 +60,8 @@ CSRF 공격은 로그온 뒤 피해자의 취약한 웹 애플리케이션에 �
 
 ######
 
+[https://www.owasp.org](https://www.owasp.org){:target="_blank"}
+
 [https://12bme.tistory.com/98](https://12bme.tistory.com/98){:target="_blank"}
 
 [https://ko.wikipedia.org/wiki/OWASP](https://ko.wikipedia.org/wiki/OWASP){:target="_blank"}

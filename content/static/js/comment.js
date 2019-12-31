@@ -32,8 +32,6 @@ function initializeFirebase() {
         databaseURL: 'https://muteklab-com.firebaseio.com',
         projectId: 'muteklab-com',
         storageBucket: 'muteklab-com.appspot.com',
-        // messagingSenderId: '358862433613',
-        // appId: '1:358862433613:web:6bc27b27018c4ae5'
     };
     firebase.initializeApp(firebaseConfig);
 }
