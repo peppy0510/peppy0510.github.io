@@ -35,12 +35,12 @@ Date: 2019-11-01 00:00
     Holly Henry - Seven Nation Army (TEEMID Cover)
 </youtube>
 
-<youtube source="z8yvVfptis4">
-    Elderbrook - Capricorn
-</youtube>
-
 <youtube source="DkeiKbqa02g">
     Calvin Harris and Dua Lipa - One Kiss
+</youtube>
+
+<youtube source="z8yvVfptis4">
+    Elderbrook - Capricorn
 </youtube>
 
 <youtube source="sZtTVSghzsg">

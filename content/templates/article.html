@@ -3,13 +3,20 @@
 {% block title %}
 {{ article.title }}
 {% endblock %}
+
+<input type="hidden" id="article-url" value="{{ article.url }}">
 <!--  -->
 {% block head %}
-<input type="hidden" id="article-url" value="{{ article.url }}">
+
 {{ super() }}
 <link href="{{ SITEURL }}/{{ article.url }}" rel="canonical" />
+<!--  -->
 {% for keyword in article.keywords %}
 <meta name="keywords" content="{{keyword}}">
+{% endfor %}
+<!--  -->
+{% for tag in article.tags %}
+<meta name="tags" content="{{tag}}">
 {% endfor %}
 <!--  -->
 {% if description %}
@@ -20,21 +27,11 @@
 <meta name="description" content="{{ article.summary|striptags|truncate(140) }}">
 {% endif %}
 <!--  -->
-{% for author in article.authors %}
-<meta name="author" content="{{ author }}">
-{% endfor %}
-<!--  -->
-{% for tag in article.tags %}
-<meta name="tags" content="{{tag}}">
-{% endfor %}
 {% endblock %}
 <!--  -->
 {% block opengraph %}
 {{ super() }}
 <meta property="og:type" content="article">
-<!-- {% for author in article.authors %} -->
-<meta property="article:author" content="{{ SITEURL }}/{{ author.url }}">
-<!-- {% endfor %} -->
 <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
 <meta property="og:title" content="{{ article.title }}">
 <meta property="article:published_time" content="{{ article.date }}">
@@ -47,16 +44,16 @@
 <!-- {% endif %} -->
 <!-- {% if article.og_image %} -->
 <!-- {% if article.og_image|lower|truncate(4, True, '') == "http" %} -->
-<meta property="og:image" content="{{ article.og_image }}">
+<!-- <meta property="og:image" content="{{ article.og_image }}"> -->
 <!-- {% else %} -->
-<meta property="og:image" content="{{ SITEURL }}/{{ article.og_image }}">
+<!-- <meta property="og:image" content="{{ SITEURL }}/{{ article.og_image }}"> -->
 <!-- {% endif %} -->
 <!-- {% elif article.header_cover %} -->
-<meta property="og:image" content="{{ SITEURL }}/{{ article.header_cover }}">
+<!-- <meta property="og:image" content="{{ SITEURL }}/{{ article.header_cover }}"> -->
 <!-- {% elif HEADER_COVER %} -->
-<meta property="og:image" content="{{ SITEURL }}/{{ HEADER_COVER }}">
+<!-- <meta property="og:image" content="{{ SITEURL }}/{{ HEADER_COVER }}"> -->
 <!-- {% else %} -->
-<meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/post-bg.jpg">
+
 <!-- {% endif %} -->
 {% endblock %}
 <!--  -->
