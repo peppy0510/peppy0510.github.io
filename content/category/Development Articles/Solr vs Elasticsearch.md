@@ -4,7 +4,7 @@ Date: 2019-12-29 00:00
 ---
 
 
-Solr과 Elasticsearch 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.
+Solr와 Elasticsearch 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.
 
 [https://needjarvis.tistory.com/167](https://needjarvis.tistory.com/167){:target="_blank"}
 
