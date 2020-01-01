@@ -2,11 +2,11 @@
 <html lang="{{ DEFAULT_LANG }}">
 
 <head>
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta name="author" content="Taehong Kim">
-    <meta name="description" content="muteklab.com">
     <meta name="referrer" content="origin">
     <meta name="generator" content="Pelican">
     <meta name="theme-color" content="#202020">
@@ -15,8 +15,10 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="UJrW4UdiO-oEmH_o6fBNi4az0ooqxSFHNJs6RxFqa80">
-    <title>{% block title %}{{ SITENAME }}{% if SITESUBTITLE and SHOW_SITESUBTITLE_IN_HTML %} - {{ SITESUBTITLE }}{% endif %}{% endblock title %}</title>
+    {% block head %}
     <link href="{{ SITEURL }}" rel="canonical">
+    <meta name="description" content="{{ SITENAME }}">
+    {% endblock head %}
     <link href="/static/images/favicon.ico" rel="icon">
     <link href="/static/images/favicon.ico" rel="shortcut icon">
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
@@ -38,51 +40,27 @@
     <link href="/static/css/article-loop.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/article-nav.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/article-comment.min.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     let ua = window.navigator.userAgent;
     if (ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0 || ua.indexOf('Edge/') > 0) {
         $('head').append('<script src="/static/js/audio-player-ie.min.js"><\/script>');
     } else {
-        $('head').append('<script src="/static/js/audio-player-ie.min.js"><\/script>');
-        // $('head').append('<script src="/static/js/audio-player.min.js"><\/script>');
+        $('head').append('<script src="/static/js/audio-player.min.js"><\/script>');
     }
-    </script>
-
-    <!--  -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="POCKESTRA">
-    <meta property="og:image" content="/static/images/favicon.png">
-    <meta property="og:url" content="{{weburl}}">
-    <meta property="og:description" content="muteklab.com">
+    </script> -->
     {% block opengraph %}
-    <!-- {% for admin in FACEBOOK_ADMINS %} -->
-    <meta property="fb:admins" content="{{ admin }}" />
-    <!-- {% endfor %} -->
-    <!-- {% for LOC in LOCALE %} -->
-    <meta property="og:locale" content="{{ LOC }}" />
-    <!-- {% endfor %} -->
-    <meta property="og:site_name" content="{{ SITENAME }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ SITENAME }}" />
-    <meta property="og:description" content="{{ SITESUBTITLE|default('View the blog.') }}" />
-    <meta property="og:url" content="{{ SITEURL }}" />
-    <!-- {% if HEADER_COVER %} -->
-    <meta property="og:image" content="{{ SITEURL }}/{{ HEADER_COVER }}" />
-    <!-- {% else %} -->
-    <meta name="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/post-bg.jpg">
-    <!-- {% endif %} -->
-    <!-- {% for name,link in SOCIAL if name.lower() in ['facebook'] %} -->
-    <meta property="article:publisher" content="{{ link }}" />
-    <!-- {% endfor %} -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ SITENAME }}">
+    <meta property="og:image" content="/static/images/favicon.png">
+    <meta property="og:url" content="{{ SITEURL }}">
+    <meta property="og:description" content="{{ SITENAME }}">
     {% endblock opengraph %}
 </head>
 
 <body>
     {% include 'common-menu.html' %}
-    <!--  -->
     {% block header %}
     {% endblock header %}
-    <!--  -->
     {% block content %}
     {% endblock content %}
     {% include 'common-footer.html' %}

@@ -47,6 +47,14 @@ Date: 2019-08-01 00:00
     Martin Garrix In The Studio With Future Music
 </youtube>
 
+<youtube source="DY8Zw80Cj3w">
+    Composing with The Ton: The Black Weekend 2019
+</youtube>
+
+<youtube source="BqsHHHGkPxc">
+    How to Make Techno with Tom Hades at ADE 2018
+</youtube>
+
 <youtube source="LKiWt8IcMmM">
     Roland TR-909 Famous Patterns
 </youtube>

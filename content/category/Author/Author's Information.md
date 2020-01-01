@@ -48,7 +48,7 @@ Summary:
 `multiprocessing` `multithreading` `uiautomation` `ctype` `SQLAlchemy` `Kivy` `pycrypto` `paramiko` `pexpect`
 `XML` `json` `pep8`
 `JavaScript` `TypeScript` `jQuery` `AngularJS` `Angular` `IONIC` `Cordova` `HTML` `CSS` `SCSS`
-`Responsive Web` `viewport` `async`
+`Responsive Web` `viewport` `opengraph` `async`
 `GCM` `FCM` `APNS` `InAppPurchase` `Android` `iOS` `moment` `timeago` `taffydb` `Font Awesome` `tinymce` `alertifyjs`
 `jshint` `Web Audio API` `Web Worker` `Web Canvas` `Deep Link`
 `Bootstrap` `Material Design` `ADB` `npm` `pip` `C` `C++` `ActionScript` `Flash` `Pascal Script`
