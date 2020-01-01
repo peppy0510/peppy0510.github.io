@@ -40,13 +40,12 @@
     <link href="/static/css/article-nav.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/article-comment.min.css" type="text/css" rel="stylesheet">
     <script type="text/javascript">
-    $('head').append('<script src="/static/js/audio-player-ie.min.js"><\/script>');
-    // let ua = window.navigator.userAgent;
-    // if (ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0 || ua.indexOf('Edge/') > 0) {
-    //     $('head').append('<script src="/static/js/audio-player-ie.min.js"><\/script>');
-    // } else {
-    //     $('head').append('<script src="/static/js/audio-player.min.js"><\/script>');
-    // }
+    let ua = window.navigator.userAgent;
+    if (ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0 || ua.indexOf('Edge/') > 0) {
+        $('head').append('<script src="/static/js/audio-player-ie.min.js"><\/script>');
+    } else {
+        $('head').append('<script src="/static/js/audio-player.min.js"><\/script>');
+    }
     </script>
     {% block opengraph %}
     <meta property="og:type" content="website">
