@@ -19,7 +19,6 @@
     <link href="{{ SITEURL }}" rel="canonical">
     <meta name="description" content="{{ SITENAME }}">
     {% endblock head %}
-    <link href="/static/images/favicon.ico" rel="icon">
     <link href="/static/images/favicon.ico" rel="shortcut icon">
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
@@ -51,9 +50,9 @@
     {% block opengraph %}
     <meta property="og:type" content="website">
     <meta property="og:title" content="MUTEKLAB">
+    <meta property="og:description" content="">
     <meta property="og:image" content="/static/images/favicon.png">
     <meta property="og:url" content="{{ SITEURL }}">
-    <meta property="og:description" content="">
     {% endblock opengraph %}
 </head>
 
