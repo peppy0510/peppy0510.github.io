@@ -3,9 +3,9 @@
 {% block title %}
 {{ SITENAME }} - {{ article.title }}
 {% endblock %}
-<input type="hidden" id="article-url" value="{{ article.url }}">
 <!--  -->
 {% block head %}
+<input type="hidden" id="article-url" value="{{ article.url }}">
 <link href="{{ SITEURL }}/{{ article.url }}" rel="canonical">
 <!--  -->
 {% for keyword in article.keywords %}
