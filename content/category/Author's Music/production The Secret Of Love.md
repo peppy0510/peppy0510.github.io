@@ -1,5 +1,5 @@
 ---
-Title: The Secret Of Love
+Title: The Secret of Love
 Date: 2011-07-31 00:00
 Summary:
 ---
@@ -22,6 +22,6 @@ Summary: Music Production / Trance
 
 <script type="text/javascript">
     $(document).ready(function() {
-        initAudioPlayer('/static/audio/production/the-secret-of-love-128.mp3', 'The Secret Of Love');
+        initAudioPlayer('/static/audio/production/the-secret-of-love-128.mp3', 'The Secret of Love');
     });
 </script>

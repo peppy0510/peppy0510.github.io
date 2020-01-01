@@ -1,5 +1,5 @@
 ---
-Title: On And On
+Title: On and On
 Date: 2009-08-15 00:00
 Summary:
 ---
@@ -21,7 +21,7 @@ Summary: Music Production / Deep House
 
 <script type="text/javascript">
     $(document).ready(function() {
-        initAudioPlayer('/static/audio/production/on-and-on-128.mp3', 'On And On');
+        initAudioPlayer('/static/audio/production/on-and-on-128.mp3', 'On and On');
     });
 </script>
 
