@@ -11,7 +11,7 @@ from __future__ import unicode_literals
 
 
 AUTHOR = 'Taehong Kim'
-SITENAME = 'muteklab.com'
+SITENAME = 'MUTEKLAB'
 SITEURL = 'http://muteklab.com'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 PATH = 'content'
