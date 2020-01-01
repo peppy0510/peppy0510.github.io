@@ -34,6 +34,9 @@ email: peppy0510@hotmail.com
             &:active {
                 opacity: .8;
             }
+            &:not(:hover) {
+                opacity: none;
+            }
             img {
                 height: 20px;
                 margin: auto;
@@ -147,6 +150,11 @@ email: peppy0510@hotmail.com
                         &:active {
                             opacity: .9;
                         }
+                        &:not(:hover) {
+                            opacity: none;
+                            color: #181818;
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -178,8 +186,11 @@ email: peppy0510@hotmail.com
                     &:hover {
                         background-color: #101010;
                     }
-                    &:active {
+                    &:hover {
                         background-color: #181818;
+                    }
+                    &:not(:hover) {
+                        background-color: #101010;
                     }
                     .icon-bar {
                         height: 2px;

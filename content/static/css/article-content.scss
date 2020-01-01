@@ -424,8 +424,12 @@ email: peppy0510@hotmail.com
                 align-items: center;
                 vertical-align: middle;
                 cursor: pointer;
-                &:hover {
+                &:hover,
+                &:active {
                     background-color: #F8F8F8;
+                }
+                &:not(:hover) {
+                    background-color: #FFFFFF;
                 }
                 .glyphicon {
                     padding: 0;

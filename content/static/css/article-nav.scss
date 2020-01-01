@@ -49,6 +49,12 @@ email: peppy0510@hotmail.com
                    -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
                         box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
             }
+            &:not(:hover) {
+                background-color: #FFFFFF;
+                -webkit-box-shadow: inset none;
+                   -moz-box-shadow: inset none;
+                        box-shadow: inset none;
+            }
         }
         i {
             display: flex;

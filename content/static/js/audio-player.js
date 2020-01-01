@@ -382,10 +382,11 @@ function second2mmssff(second) {
 };
 
 function formatDisplayTime(second) {
-    if (isDeviceMobileOrTablet()) {
-        return second2mmss(second);
-    }
-    return second2mmssff(second);
+    return second2mmss(second);
+    // if (isDeviceMobileOrTablet()) {
+    //     return second2mmss(second);
+    // }
+    // return second2mmssff(second);
 }
 
 function animationFrame(timestamp) {
