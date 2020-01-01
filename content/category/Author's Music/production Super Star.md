@@ -21,6 +21,6 @@ Summary: Music Production / Break Beat
 
 <script type="text/javascript">
     $(document).ready(function() {
-        initAudioPlayer('/static/audio/production/super-star.mp3', 'Super Star');
+        initAudioPlayer('/static/audio/production/super-star-128.mp3', 'Super Star');
     });
 </script>

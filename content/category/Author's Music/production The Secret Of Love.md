@@ -22,6 +22,6 @@ Summary: Music Production / Trance
 
 <script type="text/javascript">
     $(document).ready(function() {
-        initAudioPlayer('/static/audio/production/the-secret-of-love.mp3', 'The Secret Of Love');
+        initAudioPlayer('/static/audio/production/the-secret-of-love-128.mp3', 'The Secret Of Love');
     });
 </script>

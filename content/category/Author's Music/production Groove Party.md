@@ -21,7 +21,7 @@ Summary: Music Production / Break Beat
 
 <script type="text/javascript">
     $(document).ready(function() {
-        initAudioPlayer('/static/audio/production/groove-party.mp3', 'Goove Party');
+        initAudioPlayer('/static/audio/production/groove-party-128.mp3', 'Goove Party');
     });
 </script>
 

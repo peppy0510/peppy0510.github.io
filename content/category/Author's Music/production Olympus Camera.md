@@ -21,6 +21,6 @@ Summary: Music Production / Break Beat
 
 <script type="text/javascript">
     $(document).ready(function() {
-        initAudioPlayer('/static/audio/production/olympus-camera.mp3', 'Olympus Camera');
+        initAudioPlayer('/static/audio/production/olympus-camera-128.mp3', 'Olympus Camera');
     });
 </script>

@@ -21,7 +21,7 @@ Summary: Music Production / Deep House
 
 <script type="text/javascript">
     $(document).ready(function() {
-        initAudioPlayer('/static/audio/production/style-o-sanda.mp3', 'Style O Sanda');
+        initAudioPlayer('/static/audio/production/style-o-sanda-128.mp3', 'Style O Sanda');
     });
 </script>
 

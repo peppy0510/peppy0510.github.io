@@ -370,7 +370,7 @@ function second2mmss(second) {
 };
 
 function second2mmssff(second) {
-    let length = 1;
+    let length = 2;
     let divider = 10 ** length;
     let zero_padding_tail = function(n, width) {
         n = n.toString();
@@ -382,11 +382,11 @@ function second2mmssff(second) {
 };
 
 function formatDisplayTime(second) {
-    // return second2mmss(second);
+    return second2mmss(second);
     // if (isDeviceMobileOrTablet()) {
     //     return second2mmss(second);
     // }
-    return second2mmssff(second);
+    // return second2mmssff(second);
 }
 
 function animationFrame(timestamp) {

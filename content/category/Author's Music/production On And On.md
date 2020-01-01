@@ -21,7 +21,7 @@ Summary: Music Production / Deep House
 
 <script type="text/javascript">
     $(document).ready(function() {
-        initAudioPlayer('/static/audio/production/on-and-on.mp3', 'On And On');
+        initAudioPlayer('/static/audio/production/on-and-on-128.mp3', 'On And On');
     });
 </script>
 
