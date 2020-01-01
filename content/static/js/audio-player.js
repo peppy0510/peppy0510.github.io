@@ -345,20 +345,26 @@ function second2mmss(second) {
 };
 
 function second2mmssff(second) {
+    let length = 2;
+    let divider = 10 ** length;
     let zero_padding_tail = function(n, width) {
         n = n.toString();
         return n.length >= width ? n : n + new Array(width - n.length + 1).join('0');
     };
-    mmss = second2mmss(second);
-    ff = Math.floor(second * 1000 % 1000);
-    return [mmss, zero_padding_tail(ff, 3)].join('.');
+    let mmss = second2mmss(second);
+    let ff = Math.floor(second * divider % divider);
+    return [mmss, zero_padding_tail(ff, length)].join('.');
 };
 
 function animationFrame(timestamp) {
     let audioPlayerElements = $('.audio-player');
     let cursor = audioPlayerElements.find('.waveform-cursor');
     let currentTime = audioPlayerElements.find('.current-time');
-    currentTime.text(second2mmssff(audio.currentTime));
+    // let updatedTime = second2mmss(audio.currentTime);
+    let updatedTime = second2mmssff(audio.currentTime);
+    if (currentTime.text() !== updatedTime) {
+        currentTime.text(updatedTime);
+    }
     if (!skipAnimationFrame && audio && cursor.length > 0 && cursor[0].parentElement) {
         let cursorWidth = cursor.width();
         let cursorParent = cursor[0].parentElement;
