@@ -3,8 +3,8 @@ Title: House Mixsets
 Date: 2019-12-31 00:00
 ---
 
-<youtube source="q7UxovvEkI0">
-    Selected Sessions MK b2b Sonny Fodera U-Bahn DJ Set
+<youtube source="0Xgy6NFnwI0">
+    John Digweed @ Street Parade 2019 (Full Set Hi-Res) - ARTE Concert
 </youtube>
 
 <youtube source="lOLLYp3_UlY">
@@ -12,15 +12,11 @@ Date: 2019-12-31 00:00
 </youtube>
 
 <youtube source="wq2z2u58ma0">
-    John Digweed @ Street Parade 2019 (Full Set Hi-Res) - ARTE Concert
+    Or:la Boiler Room x AVA Festival DJ Set
 </youtube>
 
 <youtube source="_RQe4oMTtOE">
     James Grant & Jody Wisternoff Live at Anjunadeep Open Air: Prague (Official 4K Set) #ABGT350
-</youtube>
-
-<youtube source="0Xgy6NFnwI0">
-    Or:la Boiler Room x AVA Festival DJ Set
 </youtube>
 
 <youtube source="powNUum5S00">
@@ -65,4 +61,8 @@ Date: 2019-12-31 00:00
 
 <youtube source="D2LhYfyqC74">
     Camelphat | Tomorrowland Belgium 2018
+</youtube>
+
+<youtube source="q7UxovvEkI0">
+    Selected Sessions MK b2b Sonny Fodera U-Bahn DJ Set
 </youtube>
