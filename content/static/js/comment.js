@@ -9,7 +9,7 @@ async function showAlert() {
 
 function createElement(tag, className, value) {
     let element = document.createElement(tag);
-    element.className = className;
+    if (className) { element.className = className; }
     if (value) { element.appendChild(document.createTextNode(value)); }
     return element;
 }
@@ -72,14 +72,7 @@ async function setComment(instance) {
     let articleUrl = getArticleUrl();
     let db = firebase.firestore();
     let comments = db.collection('comments');
-    // let comment = 'HTML 소스에 삽입된 이미지는 클라이언트 캐시가 되지 않기 때문에, 용량이 아주 작은 아이콘 정도에 사용하는 것을 추천한다.';
-    // let username = '김태홍';
-    // let password = '000000';
-    // let email = 'peppy0510@hotmail.com';
-    // let private = false;
-    // password = sha256(password);
     let registered = new Date().toISOString();
-    // let index = md5(articleUrl + comment + username + password + email + registered);
     let index = md5(articleUrl + instance.comment +
         instance.username + instance.email + registered);
     return new Promise(function(resolve) {
@@ -103,7 +96,6 @@ async function getComments() {
     let db = firebase.firestore();
     let comments = db.collection('comments');
     return new Promise(function(resolve) {
-        // let response = comments.where('articleUrl', '==', articleUrl).orderBy('registered').get().then(function(snapshot) {
         let response = comments.where('articleUrl', '==', articleUrl).get().then(function(snapshot) {
             let comments = [];
             snapshot.forEach(function(doc) {
@@ -122,7 +114,6 @@ async function getComments() {
 
 async function setCommentListElement() {
     let comments = await getComments();
-    // console.log(comments);
     if (!comments) { return; }
     $('.comment-count').text(comments.length.toString() + ' Comments');
     let commentList = $('.comment-list');
@@ -138,17 +129,8 @@ async function setCommentListElement() {
         }
 
         let registered = new Date(comments[i].registered);
-        // registered = moment(registered).format('YYYY-MM-DD HH:mm:ss').fromNow();
         registered = moment(registered).fromNow();
-        // console.log(registered)
-        // console.log(registered.toISOString());
-        // // console.log(registered.getHours());
-        // console.log([registered.getFullYear(), registered.getMonth(), registered.getDate()].join('-'));
-        // console.log(registered.getMonth());
-        // console.log(registered.getDate());
-        // registered = registered.toString();
         head.appendChild(createElement('div', 'registered', registered));
-        // instance.appendChild(createElement('div', 'private', comments[i].private));
         body.appendChild(createElement('div', 'comment', comments[i].comment));
         instance.appendChild(head);
         instance.appendChild(body);
@@ -157,22 +139,7 @@ async function setCommentListElement() {
 }
 
 $(document).ready(async function() {
-
-
-
-
     initializeFirebase();
-    // await setComment();
-    setCommentListElement();
-
-
-    // let informationElements = audioPlayerElements.find('.information');
-    // let paragraph = document.createElement('p');
-    // paragraph.className = 'showme-later';
-    // informationElements[0].appendChild(paragraph);
-    // $('.audio-player .information p').text(title);
-
-    // console.log(hash);
-    // console.log(db);
-    // console.log(response);
+    await setCommentListElement();
+    $('.article-comment').fadeIn(50);
 });

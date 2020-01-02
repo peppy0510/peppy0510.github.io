@@ -5,12 +5,10 @@ email: peppy0510@hotmail.com
 
 
 .article-content {
-    // clear: both;
     padding-top: 15px;
     padding-bottom: 30px;
     div.table {
         display: table-cell;
-        // flex-direction: column;
         div {
             &:first-child {
                 background-color: #F0F0F0;
@@ -114,31 +112,12 @@ email: peppy0510@hotmail.com
     }
     h4 {
         font-size: 11pt;
-        // margin-top: 20px;
-        // margin-bottom: 8px;
-        // box-sizing: padding-box;
         margin-top: 6px;
         margin-bottom: 8px !important;
         color: #FFFFFF;
         background-color: #A0A0A0;
         padding: 4px 6px 4px 6px !important;
-        // border-top-left-radius: 6px;
-        // border-left: 6px solid #808080;
-        // border-top-right-radius: 6px;
-        // width: auto !important;
-        // max-width: auto !important;
-        // min-width: auto !important;
         display: inline-flex;
-        // clear: both;
-        // border-spacing: 0;
-        // border-collapse: collapse;
-        // &:after {
-        //     // width: 100%;
-        //     content: '';
-        //     width: 100%;
-        //     height: 50px;
-        //     margin-bottom: 8px !important;
-        // }
     }
     h5 {
         font-size: 11pt;
@@ -166,18 +145,10 @@ email: peppy0510@hotmail.com
     p,
     ul li {
         code {
-            // clear: both;
-            // float: left;
-            // box-sizing: content-box;
-            // height: 18px;
             font-size: 10pt;
             line-height: 16pt;
             margin-top: -4px;
-            // margin-bottom: -4px;
-            // margin-left: 1px;
-            // display: inline-block;
             margin-right: 2px;
-            // padding: 0 5px;
             padding-top: 0;
             padding-bottom: 0;
             padding-left: 4px;
@@ -199,8 +170,6 @@ email: peppy0510@hotmail.com
         li {
             font-size: 11pt;
             line-height: 18pt;
-            // padding-top: 1px;
-            // padding-bottom: 1px;
             padding-left: 16px;
             text-indent: -16px;
             &:first-child {
@@ -217,11 +186,8 @@ email: peppy0510@hotmail.com
         }
     }
     ul li ul li {
-        // margin-left: -16px;
         &:before {
-            // color: #606060;
             content: '\25E6';
-            // margin-right: 10px;
         }
     }
     hr {
@@ -234,15 +200,10 @@ email: peppy0510@hotmail.com
     a {
         color: #808080;
         font-size: 11pt;
-        // line-height: 18pt;
         line-height: 16pt;
         text-decoration: none;
         word-break: break-all;
         display: inline-block;
-        // display: block;
-        // overflow: hidden;
-        // white-space: nowrap;
-        // text-overflow: ellipsis;
         &:hover {
             color: #FF2020;
             text-decoration: none;
@@ -289,43 +250,29 @@ email: peppy0510@hotmail.com
         }
     }
 
+    youtube {
+        display: none;
+    }
+
     .fluid-width-video-wrapper {
         margin-bottom: 10px;
     }
 
     img,
     .fluid-width-video-wrapper {
-        // margin: 0;
-        // padding: 0;
-        // line-height: 0;
         max-width: 100%;
-        // &:not(:nth-child(1)) {
-        //     margin-top: -5px;
-        // }
         margin-top: 7px;
-        // flex-direction: column;
-        // margin-right: auto;
-        // &:first-child {
-        //     margin-top: 8px;
-        // }
-        // &:not(:first-child) {
-        //     margin-top: 8px;
-        // }
         &[src*='#mw25'] {
             margin: 1px 0;
             max-width: calc(25% - 1px);
         }
         &[src*='#mw50'] {
             max-width: calc(50% - 1px);
-            // margin: 0;
             margin-top: -5px;
             &:nth-child(1),
             &:nth-child(2) {
                 margin-top: 0;
             }
-            // &:not(:nth-child(1):nth-child(2)) {
-
-            // }
             &:nth-child(odd) {
                 margin-right: 2px;
             }
@@ -471,8 +418,6 @@ email: peppy0510@hotmail.com
         display: flex;
         padding-top: 0;
         margin-top: 18px;
-        // padding-bottom: 6px;
-        // margin-bottom: 40px;
         overflow: hidden;
         position: relative;
         iframe {

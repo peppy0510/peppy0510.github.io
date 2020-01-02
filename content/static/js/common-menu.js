@@ -66,7 +66,6 @@ var dropdownMenuCtrl = {
         }));
     },
     toggle: function(index) {
-        // console.log(index);
         let useAnimation = true;
         var navbarDivWidth = 520;
         let width = $(document).width();
@@ -179,7 +178,6 @@ var navbarHamburgerCtrl = {
                 modalMask.hide();
             }, this.transitionDuration() * 1000);
         } else {
-            // this.slideOut();
             this.removeTransition();
             navbarMenu.removeClass('active');
             modalMask.hide();
@@ -209,7 +207,6 @@ $(document).ready(function() {
         }
     }
     $('body').bind('click', function(event) {
-        // console.log(event);
         let exceptionalClasses = [
             'navbar-menu', 'navbar-toggle',
             'dropdown', 'dropdown-menu', 'dropdown-toggle'

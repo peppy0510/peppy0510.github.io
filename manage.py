@@ -7,9 +7,10 @@ email: peppy0510@hotmail.com
 '''
 
 
-import sys
-
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)  # noqa
 import manager
+import sys
 
 
 def main():

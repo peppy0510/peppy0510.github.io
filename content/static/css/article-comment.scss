@@ -3,7 +3,9 @@ author: Taehong Kim
 email: peppy0510@hotmail.com
 */
 
+
 .article-comment {
+    display: none;
     margin-top: 30px;
     $border-color: #E8E8E8;
     .comment-title {
@@ -19,9 +21,7 @@ email: peppy0510@hotmail.com
         flex-direction: column;
         overflow: hidden;
         border: 1px solid $border-color;
-        // border-radius: 4px;
         input {
-            // border: 1px solid $border-color;
             border: none;
             box-shadow: none;
             &:not(:first-child) {
@@ -51,8 +51,6 @@ email: peppy0510@hotmail.com
                 min-height: 50px;
                 box-shadow: none;
                 line-height: 12pt;
-
-                // border-top: 1px solid $border-color;
                 border-bottom: 1px solid $border-color;
             }
         }
@@ -73,10 +71,7 @@ email: peppy0510@hotmail.com
                 box-shadow: none;
                 background: none;
                 color: #808080;
-                // height: 26px;
                 width: 100%;
-                // min-width: 80px;
-                // width: 33.333%;
                 padding: 4px 8px;
                 margin-left: auto;
                 align-items: center;
@@ -93,9 +88,6 @@ email: peppy0510@hotmail.com
     }
     .comment-list {
         .comment-instance {
-            // padding-top: 10px;
-            // padding-bottom: 10px;
-            // border-top: 1px solid #E8E8E8;
             display: flex;
             color: #808080;
             font-size: 10pt;
@@ -105,17 +97,13 @@ email: peppy0510@hotmail.com
             &:not(:last-child) {
                 border-bottom: none;
             }
-            // margin-top: 10px;
-            // border-radius: 4px;
             .comment-head {
                 display: flex;
                 background-color: #F8F8F8;
                 padding: 5px 8px;
-                // border-bottom: 1px solid #E8E8E8;
                 min-height: 35px;
                 align-items: center;
                 .username {
-                    // margin-right: auto;
                     font-weight: bold;
                     &:before {
                         // content: 'Username: ';

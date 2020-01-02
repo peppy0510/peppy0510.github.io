@@ -27,10 +27,9 @@ from pelican.settings import read_settings
 p = Pelican(read_settings('pelicanconf.py'))
 
 
-def build_content(output='output'):
+def build_content(output='output', minify=True):
 
     # minify = 'nomin' not in sys.argv[1:]
-    minify = True
 
     tic = time.time()
 
@@ -39,12 +38,12 @@ def build_content(output='output'):
         p.run()
         build_manager.delete_output_theme()
         build_manager.make_cname()
+        # build_manager.render_mediatags()
         build_manager.render_stylesheets()
         if minify:
             build_manager.minify_stylesheets()
             build_manager.minify_javascripts()
             build_manager.minify_templates()
-            build_manager.expand_mediatags()
         build_manager.lf2crlfs()
     except SystemExit:
         pass
@@ -95,6 +94,8 @@ class BuildManager():
         self.minify_handler(self.minify_template, extensions=('html', 'htm',))
 
     def minify_template(self, content):
+        if '<style' not in content and '<script' not in content:
+            content
         soup = BeautifulSoup(content, 'html.parser')
         for v in soup.find_all('style'):
             try:
@@ -153,7 +154,7 @@ class BuildManager():
             retlist += [next_path]
         return retlist
 
-    def minify_handler(self, handler, extensions=[], thread_number=1):
+    def minify_handler(self, handler, extensions=[], thread_number=2):
         tic = time.time()
         paths = self.search_pattern(self.output)
         paths = [v for v in paths if not os.path.splitext(v)[0].endswith('.min')]
@@ -171,31 +172,37 @@ class BuildManager():
             with open(newpath, 'wb') as file:
                 file.write(content.encode('utf-8'))
 
-        with ThreadPool(thread_number) as pool:
-            pool.map(single_thread, paths)
+        if thread_number == 1:
+            for path in paths:
+                single_thread(path)
+        else:
+            with ThreadPool(thread_number) as pool:
+                pool.map(single_thread, paths)
 
         print('MINIFY BUILD ELAPSED: {:3.3f} {}'.format(time.time() - tic, extensions))
         sys.stdout.flush()
 
-    def expand_mediatags(self):
+    def render_mediatags(self):
+        tic = time.time()
         extensions = ('html', 'htm',)
         paths = self.search_pattern(self.output)
         paths = [v for v in paths if os.path.splitext(v)[-1].strip('.').lower() in extensions]
         for path in paths:
-            filename, extension = os.path.splitext(path)
             with open(path, 'rb') as file:
                 content = file.read().decode('utf-8')
                 try:
-                    content = self.expand_mediatag(content)
+                    content = self.render_mediatag(content)
                 except Exception:
                     pass
             if content:
                 with open(path, 'wb') as file:
                     file.write(content.encode('utf-8'))
+        print(' MEDIA BUILD ELAPSED: {:3.3f} {}'.format(time.time() - tic, extensions))
 
-    def expand_mediatag(self, content):
+    def render_mediatag(self, content):
+        if '<youtube' not in content:
+            return
         soup = BeautifulSoup(content, 'html.parser')
-
         title_template = '''<h4>{}</h4>'''
         youtube_template = '''
         <div class="fluid-width-video-wrapper">

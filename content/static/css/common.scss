@@ -13,7 +13,6 @@ body {
 }
 
 * {
-    // clear: both;
     margin: 0;
     padding: 0;
     border-spacing: 0;
@@ -66,7 +65,6 @@ body {
             padding-bottom: 4px;
         }
         .article-meta {
-            // margin: 4px auto auto 0;
             .seperator {
                 color: #FFFFFF;
                 font-size: 10pt;
@@ -81,7 +79,6 @@ body {
             time {
                 font-size: 11pt;
                 color: #FFFFFF;
-                // font-family: 'Consolas', Monaco, monospace;
             }
         }
         .article-tags {
@@ -127,7 +124,6 @@ body {
 .archives-header,
 .categories-header,
 .category-header {
-    // min-height: 120px;
 }
 
 .tags-header,
@@ -136,14 +132,6 @@ body {
     .container {
         display: flex;
         .header-title {
-            // text-align: left;
-            // margin-right: auto;
-            // border-radius: 8px;
-            // background-color: #303030;
-            // padding: 4px 14px 4px 14px;
-            // -webkit-box-shadow: inset 0 1px 5px 0 rgba(0,0,0,.5);
-            //    -moz-box-shadow: inset 0 1px 5px 0 rgba(0,0,0,.5);
-            //         box-shadow: inset 0 1px 5px 0 rgba(0,0,0,.5);
         }
     }
 }
@@ -160,23 +148,12 @@ body {
             padding-bottom: 20px;
             border-bottom: 1px solid #E8E8E8;
             margin-right: auto;
-            &:first-child {
-                border-top: 1px solid #E8E8E8;    
-            }
-            // &:not(:first-child) {
-            //     border-top: 1px solid #E8E8E8;    
-            // }
-            // &:last-child {
-            //     border-bottom: 1px solid #E8E8E8;    
-            // }
-            // min-height: 32px;
             display: flex;
-            // border-radius: 4px;
-            // padding: 3px 12px;
             text-decoration: none;
-            // background-color: #808080;
+            &:first-child {
+                border-top: 1px solid #E8E8E8;
+            }
             &:hover {
-                // background-color: #909090;
             }
             .title {
                 padding-right: 20px;
@@ -185,20 +162,17 @@ body {
                     margin: auto;
                     font-size: 14pt;
                     line-height: 22pt;
-                    // line-height: 16pt;
                     padding: 2px 0;
                     font-weight: bold;
                     text-decoration: none;
                 }
             }
-
             .count,
             .datetime {
                 height: 20px;
                 display: flex;
                 min-width: 30px;
                 border-radius: 8px;
-                // margin: auto 0 auto 8px;
                 margin: auto 0 auto auto;
                 padding: 2px 7px 2px 7px;
                 background-color: #A0A0A0;
@@ -220,73 +194,14 @@ body {
     }
 }
 
-// .tags-body,
-// .categories-body,
-// .archives-body {
-//     .container {
-//         padding-bottom: 19px;
-//         padding-bottom: 11px;
-//     }
-//     .article {
-//         display: flex;
-//         margin-top: 10px;
-//         margin-bottom: 10px;
-//         a {
-//             min-height: 32px;
-//             display: flex;
-//             color: #FFFFFF;
-//             border-radius: 4px;
-//             padding: 3px 12px;
-//             text-decoration: none;
-//             background-color: #808080;
-//             &:hover {
-//                 background-color: #909090;
-//             }
-//             .title {
-//                 color: #FFFFFF;
-//                 font-weight: normal;
-//                 margin: auto;
-//                 font-size: 11pt;
-//                 line-height: 16pt;
-//                 padding: 2px 0;
-//             }
-//             .count,
-//             .datetime {
-//                 height: 16px;
-//                 display: flex;
-//                 min-width: 24px;
-//                 border-radius: 6px;
-//                 margin: auto 0 auto 8px;
-//                 padding: 1px 7px 1px 6px;
-//                 background-color: #C0C0C0;
-//                 label {
-//                     white-space: nowrap;
-//                     color: #707070;
-//                     font-weight: bold;
-//                     margin: auto;
-//                     font-size: 9pt;
-//                     line-height: 9pt;
-//                 }
-//             }
-//             .datetime {
-//                 min-width: 70px;
-//                 padding: 1px 5px 1px 4px;
-//             }
-//         }
-//     }
-// }
-
 .index-body {
-    // padding-top: 20px;
     .container {
         padding-top: 30px;
-        // padding-top: 0;
     }
 }
 
 .category-body {
     .container {
         padding-top: 30px;
-        // padding-top: 0;
     }
 }
