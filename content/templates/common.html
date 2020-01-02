@@ -22,12 +22,11 @@
     <link href="/static/images/favicon.ico" rel="shortcut icon">
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WS8BMPRGRQ"></script>
     <script src="/static/js/jquery.min.js" type="text/javascript"></script>
     <script src="/static/js/common-menu.min.js" type="text/javascript"></script>
     <script src="/static/js/md5.min.js"></script>
     <script src="/static/js/moment-with-locales.min.js" type="text/javascript"></script>
-    <script src="/static/js/comment.min.js" type="text/javascript"></script>
-    <script src="/static/js/youtube-embed.min.js" type="text/javascript"></script>
     <link href="/static/css/code_blocks/github.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/common.min.css" type="text/css" rel="stylesheet">
     <link href="/static/css/common-menu.min.css" type="text/css" rel="stylesheet">
@@ -43,9 +42,17 @@
     let ua = window.navigator.userAgent;
     if (ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0 || ua.indexOf('Edge/') > 0) {
         $('head').append('<script src="/static/js/audio-player-ie.min.js"><\/script>');
+        $('head').append('<script src="/static/js/youtube-embed-ie.min.js"><\/script>');
     } else {
+        $('head').append('<script src="/static/js/comment.min.js""><\/script>');
         $('head').append('<script src="/static/js/audio-player.min.js"><\/script>');
+        $('head').append('<script src="/static/js/youtube-embed.min.js"><\/script>');
     }
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-WS8BMPRGRQ');
     </script>
     {% block opengraph %}
     <meta property="og:type" content="website">
@@ -63,7 +70,6 @@
     {% block content %}
     {% endblock content %}
     {% include 'common-footer.html' %}
-    {% include 'common-ganalytics.html' %}
 </body>
 
 </html>

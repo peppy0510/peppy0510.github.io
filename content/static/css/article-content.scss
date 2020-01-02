@@ -252,6 +252,22 @@ email: peppy0510@hotmail.com
 
     youtube {
         display: none;
+        font-size: 11pt;
+        // margin-top: 6px;
+        margin-top: 10px;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin-bottom: 10px;
+        background-color: #A0A0A0;
+        line-height: 15pt;
+        padding: 3px 6px 3px 6px !important;
+        display: inline-flex;
+    }
+    .browser-media-warning {
+        color: #808080;
+        margin-top: -8px;
+        line-height: 15pt;
+        padding: 3px 8px 3px 8px !important;
     }
 
     .fluid-width-video-wrapper {
