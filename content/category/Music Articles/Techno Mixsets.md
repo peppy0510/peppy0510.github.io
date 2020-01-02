@@ -3,36 +3,8 @@ Title: Techno Mixsets
 Date: 2019-12-31 00:00
 ---
 
-<youtube source="C5PSxe6iCnI">
-    RICHIE HAWTIN Mixmag Live @ Output NYC
-</youtube>
-
 <youtube source="T_4ML45Op5c">
     Pan-Pot - Time Warp 2018 (Full Set HiRes) - ARTE Concert
-</youtube>
-
-<youtube source="TsSj35zj3rA">
-    Dubfire Techno Set Live From The Off Sonar Closing Party Barcelona
-</youtube>
-
-<youtube source="vqtCcmJhZbw">
-    Dubfire @ ADE 2017 - Awakenings x Joseph Capriati presents (BE-AT.TV)
-</youtube>
-
-<youtube source="obs7fXjvA88">
-    Dubfire | Tomorrowland Belgium 2018
-</youtube>
-
-<youtube source="-QnzH1tfLMc">
-    Richie Hawtin and Loveland Pres. #POPUP | Official ADE Opening 2017
-</youtube>
-
-<youtube source="QAWqZfGN1wg">
-    Richie Hawtin and Loveland
-</youtube>
-
-<youtube source="OJlwZAHp6Fk">
-    Tomorrowland 2015 | Richie Hawtin
 </youtube>
 
 <youtube source="G2ZLI3Wilpk">
@@ -65,6 +37,34 @@ Date: 2019-12-31 00:00
 
 <youtube source="dSztmiTGi2U">
     Awakenings ADE 2019 - Enrico Sangiuliano
+</youtube>
+
+<youtube source="TsSj35zj3rA">
+    Dubfire Techno Set Live From The Off Sonar Closing Party Barcelona
+</youtube>
+
+<youtube source="vqtCcmJhZbw">
+    Dubfire @ ADE 2017 - Awakenings x Joseph Capriati presents (BE-AT.TV)
+</youtube>
+
+<youtube source="obs7fXjvA88">
+    Dubfire | Tomorrowland Belgium 2018
+</youtube>
+
+<youtube source="C5PSxe6iCnI">
+    RICHIE HAWTIN Mixmag Live @ Output NYC
+</youtube>
+
+<youtube source="-QnzH1tfLMc">
+    Richie Hawtin and Loveland Pres. #POPUP | Official ADE Opening 2017
+</youtube>
+
+<youtube source="QAWqZfGN1wg">
+    Richie Hawtin and Loveland
+</youtube>
+
+<youtube source="OJlwZAHp6Fk">
+    Tomorrowland 2015 | Richie Hawtin
 </youtube>
 
 <youtube source="ZyOpubDs-qI">
