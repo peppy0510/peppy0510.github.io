@@ -38,6 +38,7 @@ def build_content(output='output', minify=True):
         p.run()
         build_manager.delete_output_theme()
         build_manager.make_cname()
+        build_manager.make_gitignore()
         # build_manager.render_mediatags()
         build_manager.render_stylesheets()
         if minify:
@@ -74,6 +75,12 @@ class BuildManager():
     def make_cname(self, cname='muteklab.com'):
         with open(os.path.join(self.output, 'CNAME'), 'w') as file:
             file.write(cname)
+
+    def make_gitignore(self):
+        src = os.path.join(os.path.dirname(self.output), '.gitignore')
+        dst = os.path.join(os.path.join(self.output, '.gitignore'))
+        if os.path.exists(src):
+            shutil.copyfile(src, dst)
 
     def delete_output_theme(self):
         path = os.path.join(self.output, 'theme')

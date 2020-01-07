@@ -185,6 +185,31 @@ email: peppy0510@hotmail.com
             }
         }
     }
+    ol {
+        list-style: none;
+        padding-left: 0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        counter-reset: ol-custom-counter;
+        li {
+            counter-increment: ol-custom-counter;
+            font-size: 11pt;
+            line-height: 18pt;
+            padding-left: 16px;
+            text-indent: -16px;
+            &:first-child {
+                padding-top: 0;
+            }
+            &:last-child {
+                padding-bottom: 0;
+            }
+            &:before {
+                color: #404040;
+                margin-right: 2px;
+                content: counter(ol-custom-counter) ". ";
+            }
+        }
+    }
     ul li ul li {
         &:before {
             content: '\25E6';

@@ -25,6 +25,9 @@ def commit_output():
 class CommitManager():
 
     def __init__(self):
+        self.message = 'update'
+        if len(sys.argv) == 3 and sys.argv[-1]:
+            self.message = sys.argv[-1]
         cwd = os.getcwd()
         self.source_path = cwd
         self.output_path = os.path.join(cwd, 'output')
@@ -48,9 +51,9 @@ class CommitManager():
             self.commands('''
             git pull origin source
             git add -A
-            git commit -m "update"
+            git commit -m "{}"
             git push origin source
-            ''')
+            '''.format(self.message))
         print(tsencode('-' * 80, 'gray'))
 
     def commit_output(self):
@@ -71,9 +74,9 @@ class CommitManager():
             self.commands('''
             git pull origin master
             git add -A
-            git commit -m "update"
+            git commit -m "{}"
             git push origin master
-            ''')
+            '''.format(self.message))
 
         print(tsencode('-' * 80, 'gray'))
 

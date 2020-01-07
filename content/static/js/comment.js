@@ -139,7 +139,7 @@ async function setCommentListElement() {
 }
 
 $(document).ready(async function() {
-    initializeFirebase();
+    // initializeFirebase();
     await setCommentListElement();
     $('.article-comment').fadeIn(50);
 });
