@@ -4,11 +4,10 @@
 '''
 author: Taehong Kim
 email: peppy0510@hotmail.com
-'''
 
-
-'''
+description:
 Standard terminal color and style codes.
+
 usages:
 from terminal import tsencode
 tsencode(string, 'red')

@@ -68,7 +68,7 @@ Summary:
 `VST` `VSTi` `ASIO` `MIDI` `MEI` `MusicXML` `verovio` `vexflow` `SVG` `RESTful API` `GraphQL`
 `Zynactiq DIRAC` `echoprint` `Ballistic Model` `Ballistic Coefficient`
 `Steinberg Cubase` `Ableton Live` `Sound Forge` `Acid Pro` `Vegas Pro` `Avid Sibelius` `Avid ProTools` `Propellerhead Reason` `MOTU Digital Performer` `Traktor Pro` `RekordBox` `ReNamer` `AstroGrep` `htop` `glances` `iotop` `speedometer`
-`Linode` `Digital Ocean` `AWS` `NCloud` `Conoha` `DNS` `Load Balanging`
+`Linode` `Digital Ocean` `AWS` `NCloud` `Conoha` `DNS` `Load Balancing`
 
 <div style="margin-top: 10px;"></div>
 
