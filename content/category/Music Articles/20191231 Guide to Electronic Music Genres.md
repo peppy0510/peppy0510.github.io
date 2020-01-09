@@ -11,7 +11,7 @@ Date: 2019-12-31 00:00
 
 [Ishkur's Guide to Electronic Music version 2.5](http://techno.org/electronic-music-guide/){:target="_blank" class="button"}
 
-![ishkurs-25](https://pbs.twimg.com/media/D0cE5OyVYAAVuG3.jpg#mw100)
+![ishkurs-25](https://www.youredm.com/wp-content/uploads/2019/08/ishkurs-guide-to-electronic-music-site.jpg#mw100)
 
 <youtube source="B4r0MdBQI6U">
     Guide to Electronic Music Genres
