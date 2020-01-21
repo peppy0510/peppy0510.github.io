@@ -13,7 +13,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Taehong Kim'
 SITENAME = 'MUTEKLAB'
 SITEURL = 'http://muteklab.com'
-DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+DEFAULT_DATE_FORMAT = r'%Y-%m-%d'
 PATH = 'content'
 THEME = 'content'
 STATIC_PATHS = ['static']
@@ -23,9 +23,9 @@ DEFAULT_PAGINATION = 10
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
-    'sitemap',
-    'neighbors',
-    'assets'
+    # 'sitemap',
+    # 'neighbors',
+    # 'assets'
 ]
 
 SITEMAP = {

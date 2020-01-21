@@ -1,7 +1,7 @@
 ---
 Title: Endless Fun With Yamaha Montage White
 Date: 2020-01-03 00:00
-status: hidden
+status: draft
 ---
 
 <youtube source="KjVUjDP6lqg">

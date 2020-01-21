@@ -3,7 +3,7 @@ Title: Resume All
 Date: 2019-08-01 23:00
 Tags: About
 Summary:
-Status: hidden
+Status: draft
 ---
 
 <div style="width: 125px; height: 125px; border: 1px solid #D8D8D8; display: flex; padding: 1px; margin-bottom: 10px;">

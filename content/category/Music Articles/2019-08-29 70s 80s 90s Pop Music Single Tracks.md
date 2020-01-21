@@ -1,7 +1,7 @@
 ---
 Title: 70s 80s 90s Pop Music Single Tracks
 Date: 2019-08-29 00:00
-status: hidden
+status: draft
 ---
 
 <youtube source="D_P-v1BVQn8">

@@ -2,7 +2,7 @@
 Title: PyWinSecure
 Date: 2019-04-22 00:00
 Summary: 윈도우 데스크탑 애플리케이션
-Status: hidden
+Status: draft
 ---
 
 #### Description
