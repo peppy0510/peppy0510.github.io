@@ -12,6 +12,9 @@
 &lt;li&gt;requirementstxt&lt;/li&gt;
 &lt;li&gt;Virtualenv&lt;/li&gt;
 &lt;li&gt;Jedi - Python autocompletion&lt;/li&gt;
+&lt;li&gt;SublimeLinter-contrib-mypy&lt;/li&gt;
+&lt;li&gt;SublimeLinter-flake8&lt;/li&gt;
+&lt;li&gt;SublimeLinter-pycodestyle&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;JavaScript TypeScript HTML CSS&lt;/h4&gt;
 &lt;ul&gt;
@@ -23,8 +26,7 @@
 &lt;li&gt;JSHint&lt;/li&gt;
 &lt;li&gt;JSHint Gutter&lt;/li&gt;
 &lt;li&gt;HTML Extended&lt;/li&gt;
-&lt;li&gt;HTML-CSS-JS Prettify&lt;/li&gt;
-&lt;li&gt;JavaScript Next Snippets …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
+&lt;li&gt;HTML-CSS-JS Prettify …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
 우선순위 없이 열거하였으니 참고 하시기 바랍니다.&lt;/p&gt;
 &lt;h4&gt;Python&lt;/h4&gt;
 &lt;ul&gt;
@@ -37,6 +39,9 @@
 &lt;li&gt;requirementstxt&lt;/li&gt;
 &lt;li&gt;Virtualenv&lt;/li&gt;
 &lt;li&gt;Jedi - Python autocompletion&lt;/li&gt;
+&lt;li&gt;SublimeLinter-contrib-mypy&lt;/li&gt;
+&lt;li&gt;SublimeLinter-flake8&lt;/li&gt;
+&lt;li&gt;SublimeLinter-pycodestyle&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;JavaScript TypeScript HTML CSS&lt;/h4&gt;
 &lt;ul&gt;
@@ -53,6 +58,9 @@
 &lt;li&gt;Ngx HTML&lt;/li&gt;
 &lt;li&gt;Sass&lt;/li&gt;
 &lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;SublimeLinter-tslint&lt;/li&gt;
+&lt;li&gt;SublimeLinter-contrib-scss-lint&lt;/li&gt;
+&lt;li&gt;SublimeLinter-csslint&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Markdown&lt;/h4&gt;
 &lt;ul&gt;
@@ -75,23 +83,13 @@
 &lt;li&gt;Dotfiles Syntax Highlighting&lt;/li&gt;
 &lt;li&gt;INI&lt;/li&gt;
 &lt;li&gt;M3U Syntax&lt;/li&gt;
+&lt;li&gt;SublimeLinter-json&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Git&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;GitGutter&lt;/li&gt;
 &lt;li&gt;GitHubinator&lt;/li&gt;
 &lt;li&gt;Gutter Themes for SL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;SublimeLinter&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;SublimeLinter&lt;/li&gt;
-&lt;li&gt;SublimeLinter-contrib-mypy&lt;/li&gt;
-&lt;li&gt;SublimeLinter-contrib-scss-lint&lt;/li&gt;
-&lt;li&gt;SublimeLinter-csslint&lt;/li&gt;
-&lt;li&gt;SublimeLinter-flake8&lt;/li&gt;
-&lt;li&gt;SublimeLinter-json&lt;/li&gt;
-&lt;li&gt;SublimeLinter-pycodestyle&lt;/li&gt;
-&lt;li&gt;SublimeLinter-tslint&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;SideBar&lt;/h4&gt;
 &lt;ul&gt;

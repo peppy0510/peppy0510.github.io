@@ -12,6 +12,9 @@
 &lt;li&gt;requirementstxt&lt;/li&gt;
 &lt;li&gt;Virtualenv&lt;/li&gt;
 &lt;li&gt;Jedi - Python autocompletion&lt;/li&gt;
+&lt;li&gt;SublimeLinter-contrib-mypy&lt;/li&gt;
+&lt;li&gt;SublimeLinter-flake8&lt;/li&gt;
+&lt;li&gt;SublimeLinter-pycodestyle&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;JavaScript TypeScript HTML CSS&lt;/h4&gt;
 &lt;ul&gt;
@@ -23,8 +26,7 @@
 &lt;li&gt;JSHint&lt;/li&gt;
 &lt;li&gt;JSHint Gutter&lt;/li&gt;
 &lt;li&gt;HTML Extended&lt;/li&gt;
-&lt;li&gt;HTML-CSS-JS Prettify&lt;/li&gt;
-&lt;li&gt;JavaScript Next Snippets …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 21 Jan 2020 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2020-01-21:/sublimetext-3-peulreogeuin.html</guid><category>Development Articles</category></item><item><title>7 Cases When You Should Not Use Docker</title><link>http://muteklab.com/7-cases-when-you-should-not-use-docker.html</link><description>&lt;p&gt;열정 넘치는 개발자라면 최신 기술에 열광하는 것이 당연합니다. 그러나 트렌드에 치중한 나머지 무분별하게 최신 기술을 남용하는 사례도 빈번히 발생합니다. Docker를 사용하지 말아야 할 7 가지 케이스를 설명한 글이 있어 소개합니다.&lt;/p&gt;
+&lt;li&gt;HTML-CSS-JS Prettify …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 21 Jan 2020 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2020-01-21:/sublimetext-3-peulreogeuin.html</guid><category>Development Articles</category></item><item><title>7 Cases When You Should Not Use Docker</title><link>http://muteklab.com/7-cases-when-you-should-not-use-docker.html</link><description>&lt;p&gt;열정 넘치는 개발자라면 최신 기술에 열광하는 것이 당연합니다. 그러나 트렌드에 치중한 나머지 무분별하게 최신 기술을 남용하는 사례도 빈번히 발생합니다. Docker를 사용하지 말아야 할 7 가지 케이스를 설명한 글이 있어 소개합니다.&lt;/p&gt;
 &lt;p&gt;7 Cases When You Should Not Use Docker&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Do Not Use Docker if You Need to Boost Speed&lt;/li&gt;
