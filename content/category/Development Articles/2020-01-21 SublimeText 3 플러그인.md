@@ -17,6 +17,9 @@ Date: 2020-01-21 00:00
 * requirementstxt
 * Virtualenv
 * Jedi - Python autocompletion
+* SublimeLinter-contrib-mypy
+* SublimeLinter-flake8
+* SublimeLinter-pycodestyle
 
 #### JavaScript TypeScript HTML CSS
 
@@ -33,6 +36,9 @@ Date: 2020-01-21 00:00
 * Ngx HTML
 * Sass
 * TypeScript
+* SublimeLinter-tslint
+* SublimeLinter-contrib-scss-lint
+* SublimeLinter-csslint
 
 #### Markdown
 
@@ -55,23 +61,13 @@ Date: 2020-01-21 00:00
 * Dotfiles Syntax Highlighting
 * INI
 * M3U Syntax
+* SublimeLinter-json
 
 #### Git
 
 * GitGutter
 * GitHubinator
 * Gutter Themes for SL
-
-#### SublimeLinter
-
-* SublimeLinter
-* SublimeLinter-contrib-mypy
-* SublimeLinter-contrib-scss-lint
-* SublimeLinter-csslint
-* SublimeLinter-flake8
-* SublimeLinter-json
-* SublimeLinter-pycodestyle
-* SublimeLinter-tslint
 
 #### SideBar
 
