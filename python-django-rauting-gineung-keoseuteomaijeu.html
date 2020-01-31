@@ -29,15 +29,15 @@ var firebaseConfig={apiKey:"AIzaSyCKt3z0JCmxteYhxs93rsMtOqkb4_I8Em4",authDomain:
 
 <span class=k>class</span> <span class=nc>UrlParser</span><span class=p>:</span>
 
-    <span class=n>scheme</span> <span class=o>=</span> <span class=kc>None</span>
-    <span class=n>subdomain</span> <span class=o>=</span> <span class=kc>None</span>
-    <span class=n>domain</span> <span class=o>=</span> <span class=kc>None</span>
-    <span class=n>topdomain</span> <span class=o>=</span> <span class=kc>None</span>
-    <span class=n>rootdomain</span> <span class=o>=</span> <span class=kc>None</span>
-    <span class=n>port</span> <span class=o>=</span> <span class=kc>None</span>
-    <span class=n>path</span> <span class=o>=</span> <span class=kc>None</span>
+    <span class=n>scheme</span> <span class=o>=</span> <span class=bp>None</span>
+    <span class=n>subdomain</span> <span class=o>=</span> <span class=bp>None</span>
+    <span class=n>domain</span> <span class=o>=</span> <span class=bp>None</span>
+    <span class=n>topdomain</span> <span class=o>=</span> <span class=bp>None</span>
+    <span class=n>rootdomain</span> <span class=o>=</span> <span class=bp>None</span>
+    <span class=n>port</span> <span class=o>=</span> <span class=bp>None</span>
+    <span class=n>path</span> <span class=o>=</span> <span class=bp>None</span>
     <span class=n>paths</span> <span class=o>=</span> <span class=p>[]</span>
-    <span class=n>param</span> <span class=o>=</span> <span class=kc>None</span>
+    <span class=n>param</span> <span class=o>=</span> <span class=bp>None</span>
     <span class=n>params</span> <span class=o>=</span> <span class=p>{}</span>
 
     <span class=n>pattern</span> <span class=o>=</span> <span class=p>(</span><span class=sa>r</span><span class=s1>'''^([a-zA-Z]{1,}://){0,1}'''</span>
@@ -81,16 +81,16 @@ var firebaseConfig={apiKey:"AIzaSyCKt3z0JCmxteYhxs93rsMtOqkb4_I8Em4",authDomain:
 
 <span class=k>def</span> <span class=nf>__test__</span><span class=p>(</span><span class=n>url</span><span class=p>):</span>
     <span class=n>url</span> <span class=o>=</span> <span class=n>UrlParser</span><span class=p>(</span><span class=n>url</span><span class=p>)</span>
-    <span class=nb>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>scheme</span><span class=p>)</span>
-    <span class=nb>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>subdomain</span><span class=p>)</span>
-    <span class=nb>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>rootdomain</span><span class=p>)</span>
-    <span class=nb>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>host</span><span class=p>)</span>
-    <span class=nb>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>paths</span><span class=p>)</span>
-    <span class=nb>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>params</span><span class=p>)</span>
+    <span class=k>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>scheme</span><span class=p>)</span>
+    <span class=k>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>subdomain</span><span class=p>)</span>
+    <span class=k>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>rootdomain</span><span class=p>)</span>
+    <span class=k>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>host</span><span class=p>)</span>
+    <span class=k>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>paths</span><span class=p>)</span>
+    <span class=k>print</span><span class=p>(</span><span class=n>url</span><span class=o>.</span><span class=n>params</span><span class=p>)</span>
 
 
 <span class=k>if</span> <span class=vm>__name__</span> <span class=o>==</span> <span class=s1>'__main__'</span><span class=p>:</span>
     <span class=n>url</span> <span class=o>=</span> <span class=p>(</span><span class=s1>'https://sub.root.co.kr:8080/admin/name/update/'</span>
            <span class=s1>'?firstname=Taehong&amp;lastname=Kim&amp;nickname'</span><span class=p>)</span>
     <span class=n>__test__</span><span class=p>(</span><span class=n>url</span><span class=p>)</span>
-</pre></div></section><aside class=article-nav><a class="article-nav-left article-nav-left-empty"></a><div class=clear></div></aside><div class=article-comment><div class=comment-title><div class=comment-count></div></div><div class=comment-input><div class=comment-body><textarea id=comment-content placeholder="Comment (at least 3 chars)" type=text></textarea></div><div class=comment-foot><input id=comment-username placeholder="Name (optional)" type=text><input id=comment-email placeholder="Email (optional)" type=text><button id=comment-submit-button onclick=onClickSubmitCommentButton()>Submit</button></div></div><div class=comment-list></div></div> </div></main><footer class=footer><div class=container><div class=credits><div class=group-container><div class=group><a class=avatar href=/authors-information.html><img class=avatar src="https://avatars1.githubusercontent.com/u/21299773?s=460&v=4"></a></div><div class=group><a href=/category/authors-music.html> Author's Music </a><a href=/category/authors-mixset.html> Author's Mixset </a><a href=/category/authors-development.html> Author's Development </a></div></div><div class=group-container><div class=group><a href=/category/music-articles.html> Music Articles </a><a href=/category/development-articles.html> Development Articles </a></div><div class=group><a href=/archives.html> Find in Archives </a><a href=/categories.html> Find in Categories </a><a href=/tags.html> Find in Tags </a></div><div class=group><a href=https://github.com/peppy0510 target=_blank>GitHub</a></div></div></div></div></footer></body></html>
+</pre></div></section><aside class=article-nav><a class=article-nav-left href=/70s-80s-90s-dance-music-single-tracks.html><i class="ic ic-arrow-left"></i><div class=article-nav-teaser><h2 class=article-nav-title>70s 80s 90s Dance Music Single Tracks</h2><p class=article-nav-excerpt>The KLF - Last Train to Trancentral The KLF - Justified and Ancient (Stand By The...</p></div></a><div class=article-nav-seperator></div><a class=article-nav-right href=/python-noqa-no-quality-assurance.html><div class=article-nav-teaser><h2 class=article-nav-title>Python NOQA (NO Quality Assurance)</h2><p class=article-nav-excerpt>Python에서 와일드카드 import를 하거나 exec 명령어를 통해 변수를 선언하는 등의 경우에는 문법 검사기의 경고 메시지를 보게 됩니다. 문법...</p></div><i class="ic ic-arrow-right"></i></a><div class=clear></div></aside><div class=article-comment><div class=comment-title><div class=comment-count></div></div><div class=comment-input><div class=comment-body><textarea id=comment-content placeholder="Comment (at least 3 chars)" type=text></textarea></div><div class=comment-foot><input id=comment-username placeholder="Name (optional)" type=text><input id=comment-email placeholder="Email (optional)" type=text><button id=comment-submit-button onclick=onClickSubmitCommentButton()>Submit</button></div></div><div class=comment-list></div></div> </div></main><footer class=footer><div class=container><div class=credits><div class=group-container><div class=group><a class=avatar href=/authors-information.html><img class=avatar src="https://avatars1.githubusercontent.com/u/21299773?s=460&v=4"></a></div><div class=group><a href=/category/authors-music.html> Author's Music </a><a href=/category/authors-mixset.html> Author's Mixset </a><a href=/category/authors-development.html> Author's Development </a></div></div><div class=group-container><div class=group><a href=/category/music-articles.html> Music Articles </a><a href=/category/development-articles.html> Development Articles </a></div><div class=group><a href=/archives.html> Find in Archives </a><a href=/categories.html> Find in Categories </a><a href=/tags.html> Find in Tags </a></div><div class=group><a href=https://github.com/peppy0510 target=_blank>GitHub</a></div></div></div></div></footer></body></html>
