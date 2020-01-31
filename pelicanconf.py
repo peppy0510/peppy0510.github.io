@@ -23,9 +23,9 @@ DEFAULT_PAGINATION = 10
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
-    # 'sitemap',
-    # 'neighbors',
-    # 'assets'
+    'sitemap',
+    'neighbors',
+    'assets'
 ]
 
 SITEMAP = {
