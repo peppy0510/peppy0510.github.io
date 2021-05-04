@@ -40,17 +40,17 @@ Summary:
 
 <div style="height: 10px;"></div>
 
-`MATLAB` `Python` `Flask` `Django` `wxPython` `NumPy` `SciPy` `FFmpeg` `PyInstaller` `InnoSetup`
+`MATLAB` `Python` `Django` `Sanic` `Flask` `wxPython` `NumPy` `SciPy` `FFmpeg` `PyInstaller` `InnoSetup`
 `venv` `pillow` `BesutifulSoup` `pandas` `surprise` `music21` `OAuth` `jsmin` `htmlmin` `xlsxwriter`
 `mutagen` `wmi` `psutil` `un4seen BASS` `letsencrypt` `objectlistview` `pybass` `pywin32` `cryptography`
-`netifaces` `sshtunnel` `webpy` `certbot`
+`netifaces` `sshtunnel` `webpy` `certbot` `pywebview`
 `winshell` `mido` `pelican` `jinja` `markdown` `selenium` `livereload` `parallel python` `subprocess`
 `multiprocessing` `multithreading` `uiautomation` `ctype` `SQLAlchemy` `Kivy` `pycrypto` `paramiko` `pexpect`
-`XML` `json` `pep8`
-`JavaScript` `TypeScript` `jQuery` `AngularJS` `Angular` `IONIC` `Cordova` `HTML` `CSS` `SCSS`
+`XML` `json` `pep8` `boto3`
+`JavaScript` `TypeScript` `jQuery` `AngularJS` `Angular` `ReactJS` `ElectronJS` `IONIC` `WebPack` `Cordova` `HTML` `CSS` `SCSS`
 `Responsive Web` `viewport` `opengraph` `async`
 `GCM` `FCM` `APNS` `InAppPurchase` `Android` `iOS` `moment` `timeago` `taffydb` `Font Awesome` `tinymce` `alertifyjs`
-`jshint` `Web Audio API` `Web Worker` `Web Canvas` `Deep Link`
+`jshint` `Web Audio API` `Web Worker` `Web Canvas` `Media Source Extension` `Animation Frame` `WebSocket` `Deep Link`
 `Bootstrap` `Material Design` `ADB` `npm` `pip` `C` `C++` `ActionScript` `Flash` `Pascal Script`
 `Regular Expression` `zlib` `VHDL` `Verilog` `Quartus` `FPGA` `VBScript`
 `MySQL` `MariaDB` `Redis` `Memcached` `Solr` `TokyoTyrant` `SQLite`
@@ -68,7 +68,8 @@ Summary:
 `VST` `VSTi` `ASIO` `MIDI` `MEI` `MusicXML` `verovio` `vexflow` `SVG` `RESTful API` `GraphQL`
 `Zynactiq DIRAC` `echoprint` `Ballistic Model` `Ballistic Coefficient`
 `Steinberg Cubase` `Ableton Live` `Sound Forge` `Acid Pro` `Vegas Pro` `Avid Sibelius` `Avid ProTools` `Propellerhead Reason` `MOTU Digital Performer` `Traktor Pro` `RekordBox` `ReNamer` `AstroGrep` `htop` `glances` `iotop` `speedometer`
-`Linode` `Digital Ocean` `AWS` `NCloud` `Conoha` `DNS` `Load Balancing`
+`Linode` `Digital Ocean` `AWS` `NCloud` `Conoha` `DNS` `Load Balancing` `AWS EC2` `AWS S3` `AWS EFS` `AWS Lambda` `AWS Route53` `SeaweedFS` `Docker`
+`WSL` `ZSH` `PowerShell` `HTTP Live Streaming` `Fragmented MP4`
 
 <div style="margin-top: 10px;"></div>
 
@@ -78,8 +79,8 @@ Summary:
 
 <div style="height: 10px;"></div>
 
-`Vue` `React` `Electron` `ElasticSearch` `Docker` `Jenkins`
-`tensorflow` `keras` `freezegun` `Element`
+`VueJS` `ElasticSearch` `Jenkins` `CircleCI`
+`tensorflow` `keras` `freezegun` `Element` `Tailwind`
 
 ---
 
