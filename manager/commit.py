@@ -75,7 +75,7 @@ class CommitManager():
             git pull origin master
             git add -A
             git commit -m "{}"
-            git push origin master
+            git push origin master --force
             '''.format(self.message))
 
         print(tsencode('-' * 80, 'gray'))
