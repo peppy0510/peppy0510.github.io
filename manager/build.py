@@ -106,13 +106,15 @@ class BuildManager():
         soup = BeautifulSoup(content, 'html.parser')
         for v in soup.find_all('style'):
             try:
-                text = jsmin(v.get_text())
+                # text = jsmin(v.get_text())
+                text = jsmin(v.decode_contents())
             except Exception:
                 continue
             v.string = text
         for v in soup.find_all('script'):
             try:
-                text = jsmin(v.get_text())
+                # text = jsmin(v.get_text())
+                text = jsmin(v.decode_contents())
             except Exception:
                 continue
             v.string = text

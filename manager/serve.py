@@ -17,7 +17,7 @@ if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 
-def serve_livereload(port=8000, delay=1):
+def serve_livereload(port=8900, delay=1):
     server = Server()
     server.watch('content', build.build_content, delay=delay)
     server.serve(root='output', port=port, host='localhost')
