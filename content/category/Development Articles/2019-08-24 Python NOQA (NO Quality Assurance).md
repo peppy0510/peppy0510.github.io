@@ -10,7 +10,7 @@ Python에서 와일드카드 import를 하거나 exec 명령어를 통해 변수
 from manager import *  # noqa
 ```
 
-import 전에 환경 변수 설정과 같은 것을 처리해야 할 때에는 다음과 같이 해결 할 수도 있습니다. 다음에 import 되는 모든 라인에 noqa를 붙일 필요가 없으며 이전에 원인이 된 라인에만 붙이면 됩니다.
+import 전에 환경 설정과 같은 것을 처리해야 할 때에는 다음과 같이 해결 할 수도 있습니다. 다음에 import 되는 모든 라인에 noqa를 붙일 필요가 없으며 이전에 원인이 된 라인에만 붙이면 됩니다.
 
 ```python
 import warnings
