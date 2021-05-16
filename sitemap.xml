@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://muteklab.com/</loc>
-<lastmod>2020-01-31T22:55:08-00:00</lastmod>
+<lastmod>2021-05-17T02:01:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://muteklab.com/archives.html</loc>
-<lastmod>2020-01-31T22:55:08-00:00</lastmod>
+<lastmod>2021-05-17T02:01:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://muteklab.com/tags.html</loc>
-<lastmod>2020-01-31T22:55:08-00:00</lastmod>
+<lastmod>2021-05-17T02:01:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://muteklab.com/categories.html</loc>
-<lastmod>2020-01-31T22:55:08-00:00</lastmod>
+<lastmod>2021-05-17T02:01:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,13 +34,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://muteklab.com/sublimetext-3-peulreogeuin.html</loc>
 <lastmod>2020-01-21T00:00:00+09:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://muteklab.com/7-cases-when-you-should-not-use-docker.html</loc>
-<lastmod>2020-01-06T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -116,21 +109,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://muteklab.com/python-django-rauting-gineung-keoseuteomaijeu.html</loc>
-<lastmod>2019-08-24T00:00:00+09:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://muteklab.com/python-noqa-no-quality-assurance.html</loc>
-<lastmod>2019-08-24T00:00:00+09:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://muteklab.com/python-sysstdoutflush.html</loc>
 <lastmod>2019-08-24T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
