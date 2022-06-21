@@ -302,6 +302,62 @@ email: peppy0510@hotmail.com
     .fluid-width-video-wrapper {
         max-width: 100%;
         margin-top: 7px;
+        &[src*='#mh50'] {
+            margin: 1px 0;
+            width: auto;
+            height: 50px;
+            max-width: 100%;
+        }
+        &[src*='#mh60'] {
+            margin: 1px 0;
+            width: auto;
+            height: 60px;
+            max-width: 100%;
+        }
+        &[src*='#mh75'] {
+            margin: 1px 0;
+            width: auto;
+            height: 75px;
+            max-width: 100%;
+        }
+        &[src*='#mh80'] {
+            margin: 1px 0;
+            width: auto;
+            height: 80px;
+            max-width: 100%;
+        }
+        &[src*='#mh100'] {
+            margin: 1px 0;
+            width: auto;
+            height: 100px;
+            max-width: 100%;
+        }
+        &[src*='#mh120'] {
+            margin: 1px 0;
+            width: auto;
+            height: 120px;
+            max-width: 100%;
+        }
+        &[src*='#mh150'] {
+            margin: 1px 0;
+            width: auto;
+            height: 150px;
+            max-width: 100%;
+        }
+        &[src*='#mh160'] {
+            margin: 1px 0;
+            width: auto;
+            height: 160px;
+            max-width: 100%;
+        }
+        &[src*='#mw10'] {
+            margin: 1px 0;
+            max-width: calc(10% - 1px);
+        }
+        &[src*='#mw20'] {
+            margin: 1px 0;
+            max-width: calc(20% - 1px);
+        }
         &[src*='#mw25'] {
             margin: 1px 0;
             max-width: calc(25% - 1px);
