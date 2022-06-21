@@ -65,7 +65,7 @@ async function initializeYoutubeEmbed() {
     }
 }
 
-function onYouTubeIframeAPIReady() {
+async function onYouTubeIframeAPIReady () {
     const players = [];
     const origin = window.location.origin;
     let iframes = $('.youtube-video-iframe');
