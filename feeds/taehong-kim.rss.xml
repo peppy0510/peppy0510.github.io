@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>MUTEKLAB - Taehong Kim</title><link>http://muteklab.com/</link><description></description><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0900</lastBuildDate><item><title>Python 아바타 이미지 생성 라이브러리</title><link>http://muteklab.com/python-abata-imiji-saengseong-raibeureori.html</link><description>&lt;h4&gt;identicon&lt;/h4&gt;
+&lt;p&gt;Python library for generating GitHub-like symmetrical 5x5 identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/flavono123/identicon"&gt;https://github.com/flavono123/identicon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://camo.githubusercontent.com/3c4eee845db4fa6af1d93b1c33b30074a9b0333f/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f363130342f3936313733302f61336334653261302d303464662d313165332d383234632d3733373865363535303730372e706e67#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;customidenticon&lt;/h4&gt;
+&lt;p&gt;Python library for generate a variety of identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lexserest/customidenticon"&gt;https://github.com/lexserest/customidenticon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/assets/22620605/2c1c3180-3d1a-11e9-84ca-64547fb6ad51#mh60"&gt;&lt;/p&gt;
+&lt;h4&gt;pagan&lt;/h4&gt;
+&lt;p&gt;Python Avatar Generator for Absolute Nerds.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/daboth/pagan"&gt;https://github.com/daboth/pagan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/pagan.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/python.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/avatar.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/github.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/retro.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;python-avatars&lt;/h4&gt;
+&lt;p&gt;Avatar library in Python.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ibonn/python_avatars"&gt;https://github.com/ibonn/python …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2022-06-01:/python-abata-imiji-saengseong-raibeureori.html</guid><category>Development Articles</category></item><item><title>SublimeText 3 플러그인</title><link>http://muteklab.com/sublimetext-3-peulreogeuin.html</link><description>&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
+우선순위 없이 열거하였으니 참고 하시기 바랍니다.&lt;/p&gt;
+&lt;h4&gt;Python&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;MagicPython&lt;/li&gt;
+&lt;li&gt;Python 3&lt;/li&gt;
+&lt;li&gt;Python Fix Imports&lt;/li&gt;
+&lt;li&gt;Python Imports Sorter …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 21 Jan 2020 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2020-01-21:/sublimetext-3-peulreogeuin.html</guid><category>Development Articles</category></item><item><title>Guide to Electronic Music Genres</title><link>http://muteklab.com/guide-to-electronic-music-genres.html</link><description>&lt;p&gt;&lt;a class="button" href="https://music.ishkur.com/" target="_blank"&gt;Ishkur's Guide to Electronic Music version 3.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ishkurs-30" src="https://cdn8.openculture.com/2019/08/20220628/Ishkur3-e1566367374581.png#mw100"&gt;&lt;/p&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a class="button" href="http://techno.org/electronic-music-guide/" target="_blank"&gt;Ishkur's Guide to Electronic Music version 2.5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ishkurs-25" src="https://www.youredm.com/wp-content/uploads/2019/08/ishkurs-guide-to-electronic-music-site.jpg#mw100"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="B4r0MdBQI6U"&gt;
+    Guide to Electronic Music Genres
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nxRQceXSUZk"&gt;
+    New Guide To Electronic Music Genres
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="S0ycToLPUlI"&gt;
+    Evolution of House Music - Kinetic Type Assignment
+&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 31 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-31:/guide-to-electronic-music-genres.html</guid><category>Music Articles</category></item><item><title>House Mixsets</title><link>http://muteklab.com/house-mixsets.html</link><description>&lt;p&gt;&lt;youtube source="powNUum5S00"&gt;
+    Nick Warren Live DJ Set @ 303, Invisible Wind Factory Liverpool | Skiddle
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Cx8G57j4iMc"&gt;
+    Nick Warren @ EMS Anniversary 20.08.17
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="fj7RdJPgVS4"&gt;
+    Nick Warren - La Feria, Santiago, Chile - 3 Hour Set March 2019 #Top100Clubs
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="0Xgy6NFnwI0"&gt;
+    John Digweed @ Street Parade 2019 (Full Set Hi-Res) - ARTE Concert
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="r_ZlIFbInkc"&gt;
+    Tale of Us - Afterlife @ Printworks, London November 2018 -Tale of …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 31 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-31:/house-mixsets.html</guid><category>Music Articles</category></item><item><title>Techno Mixsets</title><link>http://muteklab.com/techno-mixsets.html</link><description>&lt;p&gt;&lt;youtube source="T_4ML45Op5c"&gt;
+    Pan-Pot - Time Warp 2018 (Full Set HiRes) - ARTE Concert
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="G2ZLI3Wilpk"&gt;
+    Pan-Pot @ Awakenings Festival 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="FNe-ad2LNwc"&gt;
+    Awakenings ADE 2019 - Adam Beyer
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="_4eUkff6vzQ"&gt;
+    Awakenings Festival 2019 Sunday - Live set Adam Beyer @ Area V
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="5ha4CNO2NGo"&gt;
+    Awakenings Festival 2019 Sunday - Live set Ida Engberg @ Area V
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="AqAH_JJyRj0"&gt;
+    Awakenings Festival 2019 Sunday - Live set Joseph Capriati @ Area W
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="DnUEszxEgfw"&gt;
+    Awakenings ADE …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 31 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-31:/techno-mixsets.html</guid><category>Music Articles</category></item><item><title>Trance Mixsets</title><link>http://muteklab.com/trance-mixsets.html</link><description>&lt;p&gt;&lt;youtube source="EpGVYFILCNs"&gt;
+    Armin van Buuren live at AMF 2019 (Amsterdam Music Festival)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="JSJW0PmFqQQ"&gt;
+    A State Of Trance Episode 946 (#ASOT946) [Year Mix 2019] – Armin van Buuren
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9kRLCiMCr0s"&gt;
+    Armin van Buuren live at Ultra Europe 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="7BG88HMRVUc"&gt;
+    Martin Garrix (Full live-set) | SLAM!Koningsdag
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9jPdVcVyO1I"&gt;
+    Laserface by Gareth Emery | Amnesia Ibiza 2019 (4K HD Full Set)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="sb4hzWYeXWo"&gt;
+    MARLO - TRANSMISSION …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 30 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-30:/trance-mixsets.html</guid><category>Music Articles</category></item><item><title>PostgreSQL vs MySQL</title><link>http://muteklab.com/postgresql-vs-mysql.html</link><description>&lt;p&gt;PostgreSQL과 MySQL 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hamait.tistory.com/596?category=79150" target="_blank"&gt;https://hamait.tistory.com/596?category=79150&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eng.uber.com/mysql-migration/" target="_blank"&gt;https://eng.uber.com/mysql-migration/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres" target="_blank"&gt;https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mysqlko.wordpress.com/2016/08/05/mysql-vs-postgresql-uber/" target="_blank"&gt;https://mysqlko.wordpress …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-29:/postgresql-vs-mysql.html</guid><category>Development Articles</category></item><item><title>Solr vs Elasticsearch</title><link>http://muteklab.com/solr-vs-elasticsearch.html</link><description>&lt;p&gt;Solr와 Elasticsearch 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://needjarvis.tistory.com/167" target="_blank"&gt;https://needjarvis.tistory.com/167&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://hochul.net/blog/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EB%B9%84%EA%B5%90-solr-vs-elasticsearch/" target="_blank"&gt;http://hochul.net/blog/오픈소스-검색엔진-비교-solr-vs-elasticsearch/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gs.saro.me/dev?tn=406" target="_blank"&gt;https://gs.saro.me …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-29:/solr-vs-elasticsearch.html</guid><category>Development Articles</category></item><item><title>Drum n Bass and Dub Step Mixsets</title><link>http://muteklab.com/drum-n-bass-and-dub-step-mixsets.html</link><description>&lt;p&gt;&lt;youtube source="qCfImt0PFSw"&gt;
+    Rampage 2016 - Sub Focus
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="kMxoMDHBJgc"&gt;
+    Rampage 2019 - SUB FOCUS b2b WILKINSON
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="xtTrW9i2RB4"&gt;
+    Sub Focus Live from The Roundhouse, London 19/10/2013
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="mhGx7xeyNp8"&gt;
+    Rampage 2019 - Andy C &amp;amp; MC Tonn Piper
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="gfl_X4WI5Gg"&gt;
+    Rampage 2019 - DIMENSION
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="TK1vqw1Yojo"&gt;
+    Rampage Open Air 2019 - Koven
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="h93ddkA9BMQ"&gt;
+    Metrik + Dynamite MC Live from Hospitality In The Park 2018
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="hp-Zo9XEc4M"&gt;
+    Metrik @ Hospitality In The Park …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Fri, 27 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-27:/drum-n-bass-and-dub-step-mixsets.html</guid><category>Music Articles</category></item><item><title>BBC The Biggest Weekend and More</title><link>http://muteklab.com/bbc-the-biggest-weekend-and-more.html</link><description>&lt;p&gt;&lt;youtube source="dFCOsQJUVng"&gt;
+    Camila Cabello - Never Be The Same (The Biggest Weekend)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="cnJN75GTrVk"&gt;
+    Jason Derulo - Want To Want Me (live at Biggest Weekend 2018)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="6MYIGvgT1ZE"&gt;
+    MØ - Nostalgia (The Biggest Weekend)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="1wsHPUPIrwc"&gt;
+    Clean Bandit feat. Zara Larsson - Symphony (Live at Capital's Jingle Bell Ball)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="1E_2pLa_pg8"&gt;
+    Dua Lipa - New Rules (Reading + Leeds 2018)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="tt0nuzHz8ps"&gt;
+    Dua Lipa - One Dance (Live At …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Fri, 20 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-20:/bbc-the-biggest-weekend-and-more.html</guid><category>Music Articles</category></item><item><title>Future House and Dance Music Single Tracks</title><link>http://muteklab.com/future-house-and-dance-music-single-tracks.html</link><description>&lt;p&gt;&lt;youtube source="MyEkxp3wWQU"&gt;
+    Hanne Mjøen - Sounds Good To Me (Gerd Janson Remix)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="4r1cICFhCVM"&gt;
+    Gaullin - Moonlight
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="KDxJlW6cxRk"&gt;
+    Duke Dumont - Ocean Drive (Official Music Video)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="kOkQ4T5WO9E"&gt;
+    Calvin Harris feat. Rihanna - This Is What You Came For
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="foE1mO2yM04"&gt;
+    Mike Posner - I Took A Pill In Ibiza (Seeb Remix)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="2XFfWems2_A"&gt;
+    Selena Gomez - Me &amp;amp; The Rhythm
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="3FXMsoTTcog"&gt;
+    LYKKE LI - I FOLLOW RIVERS (The Magician …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Fri, 01 Nov 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-11-01:/future-house-and-dance-music-single-tracks.html</guid><category>Music Articles</category></item><item><title>70s 80s 90s Dance Music Single Tracks</title><link>http://muteklab.com/70s-80s-90s-dance-music-single-tracks.html</link><description>&lt;p&gt;&lt;youtube source="-gLs6YNnqZY"&gt;
+    The KLF - Last Train to Trancentral
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="RPjggN-KByI"&gt;
+    The KLF - Justified and Ancient (Stand By The JAMs)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nm6DO_7px1I"&gt;
+    SNAP! - The Power
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="LaTGrV58wec"&gt;
+    C+C Music Factory - Gonna Make You Sweat (Everybody Dance Now)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="TLGWQfK-6DY"&gt;
+    RUN DMC and Jason Nevins - It's Like That
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="_KztNIg4cvE"&gt;
+    Crystal Waters - Gypsy Woman (She's Homeless)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="K5DALXwOe0s"&gt;
+    Modern Talking - Brother Louie '98
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nITMhO3ZPZM"&gt;
+    New Kids …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 29 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-29:/70s-80s-90s-dance-music-single-tracks.html</guid><category>Music Articles</category></item><item><title>Python NOQA (NO Quality Assurance)</title><link>http://muteklab.com/python-noqa-no-quality-assurance.html</link><description>&lt;p&gt;Python에서 와일드카드 import를 하거나 exec 명령어를 통해 변수를 선언하는 등의 경우에는 문법 검사기의 경고 메시지를 보게 됩니다 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-24:/python-noqa-no-quality-assurance.html</guid><category>Development Articles</category></item><item><title>HTML HEAD 설정하기</title><link>http://muteklab.com/html-head-seoljeonghagi.html</link><description>&lt;p&gt;다음의 링크는 HTML HEAD 설정에 도움이 되는 자료들 입니다.&lt;/p&gt;
+&lt;h5&gt;Head&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank"&gt;https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Favicon&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://webdir.tistory.com/337" target="_blank"&gt;https://webdir.tistory.com/337&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Meta&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta" target="_blank"&gt;https://developer.mozilla.org …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 22 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-22:/html-head-seoljeonghagi.html</guid><category>Development Articles</category></item><item><title>HTML 소스 코드에 base64 이미지 삽입하기</title><link>http://muteklab.com/html-soseu-kodeue-base64-imiji-sabibhagi.html</link><description>&lt;p&gt;HTML 소스 코드에 base64 인코딩된 이미지를 삽입하는 방법을 소개합니다. HTML 소스에 삽입된 이미지는 클라이언트 캐시가 되지 않기 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 22 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-22:/html-soseu-kodeue-base64-imiji-sabibhagi.html</guid><category>Development Articles</category></item><item><title>HTML Template에 Linter 사용 시 발생하는 문제해결</title><link>http://muteklab.com/html-templatee-linter-sayong-si-balsaenghaneun-munjehaegyeol.html</link><description>&lt;p&gt;Django, Jinja 등의 HTML Template에 Linter 사용 시 발생하는 문제 해결 방법을 소개합니다. Template에 HTML Linter를 사용하게 되면 &lt;code&gt;{% %}&lt;/code&gt; 태그된 제어문으로 인하여 구 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 22 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-22:/html-templatee-linter-sayong-si-balsaenghaneun-munjehaegyeol.html</guid><category>Development Articles</category></item><item><title>Python Web Minification</title><link>http://muteklab.com/python-web-minification.html</link><description>&lt;p&gt;Python으로 웹 콘텐츠를 minification 하는 방법을 소개합니다. HTML, JavaScript, CSS 등의 소스 파일에서 불필요한 공백 문자나 주석을 제거하여 네트워크 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 22 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-22:/python-web-minification.html</guid><category>Development Articles</category></item><item><title>Python으로 신호처리 필터 구현하기</title><link>http://muteklab.com/pythoneuro-sinhoceori-pilteo-guhyeonhagi.html</link><description>&lt;p&gt;신호처리의 기본이 되는 필터를 Python으로 구현해봤습니다. Matlab 예제로 많이 소개되는 필터 구현체를 참고 하였습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;FIR Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 22 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-22:/pythoneuro-sinhoceori-pilteo-guhyeonhagi.html</guid><category>Development Articles</category></item><item><title>SublimeText 맞춤법 검사기 활용하기</title><link>http://muteklab.com/sublimetext-majcumbeob-geomsagi-hwalyonghagi.html</link><description>&lt;p&gt;SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원합니다. 사용자 환경설정 파일 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 22 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-22:/sublimetext-majcumbeob-geomsagi-hwalyonghagi.html</guid><category>Development Articles</category></item><item><title>Author's Information</title><link>http://muteklab.com/authors-information.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 01 Aug 2019 23:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-01:/authors-information.html</guid><category>Author</category></item><item><title>Ferry Corsten Live at Transmission Prague</title><link>http://muteklab.com/ferry-corsten-live-at-transmission-prague.html</link><description>&lt;p&gt;&lt;youtube source="B4mJSmM6ni0"&gt;
+    Ferry Corsten - Lonely Inside (Ferry Fix) (Live at Transmission Prague 2017)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="D9Knb1jB8-Q"&gt;
+    Ferry Corsten feat. Haliene - Wherever You Are (Live at Transmission Prague 2017)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="tsmZYajTNsY"&gt;
+    Ferry Corsten pres. Gouryella - Ligaya (Live at Transmission Prague 2016)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="YAHnzmUqe-Y"&gt;
+    Ferry Corsten pres. Gouryella - Walhalla (Live at Transmission Prague 2016)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="cpuvCAjtycE"&gt;
+    Ferry Corsten pres. Gouryella - Anahera (Live at …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-01:/ferry-corsten-live-at-transmission-prague.html</guid><category>Music Articles</category></item><item><title>Music Studio and Synthesizers</title><link>http://muteklab.com/music-studio-and-synthesizers.html</link><description>&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
+    Look Mum No Computer - A Modular Synth Walkthrough Of My DIY Modular Setup
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="IR7WV_F0GCQ"&gt;
+    INSTANT vs. OZONE vs. REAL MASTERING
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="FURPQI3VW58"&gt;
+    Which STREAMING SERVICE SOUNDS the BEST?
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="lNwrE0Q28wI"&gt;
+    MIXING on HEADPHONES!?!?
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="geO7Npecmcg"&gt;
+    Here Are My Computer's Specs!
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9WYaqTQwEHo"&gt;
+    Machine Room &amp;amp; VSL Connection - Studio Time: S2E14
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="AdwHCtpjn3A"&gt;
+    One Bassline (Mad Max: Fury Road) - Studio Time: S2E7
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="qs-s3uK7a9E"&gt;
+    Inside …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-01:/music-studio-and-synthesizers.html</guid><category>Music Articles</category></item><item><title>Japanese City Pop, Anime Songs and More</title><link>http://muteklab.com/japanese-city-pop-anime-songs-and-more.html</link><description>&lt;p&gt;&lt;youtube source="TH_572d1XA4"&gt;
+    Maison Ikkoku - Opening 2
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="DI9OepKF3Ms"&gt;
+    Project A-ko - Dance Away
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="o25UNrb2YVw"&gt;
+    Anri - Shyness Boy
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="u-HFULCtPYs"&gt;
+    The Five Star Stories - Far Away
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="F9IN0JYE5UM"&gt;
+    Magic Knight Rayearth - 明日への勇気
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="6kwlmq8knpk"&gt;
+    Sailor Moon - Sailor Stars Song
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;!-- &lt;youtube source="YGIr2PaDqrE"&gt;
+    Zard - Ready Go
+&lt;/youtube&gt; --&gt;
+
+&lt;p&gt;&lt;youtube source="Zp7wU3TXGeQ"&gt;
+    The End of Evangelion - Komm Susser Tod
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9Gj47G2e1Jc"&gt;
+    Mariya Takeuchi - Plastic Love
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nhuNb0XtRhQ"&gt;
+    Takako Mamiya - 真夜中のジョ …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 01 Jul 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-07-01:/japanese-city-pop-anime-songs-and-more.html</guid><category>Music Articles</category></item><item><title>Musical Instrument Performances</title><link>http://muteklab.com/musical-instrument-performances.html</link><description>&lt;p&gt;&lt;youtube source="zucBfXpCA6s"&gt;
+    Beethoven "Moonlight" Sonata, III "Presto Agitato" Valentina Lisitsa
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="JsIaOg1dUr8"&gt;
+    Nord at NAMM 2018: Jesús Molina highlights
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="BQJfJAnqEBw"&gt;
+    【 英雄の証 】エレクトーン演奏
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="2DG8C9peznw"&gt;
+    ルパン三世’80 瀬川順子
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Pt9_2lwlyjk"&gt;
+    Late nite Jam session at Small's Jazz Club (3 AM on 8/17 …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-05-01:/musical-instrument-performances.html</guid><category>Music Articles</category></item><item><title>PyWinLayout</title><link>http://muteklab.com/pywinlayout.html</link><description>&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 22 Apr 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-04-22:/pywinlayout.html</guid><category>Author's Development</category></item><item><title>Pockestra Web</title><link>http://muteklab.com/pockestra-web.html</link><description>&lt;p&gt;반응형 웹 페이지&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 10 Mar 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-03-10:/pockestra-web.html</guid><category>Author's Development</category></item><item><title>Pockestra App</title><link>http://muteklab.com/pockestra-app.html</link><description>&lt;p&gt;하이브리드 앱&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 20 Dec 2018 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2018-12-20:/pockestra-app.html</guid><category>Author's Development</category></item><item><title>Calculator App</title><link>http://muteklab.com/calculator-app.html</link><description>&lt;p&gt;하이브리드 앱&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 06 Nov 2018 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2018-11-06:/calculator-app.html</guid><category>Author's Development</category></item><item><title>Sibelius Macro</title><link>http://muteklab.com/sibelius-macro.html</link><description>&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 20 Oct 2018 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2018-10-20:/sibelius-macro.html</guid><category>Author's Development</category></item><item><title>나는 왜 맥을 버렸나, 더 이상 프로용 컴퓨터를 만들지 않는 애플 컴퓨터</title><link>http://muteklab.com/naneun-wae-maegeul-beoryeossna-deo-isang-peuroyong-keompyuteoreul-mandeulji-anhneun-aepeul-keompyuteo.html</link><description>&lt;p&gt;&lt;youtube source="BkD5vpHM970"&gt;&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 09 Aug 2018 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2018-08-09:/naneun-wae-maegeul-beoryeossna-deo-isang-peuroyong-keompyuteoreul-mandeulji-anhneun-aepeul-keompyuteo.html</guid><category>Development Articles</category></item><item><title>PyRenamer</title><link>http://muteklab.com/pyrenamer.html</link><description>&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 05 Jul 2018 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2018-07-05:/pyrenamer.html</guid><category>Author's Development</category></item><item><title>OWASP TOP 10 2017</title><link>http://muteklab.com/owasp-top-10-2017.html</link><description>&lt;p&gt;OWASP(Open Web Application Security Project)는 오픈소스 웹 애플리케이션 보안 프로젝트입니다.&lt;/p&gt;
+&lt;p&gt;OWASP처럼 애플리케이션 보안에만 전념하는 여러 커뮤니티 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Fri, 29 Dec 2017 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2017-12-29:/owasp-top-10-2017.html</guid><category>Development Articles</category></item><item><title>Eastcontrol Web</title><link>http://muteklab.com/eastcontrol-web.html</link><description>&lt;p&gt;반응형 웹 페이지&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 03 Jul 2017 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2017-07-03:/eastcontrol-web.html</guid><category>Author's Development</category></item><item><title>Super Star</title><link>http://muteklab.com/super-star.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 03 Jul 2016 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2016-07-03:/super-star.html</guid><category>Author's Music</category></item><item><title>PyMusicPlayer</title><link>http://muteklab.com/pymusicplayer.html</link><description>&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 03 Nov 2014 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2014-11-03:/pymusicplayer.html</guid><category>Author's Development</category></item><item><title>Muteklab Web</title><link>http://muteklab.com/muteklab-web.html</link><description>&lt;p&gt;반응형 웹 페이지&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Fri, 01 Aug 2014 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2014-08-01:/muteklab-web.html</guid><category>Author's Development</category></item><item><title>Style O Sanda</title><link>http://muteklab.com/style-o-sanda.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 03 Jan 2012 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2012-01-03:/style-o-sanda.html</guid><category>Author's Music</category></item><item><title>Frisky Radio</title><link>http://muteklab.com/frisky-radio.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 01 Jan 2012 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2012-01-01:/frisky-radio.html</guid><category>Author's Mixset</category></item><item><title>Olympus Camera</title><link>http://muteklab.com/olympus-camera.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 24 Dec 2011 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2011-12-24:/olympus-camera.html</guid><category>Author's Music</category></item><item><title>Lost States</title><link>http://muteklab.com/lost-states.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 10 Nov 2011 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2011-11-10:/lost-states.html</guid><category>Author's Music</category></item><item><title>The Secret of Love</title><link>http://muteklab.com/the-secret-of-love.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 31 Jul 2011 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2011-07-31:/the-secret-of-love.html</guid><category>Author's Music</category></item><item><title>On and On</title><link>http://muteklab.com/on-and-on.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 15 Aug 2009 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2009-08-15:/on-and-on.html</guid><category>Author's Music</category></item><item><title>Where Were You At</title><link>http://muteklab.com/where-were-you-at.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 01 Jan 2008 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2008-01-01:/where-were-you-at.html</guid><category>Author's Music</category></item><item><title>8th Wonder</title><link>http://muteklab.com/8th-wonder.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 01 Jan 2007 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2007-01-01:/8th-wonder.html</guid><category>Author's Mixset</category></item><item><title>Progression 2007</title><link>http://muteklab.com/progression-2007.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 01 Jan 2007 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2007-01-01:/progression-2007.html</guid><category>Author's Mixset</category></item><item><title>Deepest Blue</title><link>http://muteklab.com/deepest-blue.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 01 Jan 2006 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2006-01-01:/deepest-blue.html</guid><category>Author's Mixset</category></item><item><title>Monologue</title><link>http://muteklab.com/monologue.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 01 Jan 2006 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2006-01-01:/monologue.html</guid><category>Author's Music</category></item><item><title>Progression 2006</title><link>http://muteklab.com/progression-2006.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 01 Jan 2006 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2006-01-01:/progression-2006.html</guid><category>Author's Mixset</category></item><item><title>Promo House 2006</title><link>http://muteklab.com/promo-house-2006.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sun, 01 Jan 2006 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2006-01-01:/promo-house-2006.html</guid><category>Author's Mixset</category></item><item><title>Groove Party</title><link>http://muteklab.com/groove-party.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 01 Aug 2005 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2005-08-01:/groove-party.html</guid><category>Author's Music</category></item><item><title>Chemical Whore</title><link>http://muteklab.com/chemical-whore.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 01 Jan 2005 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2005-01-01:/chemical-whore.html</guid><category>Author's Mixset</category></item><item><title>Promo House 2002</title><link>http://muteklab.com/promo-house-2002.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 01 Jan 2005 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2005-01-01:/promo-house-2002.html</guid><category>Author's Mixset</category></item><item><title>Promo House 2005</title><link>http://muteklab.com/promo-house-2005.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 01 Jan 2005 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2005-01-01:/promo-house-2005.html</guid><category>Author's Mixset</category></item><item><title>Sahara</title><link>http://muteklab.com/sahara.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 01 Jan 2005 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2005-01-01:/sahara.html</guid><category>Author's Mixset</category></item><item><title>It Began in Africa (Dry Mix)</title><link>http://muteklab.com/it-began-in-africa-dry-mix.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Wed, 02 Oct 2002 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2002-10-02:/it-began-in-africa-dry-mix.html</guid><category>Author's Music</category></item></channel></rss>

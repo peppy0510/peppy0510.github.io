@@ -1,0 +1,66 @@
+.pagination {
+  display: flex;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 0;
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8; }
+  .pagination .container {
+    width: 100%;
+    height: 28px;
+    padding: 0; }
+    .pagination .container a {
+      z-index: 100;
+      color: #808080;
+      height: 28px;
+      font-size: 8pt;
+      line-height: 8pt;
+      display: block;
+      padding: 8px 8px;
+      position: relative;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid #D8D8D8;
+      min-width: 110px;
+      margin-top: -1px; }
+      .pagination .container a:hover {
+        background-color: #F8F8F8; }
+        .pagination .container a:active {
+          background-color: #F8F8F8;
+          -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.025);
+          -moz-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.025);
+          box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.025); }
+          .pagination .container a .pagination-label {
+            position: relative;
+            display: inline-block;
+            height: 1em;
+            line-height: 1em; }
+            .pagination .container a i {
+              top: 0px;
+              width: auto;
+              margin: auto;
+              color: inherit;
+              font-size: 8pt;
+              line-height: 8pt;
+              position: relative;
+              color: #A0A0A0; }
+              .pagination .container a.pagination-next {
+                float: right;
+                padding-left: 14px; }
+                .pagination .container a.pagination-prev {
+                  float: left;
+                  padding-right: 14px; }
+    .pagination .container .pagination-info {
+      width: 100%;
+      height: 28px;
+      display: block;
+      font-size: 8pt;
+      color: #808080;
+      line-height: 8pt;
+      padding: 8px 8px;
+      text-align: center;
+      position: absolute;
+      box-sizing: border-box; }

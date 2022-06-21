@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MUTEKLAB - Development Articles</title><link href="http://muteklab.com/" rel="alternate"></link><link href="http://muteklab.com/feeds/development-articles.atom.xml" rel="self"></link><id>http://muteklab.com/</id><updated>2022-06-01T00:00:00+09:00</updated><entry><title>Python 아바타 이미지 생성 라이브러리</title><link href="http://muteklab.com/python-abata-imiji-saengseong-raibeureori.html" rel="alternate"></link><published>2022-06-01T00:00:00+09:00</published><updated>2022-06-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2022-06-01:/python-abata-imiji-saengseong-raibeureori.html</id><summary type="html">&lt;h4&gt;identicon&lt;/h4&gt;
+&lt;p&gt;Python library for generating GitHub-like symmetrical 5x5 identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/flavono123/identicon"&gt;https://github.com/flavono123/identicon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://camo.githubusercontent.com/3c4eee845db4fa6af1d93b1c33b30074a9b0333f/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f363130342f3936313733302f61336334653261302d303464662d313165332d383234632d3733373865363535303730372e706e67#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;customidenticon&lt;/h4&gt;
+&lt;p&gt;Python library for generate a variety of identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lexserest/customidenticon"&gt;https://github.com/lexserest/customidenticon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/assets/22620605/2c1c3180-3d1a-11e9-84ca-64547fb6ad51#mh60"&gt;&lt;/p&gt;
+&lt;h4&gt;pagan&lt;/h4&gt;
+&lt;p&gt;Python Avatar Generator for Absolute Nerds.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/daboth/pagan"&gt;https://github.com/daboth/pagan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/pagan.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/python.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/avatar.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/github.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/retro.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;python-avatars&lt;/h4&gt;
+&lt;p&gt;Avatar library in Python.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ibonn/python_avatars"&gt;https://github.com/ibonn/python …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h4&gt;identicon&lt;/h4&gt;
+&lt;p&gt;Python library for generating GitHub-like symmetrical 5x5 identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/flavono123/identicon"&gt;https://github.com/flavono123/identicon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://camo.githubusercontent.com/3c4eee845db4fa6af1d93b1c33b30074a9b0333f/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f363130342f3936313733302f61336334653261302d303464662d313165332d383234632d3733373865363535303730372e706e67#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;customidenticon&lt;/h4&gt;
+&lt;p&gt;Python library for generate a variety of identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lexserest/customidenticon"&gt;https://github.com/lexserest/customidenticon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/assets/22620605/2c1c3180-3d1a-11e9-84ca-64547fb6ad51#mh60"&gt;&lt;/p&gt;
+&lt;h4&gt;pagan&lt;/h4&gt;
+&lt;p&gt;Python Avatar Generator for Absolute Nerds.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/daboth/pagan"&gt;https://github.com/daboth/pagan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/pagan.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/python.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/avatar.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/github.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/retro.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;python-avatars&lt;/h4&gt;
+&lt;p&gt;Avatar library in Python.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ibonn/python_avatars"&gt;https://github.com/ibonn/python_avatars&lt;/a&gt;&lt;/p&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/main/examples/random_gif_apng/avatars.png#mh100) --&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/main/examples/shirt_text/avatar_text.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_7.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_8.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_1.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/main/examples/install/avatar_suit.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_4.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_5.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_9.svg#mh50"&gt;&lt;/p&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_0.svg#mh50) --&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_3.svg#mh50) --&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_6.svg#mh50) --&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_2.svg#mh50) --&gt;</content><category term="Development Articles"></category></entry><entry><title>SublimeText 3 플러그인</title><link href="http://muteklab.com/sublimetext-3-peulreogeuin.html" rel="alternate"></link><published>2020-01-21T00:00:00+09:00</published><updated>2020-01-21T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2020-01-21:/sublimetext-3-peulreogeuin.html</id><summary type="html">&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
+우선순위 없이 열거하였으니 참고 하시기 바랍니다.&lt;/p&gt;
+&lt;h4&gt;Python&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;MagicPython&lt;/li&gt;
+&lt;li&gt;Python 3&lt;/li&gt;
+&lt;li&gt;Python Fix Imports&lt;/li&gt;
+&lt;li&gt;Python Imports Sorter …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
+우선순위 없이 열거하였으니 참고 하시기 바랍니다.&lt;/p&gt;
+&lt;h4&gt;Python&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;MagicPython&lt;/li&gt;
+&lt;li&gt;Python 3&lt;/li&gt;
+&lt;li&gt;Python Fix Imports&lt;/li&gt;
+&lt;li&gt;Python Imports Sorter&lt;/li&gt;
+&lt;li&gt;Djaneiro&lt;/li&gt;
+&lt;li&gt;Jinja2&lt;/li&gt;
+&lt;li&gt;requirementstxt&lt;/li&gt;
+&lt;li&gt;Virtualenv&lt;/li&gt;
+&lt;li&gt;Jedi - Python autocompletion&lt;/li&gt;
+&lt;li&gt;SublimeLinter-contrib-mypy&lt;/li&gt;
+&lt;li&gt;SublimeLinter-flake8&lt;/li&gt;
+&lt;li&gt;SublimeLinter-pycodestyle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;JavaScript TypeScript HTML CSS&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Babel&lt;/li&gt;
+&lt;li&gt;CSScomb&lt;/li&gt;
+&lt;li&gt;Color Highlighter&lt;/li&gt;
+&lt;li&gt;ColorPicker&lt;/li&gt;
+&lt;li&gt;Emmet&lt;/li&gt;
+&lt;li&gt;JSHint&lt;/li&gt;
+&lt;li&gt;JSHint Gutter&lt;/li&gt;
+&lt;li&gt;HTML Extended&lt;/li&gt;
+&lt;li&gt;HTML-CSS-JS Prettify&lt;/li&gt;
+&lt;li&gt;JavaScript Next Snippets&lt;/li&gt;
+&lt;li&gt;Ngx HTML&lt;/li&gt;
+&lt;li&gt;Sass&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;SublimeLinter-tslint&lt;/li&gt;
+&lt;li&gt;SublimeLinter-contrib-scss-lint&lt;/li&gt;
+&lt;li&gt;SublimeLinter-csslint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Markdown&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;MarkdownEditing&lt;/li&gt;
+&lt;li&gt;Markdown Table Formatter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;기타 문법&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;All Autocomplete&lt;/li&gt;
+&lt;li&gt;JSON Key-Value&lt;/li&gt;
+&lt;li&gt;Pretty JSON&lt;/li&gt;
+&lt;li&gt;BracketHighlighter&lt;/li&gt;
+&lt;li&gt;Clang Format&lt;/li&gt;
+&lt;li&gt;Matlab Completions&lt;/li&gt;
+&lt;li&gt;ShellScriptImproved&lt;/li&gt;
+&lt;li&gt;Inno Setup&lt;/li&gt;
+&lt;li&gt;nginx&lt;/li&gt;
+&lt;li&gt;VBScript&lt;/li&gt;
+&lt;li&gt;SublimeAStyleFormatter&lt;/li&gt;
+&lt;li&gt;Dotfiles Syntax Highlighting&lt;/li&gt;
+&lt;li&gt;INI&lt;/li&gt;
+&lt;li&gt;M3U Syntax&lt;/li&gt;
+&lt;li&gt;SublimeLinter-json&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Git&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;GitGutter&lt;/li&gt;
+&lt;li&gt;GitHubinator&lt;/li&gt;
+&lt;li&gt;Gutter Themes for SL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;SideBar&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;SideBarEnhancements&lt;/li&gt;
+&lt;li&gt;SyncedSideBar&lt;/li&gt;
+&lt;li&gt;A File Icon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Theme Color Scheme&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Theme - SoDaReloaded&lt;/li&gt;
+&lt;li&gt;Color Scheme - Legacy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;맞춤법 검사&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Spell Check&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;기타&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Search&lt;/li&gt;
+&lt;li&gt;SuperNavigator&lt;/li&gt;
+&lt;li&gt;ConvertToUTF8&lt;/li&gt;
+&lt;li&gt;AutoFileName&lt;/li&gt;
+&lt;li&gt;File Navigator&lt;/li&gt;
+&lt;li&gt;ANSIescape&lt;/li&gt;
+&lt;li&gt;Terminus&lt;/li&gt;
+&lt;li&gt;Trimmer&lt;/li&gt;
+&lt;li&gt;IMESupport&lt;/li&gt;
+&lt;li&gt;Move By Symbols&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Package 관리&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Package Control&lt;/li&gt;
+&lt;li&gt;PackageResourceViewer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Kite&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://kite.com/integrations/sublime-text/"&gt;https://kite.com/integrations/sublime-text/&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>PostgreSQL vs MySQL</title><link href="http://muteklab.com/postgresql-vs-mysql.html" rel="alternate"></link><published>2019-12-29T00:00:00+09:00</published><updated>2019-12-29T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-29:/postgresql-vs-mysql.html</id><summary type="html">&lt;p&gt;PostgreSQL과 MySQL 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hamait.tistory.com/596?category=79150" target="_blank"&gt;https://hamait.tistory.com/596?category=79150&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eng.uber.com/mysql-migration/" target="_blank"&gt;https://eng.uber.com/mysql-migration/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres" target="_blank"&gt;https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mysqlko.wordpress.com/2016/08/05/mysql-vs-postgresql-uber/" target="_blank"&gt;https://mysqlko.wordpress …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;PostgreSQL과 MySQL 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hamait.tistory.com/596?category=79150" target="_blank"&gt;https://hamait.tistory.com/596?category=79150&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eng.uber.com/mysql-migration/" target="_blank"&gt;https://eng.uber.com/mysql-migration/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres" target="_blank"&gt;https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mysqlko.wordpress.com/2016/08/05/mysql-vs-postgresql-uber/" target="_blank"&gt;https://mysqlko.wordpress.com/2016/08/05/mysql-vs-postgresql-uber&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=12166585" target="_blank"&gt;https://news.ycombinator.com/item?id=12166585&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Solr vs Elasticsearch</title><link href="http://muteklab.com/solr-vs-elasticsearch.html" rel="alternate"></link><published>2019-12-29T00:00:00+09:00</published><updated>2019-12-29T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-29:/solr-vs-elasticsearch.html</id><summary type="html">&lt;p&gt;Solr와 Elasticsearch 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://needjarvis.tistory.com/167" target="_blank"&gt;https://needjarvis.tistory.com/167&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://hochul.net/blog/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EB%B9%84%EA%B5%90-solr-vs-elasticsearch/" target="_blank"&gt;http://hochul.net/blog/오픈소스-검색엔진-비교-solr-vs-elasticsearch/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gs.saro.me/dev?tn=406" target="_blank"&gt;https://gs.saro.me …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Solr와 Elasticsearch 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://needjarvis.tistory.com/167" target="_blank"&gt;https://needjarvis.tistory.com/167&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://hochul.net/blog/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EB%B9%84%EA%B5%90-solr-vs-elasticsearch/" target="_blank"&gt;http://hochul.net/blog/오픈소스-검색엔진-비교-solr-vs-elasticsearch/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gs.saro.me/dev?tn=406" target="_blank"&gt;https://gs.saro.me/dev?tn=406&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Python NOQA (NO Quality Assurance)</title><link href="http://muteklab.com/python-noqa-no-quality-assurance.html" rel="alternate"></link><published>2019-08-24T00:00:00+09:00</published><updated>2019-08-24T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-24:/python-noqa-no-quality-assurance.html</id><summary type="html">&lt;p&gt;Python에서 와일드카드 import를 하거나 exec 명령어를 통해 변수를 선언하는 등의 경우에는 문법 검사기의 경고 메시지를 보게 됩니다 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python에서 와일드카드 import를 하거나 exec 명령어를 통해 변수를 선언하는 등의 경우에는 문법 검사기의 경고 메시지를 보게 됩니다. 문법 검사기의 제안을 따르는 것이 좋겠지만 가끔 부득이 한 경우가 있습니다. 다음과 같이 해당 코드 라인의 맨 끝에 &lt;code&gt;# noqa&lt;/code&gt; 주석을 추가하는 방법으로 간단하게 해결할 수 있습니다. 해당 라인만 문법 검사를 하지 않도록 하는 방법입니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;manager&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;  &lt;span class="c1"&gt;# noqa&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;import 전에 환경 설정과 같은 것을 처리해야 할 때에는 다음과 같이 해결 할 수도 있습니다. 다음에 import 되는 모든 라인에 noqa를 붙일 필요가 없으며 이전에 원인이 된 라인에만 붙이면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;warnings&lt;/span&gt;
+&lt;span class="n"&gt;warnings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;simplefilter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;action&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ignore&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;category&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ne"&gt;FutureWarning&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# noqa&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;manager&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;참고로 Python에서는 이와 같은 싱글 라인 방법만 존재하며 자세한 내용은 다음의 링크를 참조합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments" target="_blank"&gt;https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors" target="_blank"&gt;http://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>HTML HEAD 설정하기</title><link href="http://muteklab.com/html-head-seoljeonghagi.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/html-head-seoljeonghagi.html</id><summary type="html">&lt;p&gt;다음의 링크는 HTML HEAD 설정에 도움이 되는 자료들 입니다.&lt;/p&gt;
+&lt;h5&gt;Head&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank"&gt;https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Favicon&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://webdir.tistory.com/337" target="_blank"&gt;https://webdir.tistory.com/337&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Meta&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta" target="_blank"&gt;https://developer.mozilla.org …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;다음의 링크는 HTML HEAD 설정에 도움이 되는 자료들 입니다.&lt;/p&gt;
+&lt;h5&gt;Head&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank"&gt;https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Favicon&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://webdir.tistory.com/337" target="_blank"&gt;https://webdir.tistory.com/337&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Meta&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta" target="_blank"&gt;https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aboooks.tistory.com/339" target="_blank"&gt;https://aboooks.tistory.com/339&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Meta Viewport&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://aboooks.tistory.com/352" target="_blank"&gt;https://aboooks.tistory.com/352&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aboooks.tistory.com/353" target="_blank"&gt;https://aboooks.tistory.com/353&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Open Graph&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://ogp.me/" target="_blank"&gt;https://ogp.me/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://blog.ab180.co/open-graph-as-a-website-preview/" target="_blank"&gt;http://blog.ab180.co/open-graph-as-a-website-preview/&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Canonical&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Canonical_link_element" target="_blank"&gt;https://en.wikipedia.org/wiki/Canonical_link_element&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://webisfree.com/2014-09-24/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-%EB%B0%A9%EB%B2%95-canonical-%ED%83%9C%EA%B7%B8%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1%EA%B3%BC-%ED%99%9C%EC%9A%A9-%EB%B0%A9%EB%B2%95" target="_blank"&gt;https://webisfree.com/2014-09-24/검색엔진-최적화-방법-canonical-태그의-중요성과-활용-방법&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html" target="_blank"&gt;https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>HTML 소스 코드에 base64 이미지 삽입하기</title><link href="http://muteklab.com/html-soseu-kodeue-base64-imiji-sabibhagi.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/html-soseu-kodeue-base64-imiji-sabibhagi.html</id><summary type="html">&lt;p&gt;HTML 소스 코드에 base64 인코딩된 이미지를 삽입하는 방법을 소개합니다. HTML 소스에 삽입된 이미지는 클라이언트 캐시가 되지 않기 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;HTML 소스 코드에 base64 인코딩된 이미지를 삽입하는 방법을 소개합니다. HTML 소스에 삽입된 이미지는 클라이언트 캐시가 되지 않기 때문에, 용량이 아주 작은 아이콘 정도에 사용하는 것을 추천합니다. 또한, AWS 요금제 등의 상황에 따라, 단일 요청의 용량보다는 횟수의 증가를 줄이는 것이 이득일 때 사용하는 것도 고려해 볼 수 있겠습니다. 다음과 같은 형태로 이미지 파일을 base64 인코딩하여 HTML에 삽입할 수 있습니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;data:image/[extension];base64,[base64 encoded data]&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;다음은 python에서 파일을 읽어 base64 인코딩된 태그를 생성하는 예제이며, Django Template Filter를 만드는 등으로 활용 할 수 있습니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;base64&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;base64img&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;ext&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;splitext&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:]&lt;/span&gt;
+    &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;rb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;encoded&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;base64&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;b64encode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;decode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&amp;lt;img src=&amp;quot;data:image/&lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s1"&gt;;base64,&lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s1"&gt;&amp;quot;&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ext&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;encoded&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Development Articles"></category></entry><entry><title>HTML Template에 Linter 사용 시 발생하는 문제해결</title><link href="http://muteklab.com/html-templatee-linter-sayong-si-balsaenghaneun-munjehaegyeol.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/html-templatee-linter-sayong-si-balsaenghaneun-munjehaegyeol.html</id><summary type="html">&lt;p&gt;Django, Jinja 등의 HTML Template에 Linter 사용 시 발생하는 문제 해결 방법을 소개합니다. Template에 HTML Linter를 사용하게 되면 &lt;code&gt;{% %}&lt;/code&gt; 태그된 제어문으로 인하여 구 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Django, Jinja 등의 HTML Template에 Linter 사용 시 발생하는 문제 해결 방법을 소개합니다. Template에 HTML Linter를 사용하게 되면 &lt;code&gt;{% %}&lt;/code&gt; 태그된 제어문으로 인하여 구조가 흐트러지고 가독성이 떨어지는 경우가 발생합니다. &lt;code&gt;{% %}&lt;/code&gt;를 &lt;code&gt;{ % % }&lt;/code&gt;로 변환해 버리는 경우도 발생합니다. 다음과 같이 제어문을 주석처리 하는 방법으로 간단하게 해결할 수 있습니다. 단, &lt;code&gt;{% includes "template.html" %}&lt;/code&gt;와 같이 &lt;code&gt;includes&lt;/code&gt; 명령어에 주석 처리하면 렌더링 결과가 주석처리 되어 버리기 때문에 주의해야 합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cm"&gt;&amp;lt;!-- {% for name in names %} --&amp;gt;&lt;/span&gt;
+&lt;span class="cm"&gt;&amp;lt;!-- {% if name %} --&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;{{ name }}&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="cm"&gt;&amp;lt;!-- {% endif %} --&amp;gt;&lt;/span&gt;
+&lt;span class="cm"&gt;&amp;lt;!-- {% endfor %} --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Development Articles"></category></entry><entry><title>Python Web Minification</title><link href="http://muteklab.com/python-web-minification.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/python-web-minification.html</id><summary type="html">&lt;p&gt;Python으로 웹 콘텐츠를 minification 하는 방법을 소개합니다. HTML, JavaScript, CSS 등의 소스 파일에서 불필요한 공백 문자나 주석을 제거하여 네트워크 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python으로 웹 콘텐츠를 minification 하는 방법을 소개합니다. HTML, JavaScript, CSS 등의 소스 파일에서 불필요한 공백 문자나 주석을 제거하여 네트워크 전송량을 줄이는 방법입니다. 우선 예제에 필요한 라이브러리를 모두 설치합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install jsmin htmlmin beautifulsoup4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;JavaScript or CSS Minification&lt;/h5&gt;
+&lt;p&gt;jsmin 라이브러리를 사용하여 minification 합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;jsmin&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;javascript or css content&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;단, CSS minification에는 htmlmin 라이브러리를 사용하는 것이 좋을 수도 있습니다.. 파일을 읽어 처리해야 한다면 다음과 같이 하면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;jsmin&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;
+
+&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;path.js or path.css&amp;#39;&lt;/span&gt;
+
+&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;rb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;decode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;wb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;encode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;참고로 바이너리 모드로 파일을 읽은 후 utf-8 인코딩을 하지 않으면, 한글과 특수문자 등의 오류가 발생할 수 있으므로 주의해야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;HTML Minification&lt;/h5&gt;
+&lt;p&gt;htmlmin 라이브러리를 사용하여 minification 합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;htmlmin&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html content&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;htmlmin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;minify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;remove_empty_space&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;HTML 소스 내에 존재하는 script나 style은 htmlmin으로 처리되지 않습니다. BeautifulSoup을 사용하여 style과 script 태그의 내용을 찾아 별도로 처리하면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;jsmin&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;bs4&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;
+
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html content&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;soup&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html.parser&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;soup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find_all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;style&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_text&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;soup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find_all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_text&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;soup&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;htmlmin으로 주석은 제거되지 않습니다. 간혹 유명 포털 사이트 브라우징 시 HTML 소스보기 하더라도 많은 주석을 볼 수 있는 경우가 있습니다. 주석에는 개발자가 미처 생각하지 못한 보안 사항, 백도어의 힌트가 포함될 수도 있습니다. 주석을 제거하고 싶다면 다음과 같이 정규식을 사용할 수 있습니다. 단, HTML 조건문에서 사용되는 &lt;code&gt;![]&lt;/code&gt; 문자가 들어 있다면 제거되지 않는 정규식이므로 주의합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;re&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html content&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;ptrn&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;r&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;(&amp;lt;!--)([^!^[^]]*)(--&amp;gt;)&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sub&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ptrn&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;flags&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DOTALL&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;완벽하지 않은 정규식이며, 추후에 더 나은 방법을 발견하면 수정하도록 하겠습니다. 본문 내용자체에 주석을 설명하기 위해 &lt;code&gt;&amp;lt;!--&lt;/code&gt;와 &lt;code&gt;--&amp;gt;&lt;/code&gt;가 표기되어 있다면 의도하지 않게 제거될 수 있으므로 주의해야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;응용하기&lt;/h5&gt;
+&lt;p&gt;서비스를 유지 관리하는 측면에서 반복되는 minification 작업은 성가신 일입니다. 또한, 공백문자 제거로 인하여 예상하지 못한 결과물의 변형이 있을 수 있으므로, 소스 코드 수정 시 수시로 확인하는 과정이 필요하며, 응답 시 매번 minification하기 위해서는 응답속도가 증가하는 문제가 발생합니다. 이러한 문제를 해결하기 위해 minify된 파일을 메모리 데이터베이스에 캐싱하여 사용하는 방법이 있습니다. 즉, 파일 수정시간을 참조하여 캐시가 없거나 파일 수정시간 갱신 시에만 minify하여 캐싱하고 이로부터 읽어 응답할 수 있습니다. 이에 더하여 서버 측에서 클라이언트 캐시 응답을 처리하기 위해서는 파일 수정시간 참조가 필수적이므로 이를 함께 처리하도록 구현하면 보다 빠른 응답 속도를 기대할 수 있습니다.&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Python으로 신호처리 필터 구현하기</title><link href="http://muteklab.com/pythoneuro-sinhoceori-pilteo-guhyeonhagi.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/pythoneuro-sinhoceori-pilteo-guhyeonhagi.html</id><summary type="html">&lt;p&gt;신호처리의 기본이 되는 필터를 Python으로 구현해봤습니다. Matlab 예제로 많이 소개되는 필터 구현체를 참고 하였습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;FIR Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;신호처리의 기본이 되는 필터를 Python으로 구현해봤습니다. Matlab 예제로 많이 소개되는 필터 구현체를 참고 하였습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;FIR Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;fir_filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;29&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;nyq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;
+    &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;coeff&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;firwin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;coeff&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;firwin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pass_zero&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;coeff&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;firwin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;low&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;pass_zero&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lfilter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;coeff&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;1.0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Butterworth Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;butter_filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;nyq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;
+    &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;butter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;low&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;butter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;high&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;butter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;low&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;band&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filtfilt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Type I Chebyshev Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;cheby1_filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;nyq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;
+    &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;low&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;high&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;low&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;band&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filtfilt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Type II Chebyshev Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;cheby2_filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;nyq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;
+    &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;low&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;high&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;low&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;band&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filtfilt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Development Articles"></category></entry><entry><title>SublimeText 맞춤법 검사기 활용하기</title><link href="http://muteklab.com/sublimetext-majcumbeob-geomsagi-hwalyonghagi.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/sublimetext-majcumbeob-geomsagi-hwalyonghagi.html</id><summary type="html">&lt;p&gt;SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원합니다. 사용자 환경설정 파일 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원합니다. 사용자 환경설정 파일 &lt;code&gt;Preference.sublime-settings&lt;/code&gt;에 &lt;code&gt;spell_check&lt;/code&gt;와 &lt;code&gt;dictionary&lt;/code&gt; 항목이 있으며, 다음과 같이 이를 수정하여 기능 활성화와 언어 선택이 가능합니다. 해당 항목이 없다면 추가하면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Packages/Language - English/en_US.dic&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;미국 영어와 영국 영어 사전이 기본 내장되어 있으며, 한글을 추가하고 싶다면 다음의 링크에서 한국어 사전을 내려받습니다. &lt;code&gt;*.dic&lt;/code&gt;와 &lt;code&gt;*.aff&lt;/code&gt; 파일만 있으면 됩니다. 참고로 아래가 유일한 hunspell 한국어 사전 공개 프로젝트이므로 다른 선택지는 없습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/spellcheck-ko/hunspell-dict-ko" target="_blank"&gt;https://github.com/spellcheck-ko/hunspell-dict-ko&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;그 다음 사용자가 원하는 경로에 사전을 저장하고 다음과 같이 &lt;code&gt;dictionary&lt;/code&gt; 항목에 경로를 지정해주면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Packages/User/Dictionaries/ko.dic&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;일반적으로 코드 작성 시에는 맞춤법 검사기의 사용 빈도가 많지 않고, 주석 작업 등에 선택적으로 사용되어 질 것입니다. 반면, 마크다운 문서를 작성할 때는 항상 문법 검사기를 사용 할 것입니다. 이럴 때에는 마크다운 확장자가 정의 되어 있는 설정 파일에 &lt;code&gt;spell_check&lt;/code&gt;와 &lt;code&gt;dictionary&lt;/code&gt; 추가하여 사용하면 됩니다. MarkdownEditing 플러그인을 사용하는 필자의 경우, 사용자 환경설정이 있는 경로의 &lt;code&gt;Markdown.sublime-settings&lt;/code&gt; 파일에 다음의 항목을 추가하였습니다. &lt;code&gt;Preference.sublime-settings&lt;/code&gt;의 설정이 꺼져 있더라도 마크다운과 텍스트 파일에서는 항상 한글 맞춤법 검사를 하게 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;extensions&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;md&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;mdown&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;txt&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Packages/User/Dictionaries/ko.dic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;다음으로 검사기를 쉽게 toggle하고 언어를 선택할 수 있는 방법을 설명합니다. 코드 작성 시 맞춤법 검사기를 사용하게 되면 자연어와 다른 철자의 예약어, 축약된 변수명 등에서 많은 오류를 보게 될 것입니다. 검사기를 간편하게 toggle하고 싶은 욕구가 생길 것입니다. 다음과 같이 SublimeText의 사용자 환경설정 경로에 파일을 만들어 명령어를 등록하면 됩니다. 파일을 생성하면 명령어가 자동으로 등록되며, 명령어 팔레트에 &lt;code&gt;Spell Check&lt;/code&gt;라고 검색하면 해당 항목이 나타납니다. &lt;code&gt;Current View&lt;/code&gt;가 있는 항목을 통해서 현재 열려 있는 창에만 설정을 적용할 수 있습니다. &lt;code&gt;Current View&lt;/code&gt;가 없는 항목은 전체 설정으로 &lt;code&gt;Preferences.sublime-settings&lt;/code&gt;에 반영됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;SpellCheck.sublime-commands&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;caption&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Spell Check: Toggle&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dic_toggle&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;caption&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Spell Check: Toggle (Current View)&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dic_toggle_view&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;caption&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Spell Check: Set Language&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dic_set_language&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;caption&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Spell Check: Set Language (Current View)&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dic_set_view_language&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;SpellCheck.py&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sublime&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sublime_plugin&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;fnmatch&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os.path&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;find_resources&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;resources&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;hasattr&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;find_resources&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;resources&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find_resources&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;root&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dir_names&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;file_names&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;walk&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;packages_path&lt;/span&gt;&lt;span class="p"&gt;()):&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;.git&amp;quot;&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;root&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="k"&gt;continue&lt;/span&gt;
+            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;file_names&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="n"&gt;rel_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;relpath&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;root&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;packages_path&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+                &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;fnmatch&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fnmatch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rel_path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;*&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;()):&lt;/span&gt;
+                    &lt;span class="n"&gt;resources&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Packages&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;rel_path&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;resources&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DicSetViewLanguageCommand&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime_plugin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TextCommand&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;edit&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;items&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;find_resources&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;*.dic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_done&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="n"&gt;settings&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+                &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;window&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show_quick_panel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;on_done&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DicSetLanguageCommand&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime_plugin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WindowCommand&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;items&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;find_resources&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;*.dic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_done&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="n"&gt;settings&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;load_settings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Preferences.sublime-settings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+                &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+                &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;save_settings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Preferences.sublime-settings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;window&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show_quick_panel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;on_done&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DicToggleViewCommand&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime_plugin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TextCommand&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;edit&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;settings&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+        &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DicToggleCommand&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime_plugin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WindowCommand&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;settings&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;load_settings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Preferences.sublime-settings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;save_settings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Preferences.sublime-settings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;처음 사용 해보면 조금 부족함을 느낄 수 있습니다. 특히, 외래어나 전문 용어가 사전에 많이 포함 되어 있지 않아 더욱 그럴 것입니다. 그래도 상용 검사기에 근접하는 성능으로, 사용자 사전을 정리하는 수고를 조금만 더하면 꽤 유용하게 쓸 수 있는 편입니다. 오류가 표시된 단어에서 마우스 오른쪽 버튼을 눌러 Context 메뉴를 보면 &lt;code&gt;Add&lt;/code&gt;와 &lt;code&gt;Ignore&lt;/code&gt; 항목이 있으며, 이를 통해 곧바로 사용자 사전에 단어를 등록 할 수 있습니다. 등록된 단어는 &lt;code&gt;Preference.sublime-settings&lt;/code&gt;의 &lt;code&gt;added_words&lt;/code&gt;와 &lt;code&gt;ignored_words&lt;/code&gt; 항목에서 확인 및 관리 할 수 있으니 참고하도록 합니다.&lt;/p&gt;
+&lt;p&gt;애석하게도 SublimeText에서는 영어와 한국어 사전을 동시에 사용하지 못합니다. hunspell 자체는 여러 개의 사전을 동시에 사용할 수 있도록 구현되어 있지만, SublimeText에서는 그렇게까지 사용할 수 있도록 구현되어 있지 않습니다. 대안으로 영어와 한글 사전을 병합하는 방법이 있을 수 있습니다. 다음의 링크에서 병합 도구를 내려받을 수 있습니다. 그런데 다시 한번 더 애석하게도 병합이 잘 되지 않습니다. 단, 영어, 라틴어 등 유사한 언어 체계를 가진 사전들 사이의 병합은 잘 되는 것 같습니다. 다음 버전의 SublimeText에는 이 문제가 해결되어 있기를 바랍니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/arty-name/hunspell-merge/tree/master/dist" target="_blank"&gt;https://github.com/arty-name/hunspell-merge/tree/master/dist&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>나는 왜 맥을 버렸나, 더 이상 프로용 컴퓨터를 만들지 않는 애플 컴퓨터</title><link href="http://muteklab.com/naneun-wae-maegeul-beoryeossna-deo-isang-peuroyong-keompyuteoreul-mandeulji-anhneun-aepeul-keompyuteo.html" rel="alternate"></link><published>2018-08-09T00:00:00+09:00</published><updated>2018-08-09T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2018-08-09:/naneun-wae-maegeul-beoryeossna-deo-isang-peuroyong-keompyuteoreul-mandeulji-anhneun-aepeul-keompyuteo.html</id><content type="html">&lt;p&gt;&lt;youtube source="BkD5vpHM970"&gt;&lt;/youtube&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>OWASP TOP 10 2017</title><link href="http://muteklab.com/owasp-top-10-2017.html" rel="alternate"></link><published>2017-12-29T00:00:00+09:00</published><updated>2017-12-29T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2017-12-29:/owasp-top-10-2017.html</id><summary type="html">&lt;p&gt;OWASP(Open Web Application Security Project)는 오픈소스 웹 애플리케이션 보안 프로젝트입니다.&lt;/p&gt;
+&lt;p&gt;OWASP처럼 애플리케이션 보안에만 전념하는 여러 커뮤니티 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;OWASP(Open Web Application Security Project)는 오픈소스 웹 애플리케이션 보안 프로젝트입니다.&lt;/p&gt;
+&lt;p&gt;OWASP처럼 애플리케이션 보안에만 전념하는 여러 커뮤니티 그룹의 조직이 상당히 커지고 있습니다. OWASP는 가장 큰 오픈소스 웹 애플리케이션 보안 프로젝트로 주로 웹에 관한 정보노출, 악성 파일 및 스크립트, 보안 취약점 등을 연구하며, 10대 웹 애플리케이션의 취약점(OWASP TOP 10)을 발표합니다. OWASP TOP 10은 웹 애플리케이션 취약점 중에서 빈도가 많이 발생하고, 보안상 영향을 크게 줄 수 있는 것들 10가지를 선정한 문서입니다. 다음은 2017년 발표한 10대 웹 애플리케이션 취약점입니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Injection(인젝션)&lt;/h5&gt;
+&lt;p&gt;SQL, OS, XXE(Xml eXternal Entity), LDAP 인젝션 취약점은 신뢰할 수 없는 데이터가 명령어나 쿼리문의 일부분이 인터프리터로 보내질때 발생합니다. 공격자의 악의적인 데이터는 예상하지 못하는 명령을 실행하거나 적절한 권한 없이 데이터에 접근하도록 인터프리터를 속일 수 있습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Broken Authentication and Session Management(인증 및 세션 관리 취약점)&lt;/h5&gt;
+&lt;p&gt;인증과 세션 관리와 관련된 애플리케이션 기능이 정확하게 구현되어 있지 않아서, 공격자가 패스워드, 키 또는 세션 토큰을 해킹하거나 다른 구현 취약점을 공격하여 다른 사용자 계정을 일시적 또는 영구적으로 탈취하는 것을 허용합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Cross-Site Scripting (XSS) (크로스 사이트 스크립팅)&lt;/h5&gt;
+&lt;p&gt;XSS 취약점은 애플리케이션이 신뢰할 수 없는 데이터를 가져와 적절한 검증이나 제한 없이 웹브라우저로 보낼때 발생합니다. XSS는 공격자가 피해자의 브라우저에 스크립트를 실행하여 사용자 세션 탈취, 웹사이트 변조, 악의적인 사이트로 이동할 수 있습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Broken Access Control (취약한 접근 제어)&lt;/h5&gt;
+&lt;p&gt;취약한 접근 제어는 인증된 사용자가 수행할 수 있는 것에 대한 제한이 제대로 적용되지 않는 것을 의미합니다. 공격자는 이러한 취약점을 악용하여 사용자의 계정 액세스, 중요한 파일 보기, 사용자의 데이터 수정, 액세스 권한 변경 등과 같은 권한 없는 기능, 또는 데이터에 액세스할 수 있습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Security Misconfiguration (보안 설정 오류)&lt;/h5&gt;
+&lt;p&gt;훌륭한 보안은 애플리케이션, 프레임워크, 애플리케이션 서버, 웹 서버, 데이터베이스 서버 및 플랫폼에 대해 보안 설정이 정의되고 적용되어 있습니다. 기본으로 제공되는 값은 종종 안전하지 않기 때문에 보안 설정은 정의, 구현 및 유지되어야 합니다. 또한 소프트웨어는 최신의 상태로 유지해야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Sensitive Data Exposure (민감 데이터 노출)&lt;/h5&gt;
+&lt;p&gt;많은 웹 애플리케이션들이 신용카드, 개인 식별 정보 및 인증 정보와 같은 중요한 데이터를 제대로 보호하지 않습니다. 공격자는 신용카드 사기, 신분 도용 또는 다른 범죄를 수행하는 등 약하게 보호된 데이터를 훔치거나 변경할 수 있습니다. 중요 데이터가 저장 또는 전송 중이거나 브라우저와 교환하는 경우 특별히 주의하여야 하며, 암호화와 같은 보호조치를 취해야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Insufficient Attack Protection (공격 방어 취약점)&lt;/h5&gt;
+&lt;p&gt;대부분의 애플리케이션과 API는 수동 및 자동화된 공격을 모두 탐지(detect), 방지(prevent), 대응(respond)할 수 있는 기본 기능이 부족합니다. 공격 방어(protection)는 기본적인 입력 유효성 검사를 뛰어 넘어 자동으로 탐지, 로깅, 응답 및 공격 시도 차단을 포함합니다. 애플리케이션 소유자는 공격으로부터 보호하기 위해 패치를 신속하게 배포할 수 있어야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Cross-Site Request Forgery (CSRF) (크로스 사이트 요청 변조)&lt;/h5&gt;
+&lt;p&gt;CSRF 공격은 로그온 뒤 피해자의 취약한 웹 애플리케이션에 피해자의 세션 쿠키와 기타 다른 인증정보를 자동으로 포함하여 위조된 HTTP 요청을 강제로 보내도록 하는 것입니다. 이것은 공격자가 취약한 애플리케이션이 피해자로부터의 정당한 요청이라고 오해할 수 있는 요청들을 강제로 만들 수 있습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Using Components with Known Vulnerabilities (알려진 취약점이 있는 컴포넌트 사용)&lt;/h5&gt;
+&lt;p&gt;컴포넌트, 라이브러리, 프레임워크 및 다른 소프트웨어 모듈은 대부분 항상 전체 권한으로 실행됩니다. 이러한 취약한 컴포넌트를 악용하여 공격하는 경우 심각한 데이터 손실이 발생하거나 서버가 장악됩니다. 알려진 취약점이 있는 컴포넌트를 사용하는 애플리케이션은 애플리케이션 방어 체계를 손상하거나, 공격 가능한 범위를 활성화 하는 등의 영향을 미칩니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Underprotected APIs (취약한 API)&lt;/h5&gt;
+&lt;p&gt;최신 애플리케이션 및 API에는 API(SOAP / XML, REST / JSON, RPC, GWT 등)에 연결하는 브라우저 및 모바일 애플리케이션의 자바스크립트와 같은 여러 클라이언트 애플리케이션이 포함되는 경우가 많습니다. 이러한 API는 대부분 보호되지 않으며 수많은 취약점을 포함합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;a href="https://www.owasp.org" target="_blank"&gt;https://www.owasp.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://12bme.tistory.com/98" target="_blank"&gt;https://12bme.tistory.com/98&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ko.wikipedia.org/wiki/OWASP" target="_blank"&gt;https://ko.wikipedia.org/wiki/OWASP&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry></feed>

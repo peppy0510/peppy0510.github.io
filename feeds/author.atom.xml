@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MUTEKLAB - Author</title><link href="http://muteklab.com/" rel="alternate"></link><link href="http://muteklab.com/feeds/author.atom.xml" rel="self"></link><id>http://muteklab.com/</id><updated>2019-08-01T23:00:00+09:00</updated><entry><title>Author's Information</title><link href="http://muteklab.com/authors-information.html" rel="alternate"></link><published>2019-08-01T23:00:00+09:00</published><updated>2019-08-01T23:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-01:/authors-information.html</id><summary type="html"></summary><content type="html">&lt;h4&gt;Taehong Kim&lt;/h4&gt;
+&lt;div style="height: 15px;"&gt;&lt;/div&gt;
+
+&lt;table class="center rotate" style="margin-bottom: 24px;"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Name&lt;/td&gt;
+        &lt;td&gt;김태홍 (Taehong Kim)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Email&lt;/td&gt;
+        &lt;td&gt;peppy0510@hotmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;GitHub&lt;/td&gt;
+        &lt;td&gt;
+            &lt;a href="https://github.com/peppy0510" target="_blank"&gt;
+                https://github.com/peppy0510
+            &lt;/a&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="center"&gt;Degree&lt;/th&gt;
+&lt;th align="center"&gt;Major&lt;/th&gt;
+&lt;th align="center"&gt;University&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Master&lt;/td&gt;
+&lt;td align="center"&gt;Computer Science&lt;br&gt;Digital Signal Processing&lt;/td&gt;
+&lt;td align="center"&gt;Dankook, South Korea&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Bachelor&lt;/td&gt;
+&lt;td align="center"&gt;Computer Engineering&lt;/td&gt;
+&lt;td align="center"&gt;Dankook, South Korea&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h4&gt;Experienced with&lt;/h4&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;MATLAB&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Django&lt;/code&gt; &lt;code&gt;Sanic&lt;/code&gt; &lt;code&gt;Flask&lt;/code&gt; &lt;code&gt;wxPython&lt;/code&gt; &lt;code&gt;NumPy&lt;/code&gt; &lt;code&gt;SciPy&lt;/code&gt; &lt;code&gt;FFmpeg&lt;/code&gt; &lt;code&gt;PyInstaller&lt;/code&gt; &lt;code&gt;InnoSetup&lt;/code&gt;
+&lt;code&gt;venv&lt;/code&gt; &lt;code&gt;pillow&lt;/code&gt; &lt;code&gt;BesutifulSoup&lt;/code&gt; &lt;code&gt;pandas&lt;/code&gt; &lt;code&gt;surprise&lt;/code&gt; &lt;code&gt;music21&lt;/code&gt; &lt;code&gt;OAuth&lt;/code&gt; &lt;code&gt;jsmin&lt;/code&gt; &lt;code&gt;htmlmin&lt;/code&gt; &lt;code&gt;xlsxwriter&lt;/code&gt;
+&lt;code&gt;mutagen&lt;/code&gt; &lt;code&gt;wmi&lt;/code&gt; &lt;code&gt;psutil&lt;/code&gt; &lt;code&gt;un4seen BASS&lt;/code&gt; &lt;code&gt;letsencrypt&lt;/code&gt; &lt;code&gt;objectlistview&lt;/code&gt; &lt;code&gt;pybass&lt;/code&gt; &lt;code&gt;pywin32&lt;/code&gt; &lt;code&gt;cryptography&lt;/code&gt;
+&lt;code&gt;netifaces&lt;/code&gt; &lt;code&gt;sshtunnel&lt;/code&gt; &lt;code&gt;webpy&lt;/code&gt; &lt;code&gt;certbot&lt;/code&gt; &lt;code&gt;pywebview&lt;/code&gt;
+&lt;code&gt;winshell&lt;/code&gt; &lt;code&gt;mido&lt;/code&gt; &lt;code&gt;pelican&lt;/code&gt; &lt;code&gt;jinja&lt;/code&gt; &lt;code&gt;markdown&lt;/code&gt; &lt;code&gt;selenium&lt;/code&gt; &lt;code&gt;livereload&lt;/code&gt; &lt;code&gt;parallel python&lt;/code&gt; &lt;code&gt;subprocess&lt;/code&gt;
+&lt;code&gt;multiprocessing&lt;/code&gt; &lt;code&gt;multithreading&lt;/code&gt; &lt;code&gt;uiautomation&lt;/code&gt; &lt;code&gt;ctype&lt;/code&gt; &lt;code&gt;SQLAlchemy&lt;/code&gt; &lt;code&gt;Kivy&lt;/code&gt; &lt;code&gt;pycrypto&lt;/code&gt; &lt;code&gt;paramiko&lt;/code&gt; &lt;code&gt;pexpect&lt;/code&gt;
+&lt;code&gt;XML&lt;/code&gt; &lt;code&gt;json&lt;/code&gt; &lt;code&gt;pep8&lt;/code&gt; &lt;code&gt;boto3&lt;/code&gt;
+&lt;code&gt;JavaScript&lt;/code&gt; &lt;code&gt;TypeScript&lt;/code&gt; &lt;code&gt;jQuery&lt;/code&gt; &lt;code&gt;AngularJS&lt;/code&gt; &lt;code&gt;Angular&lt;/code&gt; &lt;code&gt;ReactJS&lt;/code&gt; &lt;code&gt;ElectronJS&lt;/code&gt; &lt;code&gt;IONIC&lt;/code&gt; &lt;code&gt;WebPack&lt;/code&gt; &lt;code&gt;Cordova&lt;/code&gt; &lt;code&gt;HTML&lt;/code&gt; &lt;code&gt;CSS&lt;/code&gt; &lt;code&gt;SCSS&lt;/code&gt;
+&lt;code&gt;Responsive Web&lt;/code&gt; &lt;code&gt;viewport&lt;/code&gt; &lt;code&gt;opengraph&lt;/code&gt; &lt;code&gt;async&lt;/code&gt;
+&lt;code&gt;GCM&lt;/code&gt; &lt;code&gt;FCM&lt;/code&gt; &lt;code&gt;APNS&lt;/code&gt; &lt;code&gt;InAppPurchase&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt; &lt;code&gt;iOS&lt;/code&gt; &lt;code&gt;moment&lt;/code&gt; &lt;code&gt;timeago&lt;/code&gt; &lt;code&gt;taffydb&lt;/code&gt; &lt;code&gt;Font Awesome&lt;/code&gt; &lt;code&gt;tinymce&lt;/code&gt; &lt;code&gt;alertifyjs&lt;/code&gt;
+&lt;code&gt;jshint&lt;/code&gt; &lt;code&gt;Web Audio API&lt;/code&gt; &lt;code&gt;Web Worker&lt;/code&gt; &lt;code&gt;Web Canvas&lt;/code&gt; &lt;code&gt;Media Source Extension&lt;/code&gt; &lt;code&gt;Animation Frame&lt;/code&gt; &lt;code&gt;WebSocket&lt;/code&gt; &lt;code&gt;Deep Link&lt;/code&gt;
+&lt;code&gt;Bootstrap&lt;/code&gt; &lt;code&gt;Material Design&lt;/code&gt; &lt;code&gt;ADB&lt;/code&gt; &lt;code&gt;npm&lt;/code&gt; &lt;code&gt;pip&lt;/code&gt; &lt;code&gt;C&lt;/code&gt; &lt;code&gt;C++&lt;/code&gt; &lt;code&gt;ActionScript&lt;/code&gt; &lt;code&gt;Flash&lt;/code&gt; &lt;code&gt;Pascal Script&lt;/code&gt;
+&lt;code&gt;Regular Expression&lt;/code&gt; &lt;code&gt;zlib&lt;/code&gt; &lt;code&gt;VHDL&lt;/code&gt; &lt;code&gt;Verilog&lt;/code&gt; &lt;code&gt;Quartus&lt;/code&gt; &lt;code&gt;FPGA&lt;/code&gt; &lt;code&gt;VBScript&lt;/code&gt;
+&lt;code&gt;MySQL&lt;/code&gt; &lt;code&gt;MariaDB&lt;/code&gt; &lt;code&gt;Redis&lt;/code&gt; &lt;code&gt;Memcached&lt;/code&gt; &lt;code&gt;Solr&lt;/code&gt; &lt;code&gt;TokyoTyrant&lt;/code&gt; &lt;code&gt;SQLite&lt;/code&gt;
+&lt;code&gt;firebase&lt;/code&gt; &lt;code&gt;firestore&lt;/code&gt; &lt;code&gt;localStorage&lt;/code&gt; &lt;code&gt;Berkeley DB&lt;/code&gt;
+&lt;code&gt;Apache&lt;/code&gt; &lt;code&gt;NginX&lt;/code&gt; &lt;code&gt;uWSGI&lt;/code&gt; &lt;code&gt;IIS&lt;/code&gt; &lt;code&gt;Tomcat&lt;/code&gt; &lt;code&gt;HAProxy&lt;/code&gt; &lt;code&gt;VNC&lt;/code&gt;
+&lt;code&gt;Windows&lt;/code&gt; &lt;code&gt;MacOS&lt;/code&gt; &lt;code&gt;Ubuntu&lt;/code&gt; &lt;code&gt;Debian&lt;/code&gt; &lt;code&gt;CentOS&lt;/code&gt; &lt;code&gt;RedHat&lt;/code&gt; &lt;code&gt;VMWare&lt;/code&gt; &lt;code&gt;VirtualBox&lt;/code&gt;
+&lt;code&gt;SublimeText&lt;/code&gt; &lt;code&gt;WinSCP&lt;/code&gt; &lt;code&gt;DBeaver&lt;/code&gt; &lt;code&gt;Xshell&lt;/code&gt; &lt;code&gt;jMeter&lt;/code&gt; &lt;code&gt;LoadRunner&lt;/code&gt; &lt;code&gt;iTerm&lt;/code&gt; &lt;code&gt;Terminator&lt;/code&gt; &lt;code&gt;Putty&lt;/code&gt; &lt;code&gt;GitKraken&lt;/code&gt; &lt;code&gt;PyCharm&lt;/code&gt;
+&lt;code&gt;Eclipse&lt;/code&gt; &lt;code&gt;Visual Studio&lt;/code&gt;
+&lt;code&gt;GitHub&lt;/code&gt; &lt;code&gt;GitLab&lt;/code&gt; &lt;code&gt;Gogs&lt;/code&gt; &lt;code&gt;GitBucket&lt;/code&gt;
+&lt;code&gt;Digital Signal Processing&lt;/code&gt; &lt;code&gt;Audio Fingerprinting&lt;/code&gt; &lt;code&gt;Music Information Retrieval&lt;/code&gt;
+&lt;code&gt;Collaborative Filtering&lt;/code&gt; &lt;code&gt;Feature Vector&lt;/code&gt; &lt;code&gt;Classification&lt;/code&gt; &lt;code&gt;Machine Learning&lt;/code&gt; &lt;code&gt;PSOLA&lt;/code&gt; &lt;code&gt;Phase Vocoder&lt;/code&gt;
+&lt;code&gt;Audio Time Stretching&lt;/code&gt; &lt;code&gt;Audio Pitch Shifting&lt;/code&gt; &lt;code&gt;FFT&lt;/code&gt; &lt;code&gt;iFFT&lt;/code&gt; &lt;code&gt;MFCC&lt;/code&gt; &lt;code&gt;Mel-Frequency&lt;/code&gt;
+&lt;code&gt;Audio Filter&lt;/code&gt; &lt;code&gt;Audio Compressor&lt;/code&gt; &lt;code&gt;Audio Synthesis&lt;/code&gt;
+&lt;code&gt;Audio Engineering&lt;/code&gt; &lt;code&gt;Audio Codec&lt;/code&gt; &lt;code&gt;Image Codec&lt;/code&gt; &lt;code&gt;Video Codec&lt;/code&gt;
+&lt;code&gt;VST&lt;/code&gt; &lt;code&gt;VSTi&lt;/code&gt; &lt;code&gt;ASIO&lt;/code&gt; &lt;code&gt;MIDI&lt;/code&gt; &lt;code&gt;MEI&lt;/code&gt; &lt;code&gt;MusicXML&lt;/code&gt; &lt;code&gt;verovio&lt;/code&gt; &lt;code&gt;vexflow&lt;/code&gt; &lt;code&gt;SVG&lt;/code&gt; &lt;code&gt;RESTful API&lt;/code&gt; &lt;code&gt;GraphQL&lt;/code&gt;
+&lt;code&gt;Zynactiq DIRAC&lt;/code&gt; &lt;code&gt;echoprint&lt;/code&gt; &lt;code&gt;Ballistic Model&lt;/code&gt; &lt;code&gt;Ballistic Coefficient&lt;/code&gt;
+&lt;code&gt;Steinberg Cubase&lt;/code&gt; &lt;code&gt;Ableton Live&lt;/code&gt; &lt;code&gt;Sound Forge&lt;/code&gt; &lt;code&gt;Acid Pro&lt;/code&gt; &lt;code&gt;Vegas Pro&lt;/code&gt; &lt;code&gt;Avid Sibelius&lt;/code&gt; &lt;code&gt;Avid ProTools&lt;/code&gt; &lt;code&gt;Propellerhead Reason&lt;/code&gt; &lt;code&gt;MOTU Digital Performer&lt;/code&gt; &lt;code&gt;Traktor Pro&lt;/code&gt; &lt;code&gt;RekordBox&lt;/code&gt; &lt;code&gt;ReNamer&lt;/code&gt; &lt;code&gt;AstroGrep&lt;/code&gt; &lt;code&gt;htop&lt;/code&gt; &lt;code&gt;glances&lt;/code&gt; &lt;code&gt;iotop&lt;/code&gt; &lt;code&gt;speedometer&lt;/code&gt;
+&lt;code&gt;Linode&lt;/code&gt; &lt;code&gt;Digital Ocean&lt;/code&gt; &lt;code&gt;AWS&lt;/code&gt; &lt;code&gt;NCloud&lt;/code&gt; &lt;code&gt;Conoha&lt;/code&gt; &lt;code&gt;DNS&lt;/code&gt; &lt;code&gt;Load Balancing&lt;/code&gt; &lt;code&gt;AWS EC2&lt;/code&gt; &lt;code&gt;AWS S3&lt;/code&gt; &lt;code&gt;AWS EFS&lt;/code&gt; &lt;code&gt;AWS Lambda&lt;/code&gt; &lt;code&gt;AWS Route53&lt;/code&gt; &lt;code&gt;SeaweedFS&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt;
+&lt;code&gt;WSL&lt;/code&gt; &lt;code&gt;ZSH&lt;/code&gt; &lt;code&gt;PowerShell&lt;/code&gt; &lt;code&gt;HTTP Live Streaming&lt;/code&gt; &lt;code&gt;Fragmented MP4&lt;/code&gt;&lt;/p&gt;
+&lt;div style="margin-top: 10px;"&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h4&gt;Interested in&lt;/h4&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;VueJS&lt;/code&gt; &lt;code&gt;ElasticSearch&lt;/code&gt; &lt;code&gt;Jenkins&lt;/code&gt; &lt;code&gt;CircleCI&lt;/code&gt;
+&lt;code&gt;tensorflow&lt;/code&gt; &lt;code&gt;keras&lt;/code&gt; &lt;code&gt;freezegun&lt;/code&gt; &lt;code&gt;Element&lt;/code&gt; &lt;code&gt;Tailwind&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Portfolio&lt;/h4&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a class="button" href="/category/authors-music.html" target="_blank"&gt;Author's Music&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="button" href="/category/authors-mixset.html" target="_blank"&gt;Author's Mixset&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="button" href="/category/authors-development.html" target="_blank"&gt;Author's Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="button" href="https://github.com/peppy0510" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="computer-001" src="/static/images/computer/computer-001.jpg#mw50"&gt;
+&lt;img alt="computer-002" src="/static/images/computer/computer-002.jpg#mw50"&gt;
+&lt;img alt="computer-003" src="/static/images/computer/computer-003.jpg#mw50"&gt;
+&lt;img alt="computer-004" src="/static/images/computer/computer-004.jpg#mw50"&gt;
+&lt;img alt="computer-005" src="/static/images/computer/computer-005.jpg#mw50"&gt;
+&lt;img alt="computer-006" src="/static/images/computer/computer-006.jpg#mw50"&gt;
+&lt;img alt="computer-007" src="/static/images/computer/computer-007.jpg#mw50"&gt;
+&lt;img alt="computer-008" src="/static/images/computer/computer-008.jpg#mw50"&gt;
+&lt;img alt="computer-009" src="/static/images/computer/computer-009.jpg#mw50"&gt;
+&lt;img alt="computer-010" src="/static/images/computer/computer-010.jpg#mw50"&gt;&lt;/p&gt;</content><category term="Author"></category></entry></feed>

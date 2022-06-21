@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MUTEKLAB - Author's Music</title><link href="http://muteklab.com/" rel="alternate"></link><link href="http://muteklab.com/feeds/authors-music.atom.xml" rel="self"></link><id>http://muteklab.com/</id><updated>2016-07-03T00:00:00+09:00</updated><entry><title>Super Star</title><link href="http://muteklab.com/super-star.html" rel="alternate"></link><published>2016-07-03T00:00:00+09:00</published><updated>2016-07-03T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2016-07-03:/super-star.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Break Beat
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: Single Album
+* Genre: Break Beat
+* BPM: 100
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/super-star-128.mp3', 'Super Star');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>Style O Sanda</title><link href="http://muteklab.com/style-o-sanda.html" rel="alternate"></link><published>2012-01-03T00:00:00+09:00</published><updated>2012-01-03T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2012-01-03:/style-o-sanda.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Deep House
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: TV Commercial
+* Genre: Deep House
+* BPM: 120
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/style-o-sanda-128.mp3', 'Style O Sanda');
+    });
+&lt;/script&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="style-o-sanda-001" src="https://user-images.githubusercontent.com/21299773/63366749-ed327480-c369-11e9-9961-450252046d3e.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-002" src="https://user-images.githubusercontent.com/21299773/63366751-ed327480-c369-11e9-8f92-80c90795ef3d.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-003" src="https://user-images.githubusercontent.com/21299773/63366752-edcb0b00-c369-11e9-9d7b-cf70fc0a508d.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-004" src="https://user-images.githubusercontent.com/21299773/63366753-edcb0b00-c369-11e9-946f-bad305c83df6.jpg#mw50"&gt;
+&lt;img alt="2019-08-21_014700" src="https://user-images.githubusercontent.com/21299773/63367138-b741c000-c36a-11e9-80b1-b7efa0833fb6.jpg#mw50"&gt;
+&lt;img alt="2019-08-21_014736" src="https://user-images.githubusercontent.com/21299773/63367140-b741c000-c36a-11e9-86f2-df5c727897ea.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-005" src="https://user-images.githubusercontent.com/21299773/63366754-edcb0b00-c369-11e9-9279-98cdfdcd3f9e.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-006" src="https://user-images.githubusercontent.com/21299773/63366755-ee63a180-c369-11e9-8f5d-fbcfe3737c84.jpg#mw50"&gt;
+&lt;img alt="2019-08-21_014814" src="https://user-images.githubusercontent.com/21299773/63367143-b7da5680-c36a-11e9-8dca-53ba574acfb5.jpg#mw50"&gt;
+&lt;img alt="2019-08-21_014759" src="https://user-images.githubusercontent.com/21299773/63367141-b7da5680-c36a-11e9-9aaa-5bbc71f907b7.jpg#mw50"&gt;&lt;/p&gt;</content><category term="Author's Music"></category></entry><entry><title>Olympus Camera</title><link href="http://muteklab.com/olympus-camera.html" rel="alternate"></link><published>2011-12-24T00:00:00+09:00</published><updated>2011-12-24T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2011-12-24:/olympus-camera.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Break Beat
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: TV Commercial
+* Genre: Break Beat
+* BPM: 126
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/olympus-camera-128.mp3', 'Olympus Camera');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>Lost States</title><link href="http://muteklab.com/lost-states.html" rel="alternate"></link><published>2011-11-10T00:00:00+09:00</published><updated>2011-11-10T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2011-11-10:/lost-states.html</id><summary type="html"></summary><content type="html">&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/lost-states-128.mp3', 'Lost States');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>The Secret of Love</title><link href="http://muteklab.com/the-secret-of-love.html" rel="alternate"></link><published>2011-07-31T00:00:00+09:00</published><updated>2011-07-31T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2011-07-31:/the-secret-of-love.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Trance
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: Single Album
+* Genre: Trance
+* BPM: 130
+* Presented by: Oriental Funk Stew
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/the-secret-of-love-128.mp3', 'The Secret of Love');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>On and On</title><link href="http://muteklab.com/on-and-on.html" rel="alternate"></link><published>2009-08-15T00:00:00+09:00</published><updated>2009-08-15T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2009-08-15:/on-and-on.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Deep House
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: TV Commercial
+* Genre: Deep House
+* BPM: 125
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/on-and-on-128.mp3', 'On and On');
+    });
+&lt;/script&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="on-and-on-002" src="https://user-images.githubusercontent.com/21299773/63366384-23bbbf80-c369-11e9-8479-656920121b4e.jpg#mw50"&gt;
+&lt;img alt="on-and-on-003" src="https://user-images.githubusercontent.com/21299773/63366411-39c98000-c369-11e9-932e-5a08e6ac5e6e.jpg#mw50"&gt;
+&lt;img alt="on-and-on-004" src="https://user-images.githubusercontent.com/21299773/63366386-24545600-c369-11e9-83c1-34d53d30b1cd.jpg#mw50"&gt;
+&lt;img alt="on-and-on-005" src="https://user-images.githubusercontent.com/21299773/63366387-24545600-c369-11e9-84ed-0d0c5355f206.jpg#mw50"&gt;
+&lt;img alt="on-and-on-006" src="https://user-images.githubusercontent.com/21299773/63366389-24ecec80-c369-11e9-9307-717ec12d3095.jpg#mw50"&gt;
+&lt;img alt="on-and-on-007" src="https://user-images.githubusercontent.com/21299773/63366391-24ecec80-c369-11e9-81d8-57bdbf0631e7.jpg#mw50"&gt;
+&lt;img alt="on-and-on-008" src="https://user-images.githubusercontent.com/21299773/63366392-25858300-c369-11e9-87fb-fda1f2510465.jpg#mw50"&gt;
+&lt;img alt="on-and-on-001" src="https://user-images.githubusercontent.com/21299773/63366382-23bbbf80-c369-11e9-84ce-58074d3819f9.jpg#mw50"&gt;&lt;/p&gt;</content><category term="Author's Music"></category></entry><entry><title>Where Were You At</title><link href="http://muteklab.com/where-were-you-at.html" rel="alternate"></link><published>2008-01-01T00:00:00+09:00</published><updated>2008-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2008-01-01:/where-were-you-at.html</id><summary type="html"></summary><content type="html">&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/where-were-you-at-128.mp3', 'Where Were You At');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>Monologue</title><link href="http://muteklab.com/monologue.html" rel="alternate"></link><published>2006-01-01T00:00:00+09:00</published><updated>2006-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2006-01-01:/monologue.html</id><summary type="html"></summary><content type="html">&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/monologue-128.mp3', 'Monologue');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>Groove Party</title><link href="http://muteklab.com/groove-party.html" rel="alternate"></link><published>2005-08-01T00:00:00+09:00</published><updated>2005-08-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2005-08-01:/groove-party.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Break Beat
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: PC Game
+* Genre: Break Beat
+* BPM: 110
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/groove-party-128.mp3', 'Goove Party');
+    });
+&lt;/script&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="groove-party-001" src="https://user-images.githubusercontent.com/21299773/63367468-6d0d0e80-c36b-11e9-9296-9dea99331a3c.jpg#mw50"&gt;
+&lt;img alt="groove-party-003" src="https://user-images.githubusercontent.com/21299773/63367469-6d0d0e80-c36b-11e9-84a8-5209093cd46b.jpg#mw50"&gt;&lt;/p&gt;</content><category term="Author's Music"></category></entry><entry><title>It Began in Africa (Dry Mix)</title><link href="http://muteklab.com/it-began-in-africa-dry-mix.html" rel="alternate"></link><published>2002-10-02T00:00:00+09:00</published><updated>2002-10-02T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2002-10-02:/it-began-in-africa-dry-mix.html</id><summary type="html"></summary><content type="html">&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/it-began-in-africa-dry-mix-128.mp3', 'It Began in Africa (Dry Mix)');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry></feed>

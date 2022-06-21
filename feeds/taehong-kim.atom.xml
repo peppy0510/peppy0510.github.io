@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MUTEKLAB - Taehong Kim</title><link href="http://muteklab.com/" rel="alternate"></link><link href="http://muteklab.com/feeds/taehong-kim.atom.xml" rel="self"></link><id>http://muteklab.com/</id><updated>2022-06-01T00:00:00+09:00</updated><entry><title>Python 아바타 이미지 생성 라이브러리</title><link href="http://muteklab.com/python-abata-imiji-saengseong-raibeureori.html" rel="alternate"></link><published>2022-06-01T00:00:00+09:00</published><updated>2022-06-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2022-06-01:/python-abata-imiji-saengseong-raibeureori.html</id><summary type="html">&lt;h4&gt;identicon&lt;/h4&gt;
+&lt;p&gt;Python library for generating GitHub-like symmetrical 5x5 identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/flavono123/identicon"&gt;https://github.com/flavono123/identicon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://camo.githubusercontent.com/3c4eee845db4fa6af1d93b1c33b30074a9b0333f/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f363130342f3936313733302f61336334653261302d303464662d313165332d383234632d3733373865363535303730372e706e67#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;customidenticon&lt;/h4&gt;
+&lt;p&gt;Python library for generate a variety of identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lexserest/customidenticon"&gt;https://github.com/lexserest/customidenticon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/assets/22620605/2c1c3180-3d1a-11e9-84ca-64547fb6ad51#mh60"&gt;&lt;/p&gt;
+&lt;h4&gt;pagan&lt;/h4&gt;
+&lt;p&gt;Python Avatar Generator for Absolute Nerds.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/daboth/pagan"&gt;https://github.com/daboth/pagan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/pagan.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/python.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/avatar.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/github.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/retro.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;python-avatars&lt;/h4&gt;
+&lt;p&gt;Avatar library in Python.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ibonn/python_avatars"&gt;https://github.com/ibonn/python …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h4&gt;identicon&lt;/h4&gt;
+&lt;p&gt;Python library for generating GitHub-like symmetrical 5x5 identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/flavono123/identicon"&gt;https://github.com/flavono123/identicon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://camo.githubusercontent.com/3c4eee845db4fa6af1d93b1c33b30074a9b0333f/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f363130342f3936313733302f61336334653261302d303464662d313165332d383234632d3733373865363535303730372e706e67#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;customidenticon&lt;/h4&gt;
+&lt;p&gt;Python library for generate a variety of identicons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lexserest/customidenticon"&gt;https://github.com/lexserest/customidenticon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/assets/22620605/2c1c3180-3d1a-11e9-84ca-64547fb6ad51#mh60"&gt;&lt;/p&gt;
+&lt;h4&gt;pagan&lt;/h4&gt;
+&lt;p&gt;Python Avatar Generator for Absolute Nerds.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/daboth/pagan"&gt;https://github.com/daboth/pagan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/pagan.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/python.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/avatar.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/github.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/retro.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;
+&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;&lt;/p&gt;
+&lt;h4&gt;python-avatars&lt;/h4&gt;
+&lt;p&gt;Avatar library in Python.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ibonn/python_avatars"&gt;https://github.com/ibonn/python_avatars&lt;/a&gt;&lt;/p&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/main/examples/random_gif_apng/avatars.png#mh100) --&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/main/examples/shirt_text/avatar_text.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_7.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_8.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_1.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/main/examples/install/avatar_suit.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_4.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_5.svg#mh50"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_9.svg#mh50"&gt;&lt;/p&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_0.svg#mh50) --&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_3.svg#mh50) --&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_6.svg#mh50) --&gt;
+&lt;!-- ![](https://raw.githubusercontent.com/ibonn/python_avatars/2c49dc330b7022a79999394c2894d1ececbefd59/examples/random/avatar_2.svg#mh50) --&gt;</content><category term="Development Articles"></category></entry><entry><title>SublimeText 3 플러그인</title><link href="http://muteklab.com/sublimetext-3-peulreogeuin.html" rel="alternate"></link><published>2020-01-21T00:00:00+09:00</published><updated>2020-01-21T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2020-01-21:/sublimetext-3-peulreogeuin.html</id><summary type="html">&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
+우선순위 없이 열거하였으니 참고 하시기 바랍니다.&lt;/p&gt;
+&lt;h4&gt;Python&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;MagicPython&lt;/li&gt;
+&lt;li&gt;Python 3&lt;/li&gt;
+&lt;li&gt;Python Fix Imports&lt;/li&gt;
+&lt;li&gt;Python Imports Sorter …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
+우선순위 없이 열거하였으니 참고 하시기 바랍니다.&lt;/p&gt;
+&lt;h4&gt;Python&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;MagicPython&lt;/li&gt;
+&lt;li&gt;Python 3&lt;/li&gt;
+&lt;li&gt;Python Fix Imports&lt;/li&gt;
+&lt;li&gt;Python Imports Sorter&lt;/li&gt;
+&lt;li&gt;Djaneiro&lt;/li&gt;
+&lt;li&gt;Jinja2&lt;/li&gt;
+&lt;li&gt;requirementstxt&lt;/li&gt;
+&lt;li&gt;Virtualenv&lt;/li&gt;
+&lt;li&gt;Jedi - Python autocompletion&lt;/li&gt;
+&lt;li&gt;SublimeLinter-contrib-mypy&lt;/li&gt;
+&lt;li&gt;SublimeLinter-flake8&lt;/li&gt;
+&lt;li&gt;SublimeLinter-pycodestyle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;JavaScript TypeScript HTML CSS&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Babel&lt;/li&gt;
+&lt;li&gt;CSScomb&lt;/li&gt;
+&lt;li&gt;Color Highlighter&lt;/li&gt;
+&lt;li&gt;ColorPicker&lt;/li&gt;
+&lt;li&gt;Emmet&lt;/li&gt;
+&lt;li&gt;JSHint&lt;/li&gt;
+&lt;li&gt;JSHint Gutter&lt;/li&gt;
+&lt;li&gt;HTML Extended&lt;/li&gt;
+&lt;li&gt;HTML-CSS-JS Prettify&lt;/li&gt;
+&lt;li&gt;JavaScript Next Snippets&lt;/li&gt;
+&lt;li&gt;Ngx HTML&lt;/li&gt;
+&lt;li&gt;Sass&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;SublimeLinter-tslint&lt;/li&gt;
+&lt;li&gt;SublimeLinter-contrib-scss-lint&lt;/li&gt;
+&lt;li&gt;SublimeLinter-csslint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Markdown&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;MarkdownEditing&lt;/li&gt;
+&lt;li&gt;Markdown Table Formatter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;기타 문법&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;All Autocomplete&lt;/li&gt;
+&lt;li&gt;JSON Key-Value&lt;/li&gt;
+&lt;li&gt;Pretty JSON&lt;/li&gt;
+&lt;li&gt;BracketHighlighter&lt;/li&gt;
+&lt;li&gt;Clang Format&lt;/li&gt;
+&lt;li&gt;Matlab Completions&lt;/li&gt;
+&lt;li&gt;ShellScriptImproved&lt;/li&gt;
+&lt;li&gt;Inno Setup&lt;/li&gt;
+&lt;li&gt;nginx&lt;/li&gt;
+&lt;li&gt;VBScript&lt;/li&gt;
+&lt;li&gt;SublimeAStyleFormatter&lt;/li&gt;
+&lt;li&gt;Dotfiles Syntax Highlighting&lt;/li&gt;
+&lt;li&gt;INI&lt;/li&gt;
+&lt;li&gt;M3U Syntax&lt;/li&gt;
+&lt;li&gt;SublimeLinter-json&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Git&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;GitGutter&lt;/li&gt;
+&lt;li&gt;GitHubinator&lt;/li&gt;
+&lt;li&gt;Gutter Themes for SL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;SideBar&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;SideBarEnhancements&lt;/li&gt;
+&lt;li&gt;SyncedSideBar&lt;/li&gt;
+&lt;li&gt;A File Icon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Theme Color Scheme&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Theme - SoDaReloaded&lt;/li&gt;
+&lt;li&gt;Color Scheme - Legacy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;맞춤법 검사&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Spell Check&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;기타&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Search&lt;/li&gt;
+&lt;li&gt;SuperNavigator&lt;/li&gt;
+&lt;li&gt;ConvertToUTF8&lt;/li&gt;
+&lt;li&gt;AutoFileName&lt;/li&gt;
+&lt;li&gt;File Navigator&lt;/li&gt;
+&lt;li&gt;ANSIescape&lt;/li&gt;
+&lt;li&gt;Terminus&lt;/li&gt;
+&lt;li&gt;Trimmer&lt;/li&gt;
+&lt;li&gt;IMESupport&lt;/li&gt;
+&lt;li&gt;Move By Symbols&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Package 관리&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Package Control&lt;/li&gt;
+&lt;li&gt;PackageResourceViewer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Kite&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://kite.com/integrations/sublime-text/"&gt;https://kite.com/integrations/sublime-text/&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Guide to Electronic Music Genres</title><link href="http://muteklab.com/guide-to-electronic-music-genres.html" rel="alternate"></link><published>2019-12-31T00:00:00+09:00</published><updated>2019-12-31T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-31:/guide-to-electronic-music-genres.html</id><content type="html">&lt;p&gt;&lt;a class="button" href="https://music.ishkur.com/" target="_blank"&gt;Ishkur's Guide to Electronic Music version 3.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ishkurs-30" src="https://cdn8.openculture.com/2019/08/20220628/Ishkur3-e1566367374581.png#mw100"&gt;&lt;/p&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a class="button" href="http://techno.org/electronic-music-guide/" target="_blank"&gt;Ishkur's Guide to Electronic Music version 2.5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ishkurs-25" src="https://www.youredm.com/wp-content/uploads/2019/08/ishkurs-guide-to-electronic-music-site.jpg#mw100"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="B4r0MdBQI6U"&gt;
+    Guide to Electronic Music Genres
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nxRQceXSUZk"&gt;
+    New Guide To Electronic Music Genres
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="S0ycToLPUlI"&gt;
+    Evolution of House Music - Kinetic Type Assignment
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>House Mixsets</title><link href="http://muteklab.com/house-mixsets.html" rel="alternate"></link><published>2019-12-31T00:00:00+09:00</published><updated>2019-12-31T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-31:/house-mixsets.html</id><summary type="html">&lt;p&gt;&lt;youtube source="powNUum5S00"&gt;
+    Nick Warren Live DJ Set @ 303, Invisible Wind Factory Liverpool | Skiddle
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Cx8G57j4iMc"&gt;
+    Nick Warren @ EMS Anniversary 20.08.17
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="fj7RdJPgVS4"&gt;
+    Nick Warren - La Feria, Santiago, Chile - 3 Hour Set March 2019 #Top100Clubs
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="0Xgy6NFnwI0"&gt;
+    John Digweed @ Street Parade 2019 (Full Set Hi-Res) - ARTE Concert
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="r_ZlIFbInkc"&gt;
+    Tale of Us - Afterlife @ Printworks, London November 2018 -Tale of …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="powNUum5S00"&gt;
+    Nick Warren Live DJ Set @ 303, Invisible Wind Factory Liverpool | Skiddle
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Cx8G57j4iMc"&gt;
+    Nick Warren @ EMS Anniversary 20.08.17
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="fj7RdJPgVS4"&gt;
+    Nick Warren - La Feria, Santiago, Chile - 3 Hour Set March 2019 #Top100Clubs
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="0Xgy6NFnwI0"&gt;
+    John Digweed @ Street Parade 2019 (Full Set Hi-Res) - ARTE Concert
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="r_ZlIFbInkc"&gt;
+    Tale of Us - Afterlife @ Printworks, London November 2018 -Tale of Us, Fideles, Adriatique etc.
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="3xXjWc40pQU"&gt;
+    Anjunadeep @ Printworks, London December 2019 - Ben Böhmer, James Grant &amp;amp; Jody Wisternoff, Luttrell
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="o8dLlEOHW50"&gt;
+    Hernán Cattaneo (HD) - DIA 2 @ Forja Centro de Eventos x #BNP20AÑOS
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="lOLLYp3_UlY"&gt;
+    Pete Tong &amp;amp; Hot Since 82 from (Radio 1 in Ibiza 2014)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="_RQe4oMTtOE"&gt;
+    James Grant &amp;amp; Jody Wisternoff Live at Anjunadeep Open Air: Prague (Official 4K Set) #ABGT350
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="q8lIuEMN8hk"&gt;
+    Guy J @ Akvárium Klub (Budapest), 2016.11.26. - OneMusic
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Yg_tJ0P3hDE"&gt;
+    John Digweed/Extended Set/Akvárium Klub 2019.03.02.Budapest
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="q7UxovvEkI0"&gt;
+    Selected Sessions MK b2b Sonny Fodera U-Bahn DJ Set
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="wq2z2u58ma0"&gt;
+    Or:la Boiler Room x AVA Festival DJ Set
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="kDNS4iFRwg0"&gt;
+    EELKE KLEIJN melodic house set in The Lab LA
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="D2LhYfyqC74"&gt;
+    Camelphat | Tomorrowland Belgium 2018
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>Techno Mixsets</title><link href="http://muteklab.com/techno-mixsets.html" rel="alternate"></link><published>2019-12-31T00:00:00+09:00</published><updated>2019-12-31T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-31:/techno-mixsets.html</id><summary type="html">&lt;p&gt;&lt;youtube source="T_4ML45Op5c"&gt;
+    Pan-Pot - Time Warp 2018 (Full Set HiRes) - ARTE Concert
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="G2ZLI3Wilpk"&gt;
+    Pan-Pot @ Awakenings Festival 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="FNe-ad2LNwc"&gt;
+    Awakenings ADE 2019 - Adam Beyer
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="_4eUkff6vzQ"&gt;
+    Awakenings Festival 2019 Sunday - Live set Adam Beyer @ Area V
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="5ha4CNO2NGo"&gt;
+    Awakenings Festival 2019 Sunday - Live set Ida Engberg @ Area V
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="AqAH_JJyRj0"&gt;
+    Awakenings Festival 2019 Sunday - Live set Joseph Capriati @ Area W
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="DnUEszxEgfw"&gt;
+    Awakenings ADE …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="T_4ML45Op5c"&gt;
+    Pan-Pot - Time Warp 2018 (Full Set HiRes) - ARTE Concert
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="G2ZLI3Wilpk"&gt;
+    Pan-Pot @ Awakenings Festival 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="FNe-ad2LNwc"&gt;
+    Awakenings ADE 2019 - Adam Beyer
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="_4eUkff6vzQ"&gt;
+    Awakenings Festival 2019 Sunday - Live set Adam Beyer @ Area V
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="5ha4CNO2NGo"&gt;
+    Awakenings Festival 2019 Sunday - Live set Ida Engberg @ Area V
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="AqAH_JJyRj0"&gt;
+    Awakenings Festival 2019 Sunday - Live set Joseph Capriati @ Area W
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="DnUEszxEgfw"&gt;
+    Awakenings ADE 2019 - Joseph Capriati
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="7vwcmSZtbvw"&gt;
+    Awakenings ADE 2019 - Carl Cox B2B Joseph Capriati
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="dSztmiTGi2U"&gt;
+    Awakenings ADE 2019 - Enrico Sangiuliano
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="TsSj35zj3rA"&gt;
+    Dubfire Techno Set Live From The Off Sonar Closing Party Barcelona
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="vqtCcmJhZbw"&gt;
+    Dubfire @ ADE 2017 - Awakenings x Joseph Capriati presents (BE-AT.TV)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="obs7fXjvA88"&gt;
+    Dubfire | Tomorrowland Belgium 2018
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="C5PSxe6iCnI"&gt;
+    RICHIE HAWTIN Mixmag Live @ Output NYC
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="-QnzH1tfLMc"&gt;
+    Richie Hawtin and Loveland Pres. #POPUP | Official ADE Opening 2017
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="QAWqZfGN1wg"&gt;
+    Richie Hawtin and Loveland
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="OJlwZAHp6Fk"&gt;
+    Tomorrowland 2015 | Richie Hawtin
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="ZyOpubDs-qI"&gt;
+    Green Velvet Live From Bugged Out! At Printworks London | BULLDOG Gin
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="LnALaD14CH4"&gt;
+    Ben Klock @ Photon, Printworks London 2017 (BE-AT.TV)
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>Trance Mixsets</title><link href="http://muteklab.com/trance-mixsets.html" rel="alternate"></link><published>2019-12-30T00:00:00+09:00</published><updated>2019-12-30T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-30:/trance-mixsets.html</id><summary type="html">&lt;p&gt;&lt;youtube source="EpGVYFILCNs"&gt;
+    Armin van Buuren live at AMF 2019 (Amsterdam Music Festival)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="JSJW0PmFqQQ"&gt;
+    A State Of Trance Episode 946 (#ASOT946) [Year Mix 2019] – Armin van Buuren
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9kRLCiMCr0s"&gt;
+    Armin van Buuren live at Ultra Europe 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="7BG88HMRVUc"&gt;
+    Martin Garrix (Full live-set) | SLAM!Koningsdag
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9jPdVcVyO1I"&gt;
+    Laserface by Gareth Emery | Amnesia Ibiza 2019 (4K HD Full Set)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="sb4hzWYeXWo"&gt;
+    MARLO - TRANSMISSION …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="EpGVYFILCNs"&gt;
+    Armin van Buuren live at AMF 2019 (Amsterdam Music Festival)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="JSJW0PmFqQQ"&gt;
+    A State Of Trance Episode 946 (#ASOT946) [Year Mix 2019] – Armin van Buuren
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9kRLCiMCr0s"&gt;
+    Armin van Buuren live at Ultra Europe 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="7BG88HMRVUc"&gt;
+    Martin Garrix (Full live-set) | SLAM!Koningsdag
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9jPdVcVyO1I"&gt;
+    Laserface by Gareth Emery | Amnesia Ibiza 2019 (4K HD Full Set)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="sb4hzWYeXWo"&gt;
+    MARLO - TRANSMISSION AUSTRALIA 2019 Sydney
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="XlndmZ-4mc8"&gt;
+    Above &amp;amp; Beyond: Group Therapy 350 live from O2 Arena, Prague (Official 4K Set) #ABGT350
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="10utJGbQQLs"&gt;
+    Above &amp;amp; Beyond Live at Madison Square Garden (Full HD Set) #ABGT100 New York
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="pSEtn4dhkMs"&gt;
+    Aly &amp;amp; Fila | Tomorrowland Belgium 2019 - W1
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="43q0c2y-9ck"&gt;
+    Craig Connelly vs Factor B live at Dreamstate So Cal 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="r0r4BoV4XPw"&gt;
+    John O'Callaghan LIVE Producer set Subculture Belfast HD Video Set
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="bSMm2ET-SGY"&gt;
+    John O'Callaghan &amp;amp; Bryan Kearney presents Key4050 | Tomorrowland Belgium 2019 - W1
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="D-7oXUNmZwQ"&gt;
+    John O'Callaghan live @ Subculture LA 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="QujRCpQRSG0"&gt;
+    Joint Operations Centre LIVE HD set Dreamstate SoCal 2019
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>PostgreSQL vs MySQL</title><link href="http://muteklab.com/postgresql-vs-mysql.html" rel="alternate"></link><published>2019-12-29T00:00:00+09:00</published><updated>2019-12-29T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-29:/postgresql-vs-mysql.html</id><summary type="html">&lt;p&gt;PostgreSQL과 MySQL 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hamait.tistory.com/596?category=79150" target="_blank"&gt;https://hamait.tistory.com/596?category=79150&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eng.uber.com/mysql-migration/" target="_blank"&gt;https://eng.uber.com/mysql-migration/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres" target="_blank"&gt;https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mysqlko.wordpress.com/2016/08/05/mysql-vs-postgresql-uber/" target="_blank"&gt;https://mysqlko.wordpress …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;PostgreSQL과 MySQL 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hamait.tistory.com/596?category=79150" target="_blank"&gt;https://hamait.tistory.com/596?category=79150&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eng.uber.com/mysql-migration/" target="_blank"&gt;https://eng.uber.com/mysql-migration/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres" target="_blank"&gt;https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mysqlko.wordpress.com/2016/08/05/mysql-vs-postgresql-uber/" target="_blank"&gt;https://mysqlko.wordpress.com/2016/08/05/mysql-vs-postgresql-uber&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=12166585" target="_blank"&gt;https://news.ycombinator.com/item?id=12166585&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Solr vs Elasticsearch</title><link href="http://muteklab.com/solr-vs-elasticsearch.html" rel="alternate"></link><published>2019-12-29T00:00:00+09:00</published><updated>2019-12-29T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-29:/solr-vs-elasticsearch.html</id><summary type="html">&lt;p&gt;Solr와 Elasticsearch 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://needjarvis.tistory.com/167" target="_blank"&gt;https://needjarvis.tistory.com/167&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://hochul.net/blog/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EB%B9%84%EA%B5%90-solr-vs-elasticsearch/" target="_blank"&gt;http://hochul.net/blog/오픈소스-검색엔진-비교-solr-vs-elasticsearch/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gs.saro.me/dev?tn=406" target="_blank"&gt;https://gs.saro.me …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Solr와 Elasticsearch 사이에 고민이 된다면 참고할만한 자료들을 소개합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://needjarvis.tistory.com/167" target="_blank"&gt;https://needjarvis.tistory.com/167&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://hochul.net/blog/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EB%B9%84%EA%B5%90-solr-vs-elasticsearch/" target="_blank"&gt;http://hochul.net/blog/오픈소스-검색엔진-비교-solr-vs-elasticsearch/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gs.saro.me/dev?tn=406" target="_blank"&gt;https://gs.saro.me/dev?tn=406&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Drum n Bass and Dub Step Mixsets</title><link href="http://muteklab.com/drum-n-bass-and-dub-step-mixsets.html" rel="alternate"></link><published>2019-12-27T00:00:00+09:00</published><updated>2019-12-27T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-27:/drum-n-bass-and-dub-step-mixsets.html</id><summary type="html">&lt;p&gt;&lt;youtube source="qCfImt0PFSw"&gt;
+    Rampage 2016 - Sub Focus
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="kMxoMDHBJgc"&gt;
+    Rampage 2019 - SUB FOCUS b2b WILKINSON
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="xtTrW9i2RB4"&gt;
+    Sub Focus Live from The Roundhouse, London 19/10/2013
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="mhGx7xeyNp8"&gt;
+    Rampage 2019 - Andy C &amp;amp; MC Tonn Piper
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="gfl_X4WI5Gg"&gt;
+    Rampage 2019 - DIMENSION
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="TK1vqw1Yojo"&gt;
+    Rampage Open Air 2019 - Koven
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="h93ddkA9BMQ"&gt;
+    Metrik + Dynamite MC Live from Hospitality In The Park 2018
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="hp-Zo9XEc4M"&gt;
+    Metrik @ Hospitality In The Park …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="qCfImt0PFSw"&gt;
+    Rampage 2016 - Sub Focus
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="kMxoMDHBJgc"&gt;
+    Rampage 2019 - SUB FOCUS b2b WILKINSON
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="xtTrW9i2RB4"&gt;
+    Sub Focus Live from The Roundhouse, London 19/10/2013
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="mhGx7xeyNp8"&gt;
+    Rampage 2019 - Andy C &amp;amp; MC Tonn Piper
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="gfl_X4WI5Gg"&gt;
+    Rampage 2019 - DIMENSION
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="TK1vqw1Yojo"&gt;
+    Rampage Open Air 2019 - Koven
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="h93ddkA9BMQ"&gt;
+    Metrik + Dynamite MC Live from Hospitality In The Park 2018
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="hp-Zo9XEc4M"&gt;
+    Metrik @ Hospitality In The Park 2016
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Yu0Uk2DHtVw"&gt;
+    Matrix &amp;amp; Futurebound (Feat. MC Mota) - Liquicity Amsterdam - 19th March 2016
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="vHR4Ia8GoXE"&gt;
+    Metrik @ Hospitality In The Dock (Tobacco Dock/London)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="eaoF13cT2wo"&gt;
+    Fred V &amp;amp; Grafix @ Hospitality In The Dock (Tobacco Dock/London)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="olXNswhKsPE"&gt;
+    Kings Of The Rollers @ Hospitality Garden Party
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>BBC The Biggest Weekend and More</title><link href="http://muteklab.com/bbc-the-biggest-weekend-and-more.html" rel="alternate"></link><published>2019-12-20T00:00:00+09:00</published><updated>2019-12-20T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-12-20:/bbc-the-biggest-weekend-and-more.html</id><summary type="html">&lt;p&gt;&lt;youtube source="dFCOsQJUVng"&gt;
+    Camila Cabello - Never Be The Same (The Biggest Weekend)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="cnJN75GTrVk"&gt;
+    Jason Derulo - Want To Want Me (live at Biggest Weekend 2018)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="6MYIGvgT1ZE"&gt;
+    MØ - Nostalgia (The Biggest Weekend)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="1wsHPUPIrwc"&gt;
+    Clean Bandit feat. Zara Larsson - Symphony (Live at Capital's Jingle Bell Ball)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="1E_2pLa_pg8"&gt;
+    Dua Lipa - New Rules (Reading + Leeds 2018)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="tt0nuzHz8ps"&gt;
+    Dua Lipa - One Dance (Live At …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="dFCOsQJUVng"&gt;
+    Camila Cabello - Never Be The Same (The Biggest Weekend)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="cnJN75GTrVk"&gt;
+    Jason Derulo - Want To Want Me (live at Biggest Weekend 2018)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="6MYIGvgT1ZE"&gt;
+    MØ - Nostalgia (The Biggest Weekend)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="1wsHPUPIrwc"&gt;
+    Clean Bandit feat. Zara Larsson - Symphony (Live at Capital's Jingle Bell Ball)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="1E_2pLa_pg8"&gt;
+    Dua Lipa - New Rules (Reading + Leeds 2018)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="tt0nuzHz8ps"&gt;
+    Dua Lipa - One Dance (Live At Capital's Jingle Bell Ball 2016)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="FAfxTvlq87s"&gt;
+    Dua Lipa - Be The One (Live At Capital's Summertime Ball 2017)
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>Future House and Dance Music Single Tracks</title><link href="http://muteklab.com/future-house-and-dance-music-single-tracks.html" rel="alternate"></link><published>2019-11-01T00:00:00+09:00</published><updated>2019-11-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-11-01:/future-house-and-dance-music-single-tracks.html</id><summary type="html">&lt;p&gt;&lt;youtube source="MyEkxp3wWQU"&gt;
+    Hanne Mjøen - Sounds Good To Me (Gerd Janson Remix)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="4r1cICFhCVM"&gt;
+    Gaullin - Moonlight
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="KDxJlW6cxRk"&gt;
+    Duke Dumont - Ocean Drive (Official Music Video)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="kOkQ4T5WO9E"&gt;
+    Calvin Harris feat. Rihanna - This Is What You Came For
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="foE1mO2yM04"&gt;
+    Mike Posner - I Took A Pill In Ibiza (Seeb Remix)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="2XFfWems2_A"&gt;
+    Selena Gomez - Me &amp;amp; The Rhythm
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="3FXMsoTTcog"&gt;
+    LYKKE LI - I FOLLOW RIVERS (The Magician …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="MyEkxp3wWQU"&gt;
+    Hanne Mjøen - Sounds Good To Me (Gerd Janson Remix)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="4r1cICFhCVM"&gt;
+    Gaullin - Moonlight
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="KDxJlW6cxRk"&gt;
+    Duke Dumont - Ocean Drive (Official Music Video)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="kOkQ4T5WO9E"&gt;
+    Calvin Harris feat. Rihanna - This Is What You Came For
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="foE1mO2yM04"&gt;
+    Mike Posner - I Took A Pill In Ibiza (Seeb Remix)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="2XFfWems2_A"&gt;
+    Selena Gomez - Me &amp;amp; The Rhythm
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="3FXMsoTTcog"&gt;
+    LYKKE LI - I FOLLOW RIVERS (The Magician Remix)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="hTb6ClME6Eg"&gt;
+    Holly Henry - Seven Nation Army (TEEMID Cover)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="DkeiKbqa02g"&gt;
+    Calvin Harris and Dua Lipa - One Kiss
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="z8yvVfptis4"&gt;
+    Elderbrook - Capricorn
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="sZtTVSghzsg"&gt;
+    Hot Since 82 feat. Jem Cooke - Buggin'
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>70s 80s 90s Dance Music Single Tracks</title><link href="http://muteklab.com/70s-80s-90s-dance-music-single-tracks.html" rel="alternate"></link><published>2019-08-29T00:00:00+09:00</published><updated>2019-08-29T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-29:/70s-80s-90s-dance-music-single-tracks.html</id><summary type="html">&lt;p&gt;&lt;youtube source="-gLs6YNnqZY"&gt;
+    The KLF - Last Train to Trancentral
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="RPjggN-KByI"&gt;
+    The KLF - Justified and Ancient (Stand By The JAMs)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nm6DO_7px1I"&gt;
+    SNAP! - The Power
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="LaTGrV58wec"&gt;
+    C+C Music Factory - Gonna Make You Sweat (Everybody Dance Now)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="TLGWQfK-6DY"&gt;
+    RUN DMC and Jason Nevins - It's Like That
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="_KztNIg4cvE"&gt;
+    Crystal Waters - Gypsy Woman (She's Homeless)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="K5DALXwOe0s"&gt;
+    Modern Talking - Brother Louie '98
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nITMhO3ZPZM"&gt;
+    New Kids …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="-gLs6YNnqZY"&gt;
+    The KLF - Last Train to Trancentral
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="RPjggN-KByI"&gt;
+    The KLF - Justified and Ancient (Stand By The JAMs)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nm6DO_7px1I"&gt;
+    SNAP! - The Power
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="LaTGrV58wec"&gt;
+    C+C Music Factory - Gonna Make You Sweat (Everybody Dance Now)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="TLGWQfK-6DY"&gt;
+    RUN DMC and Jason Nevins - It's Like That
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="_KztNIg4cvE"&gt;
+    Crystal Waters - Gypsy Woman (She's Homeless)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="K5DALXwOe0s"&gt;
+    Modern Talking - Brother Louie '98
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nITMhO3ZPZM"&gt;
+    New Kids On The Block - Step by Step
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="POWsFzSFLCE"&gt;
+    Kylie Minogue - The Locomotion
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Pge_uGSADDc"&gt;
+    Irene Cara - Flashdance What A Feeling
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="zrgOxi7U_NI"&gt;
+    Mariah Carey - Emotions (From Mariah Carey Live)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="iF_dFVqVyJI"&gt;
+    Miami Sound Machine - Bad Boy
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Qn11R5l9vzY"&gt;
+    Kylie Minogue - Turn It Into Love
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="1hHSH9sJUEo"&gt;
+    Jamiroquai - Little L
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="cLi8fTlDEag"&gt;
+    Olivia Newton John - Xanadu
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Fw4ch6KVOBc"&gt;
+    Incognito &amp;amp; Jocelyn Brown - Always There
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="MWd5379FMGU"&gt;
+    Incognito - Don't You Worry 'Bout A Thing
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="rog8ou-ZepE"&gt;
+    Vanilla Ice - Ice Ice Baby
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="aIXyKmElvv8"&gt;
+    The Fugees - Ready or Not
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="010KyIQjkTk"&gt;
+    Kris Kross - Jump
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Kr0tTbTbmVA"&gt;
+    DJ Jazzy Jeff &amp;amp; The Fresh Prince - Summertime
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="VJEbfeG2oAE"&gt;
+    Heavy D &amp;amp; The Boyz - Nuttin' But Love
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="MBIn10F5frE"&gt;
+    Robin S., Crystal Waters &amp;amp; CeCe Peniston Perform Their Classics At Black Girls Rock 2019!
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>Python NOQA (NO Quality Assurance)</title><link href="http://muteklab.com/python-noqa-no-quality-assurance.html" rel="alternate"></link><published>2019-08-24T00:00:00+09:00</published><updated>2019-08-24T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-24:/python-noqa-no-quality-assurance.html</id><summary type="html">&lt;p&gt;Python에서 와일드카드 import를 하거나 exec 명령어를 통해 변수를 선언하는 등의 경우에는 문법 검사기의 경고 메시지를 보게 됩니다 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python에서 와일드카드 import를 하거나 exec 명령어를 통해 변수를 선언하는 등의 경우에는 문법 검사기의 경고 메시지를 보게 됩니다. 문법 검사기의 제안을 따르는 것이 좋겠지만 가끔 부득이 한 경우가 있습니다. 다음과 같이 해당 코드 라인의 맨 끝에 &lt;code&gt;# noqa&lt;/code&gt; 주석을 추가하는 방법으로 간단하게 해결할 수 있습니다. 해당 라인만 문법 검사를 하지 않도록 하는 방법입니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;manager&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;  &lt;span class="c1"&gt;# noqa&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;import 전에 환경 설정과 같은 것을 처리해야 할 때에는 다음과 같이 해결 할 수도 있습니다. 다음에 import 되는 모든 라인에 noqa를 붙일 필요가 없으며 이전에 원인이 된 라인에만 붙이면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;warnings&lt;/span&gt;
+&lt;span class="n"&gt;warnings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;simplefilter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;action&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ignore&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;category&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ne"&gt;FutureWarning&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# noqa&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;manager&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;참고로 Python에서는 이와 같은 싱글 라인 방법만 존재하며 자세한 내용은 다음의 링크를 참조합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments" target="_blank"&gt;https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors" target="_blank"&gt;http://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>HTML HEAD 설정하기</title><link href="http://muteklab.com/html-head-seoljeonghagi.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/html-head-seoljeonghagi.html</id><summary type="html">&lt;p&gt;다음의 링크는 HTML HEAD 설정에 도움이 되는 자료들 입니다.&lt;/p&gt;
+&lt;h5&gt;Head&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank"&gt;https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Favicon&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://webdir.tistory.com/337" target="_blank"&gt;https://webdir.tistory.com/337&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Meta&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta" target="_blank"&gt;https://developer.mozilla.org …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;다음의 링크는 HTML HEAD 설정에 도움이 되는 자료들 입니다.&lt;/p&gt;
+&lt;h5&gt;Head&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML" target="_blank"&gt;https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Favicon&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://webdir.tistory.com/337" target="_blank"&gt;https://webdir.tistory.com/337&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Meta&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta" target="_blank"&gt;https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aboooks.tistory.com/339" target="_blank"&gt;https://aboooks.tistory.com/339&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Meta Viewport&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://aboooks.tistory.com/352" target="_blank"&gt;https://aboooks.tistory.com/352&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aboooks.tistory.com/353" target="_blank"&gt;https://aboooks.tistory.com/353&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Open Graph&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://ogp.me/" target="_blank"&gt;https://ogp.me/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://blog.ab180.co/open-graph-as-a-website-preview/" target="_blank"&gt;http://blog.ab180.co/open-graph-as-a-website-preview/&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Canonical&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Canonical_link_element" target="_blank"&gt;https://en.wikipedia.org/wiki/Canonical_link_element&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://webisfree.com/2014-09-24/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-%EB%B0%A9%EB%B2%95-canonical-%ED%83%9C%EA%B7%B8%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1%EA%B3%BC-%ED%99%9C%EC%9A%A9-%EB%B0%A9%EB%B2%95" target="_blank"&gt;https://webisfree.com/2014-09-24/검색엔진-최적화-방법-canonical-태그의-중요성과-활용-방법&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html" target="_blank"&gt;https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>HTML 소스 코드에 base64 이미지 삽입하기</title><link href="http://muteklab.com/html-soseu-kodeue-base64-imiji-sabibhagi.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/html-soseu-kodeue-base64-imiji-sabibhagi.html</id><summary type="html">&lt;p&gt;HTML 소스 코드에 base64 인코딩된 이미지를 삽입하는 방법을 소개합니다. HTML 소스에 삽입된 이미지는 클라이언트 캐시가 되지 않기 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;HTML 소스 코드에 base64 인코딩된 이미지를 삽입하는 방법을 소개합니다. HTML 소스에 삽입된 이미지는 클라이언트 캐시가 되지 않기 때문에, 용량이 아주 작은 아이콘 정도에 사용하는 것을 추천합니다. 또한, AWS 요금제 등의 상황에 따라, 단일 요청의 용량보다는 횟수의 증가를 줄이는 것이 이득일 때 사용하는 것도 고려해 볼 수 있겠습니다. 다음과 같은 형태로 이미지 파일을 base64 인코딩하여 HTML에 삽입할 수 있습니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;data:image/[extension];base64,[base64 encoded data]&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;다음은 python에서 파일을 읽어 base64 인코딩된 태그를 생성하는 예제이며, Django Template Filter를 만드는 등으로 활용 할 수 있습니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;base64&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;base64img&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;ext&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;splitext&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:]&lt;/span&gt;
+    &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;rb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;encoded&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;base64&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;b64encode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;decode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&amp;lt;img src=&amp;quot;data:image/&lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s1"&gt;;base64,&lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s1"&gt;&amp;quot;&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ext&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;encoded&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Development Articles"></category></entry><entry><title>HTML Template에 Linter 사용 시 발생하는 문제해결</title><link href="http://muteklab.com/html-templatee-linter-sayong-si-balsaenghaneun-munjehaegyeol.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/html-templatee-linter-sayong-si-balsaenghaneun-munjehaegyeol.html</id><summary type="html">&lt;p&gt;Django, Jinja 등의 HTML Template에 Linter 사용 시 발생하는 문제 해결 방법을 소개합니다. Template에 HTML Linter를 사용하게 되면 &lt;code&gt;{% %}&lt;/code&gt; 태그된 제어문으로 인하여 구 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Django, Jinja 등의 HTML Template에 Linter 사용 시 발생하는 문제 해결 방법을 소개합니다. Template에 HTML Linter를 사용하게 되면 &lt;code&gt;{% %}&lt;/code&gt; 태그된 제어문으로 인하여 구조가 흐트러지고 가독성이 떨어지는 경우가 발생합니다. &lt;code&gt;{% %}&lt;/code&gt;를 &lt;code&gt;{ % % }&lt;/code&gt;로 변환해 버리는 경우도 발생합니다. 다음과 같이 제어문을 주석처리 하는 방법으로 간단하게 해결할 수 있습니다. 단, &lt;code&gt;{% includes "template.html" %}&lt;/code&gt;와 같이 &lt;code&gt;includes&lt;/code&gt; 명령어에 주석 처리하면 렌더링 결과가 주석처리 되어 버리기 때문에 주의해야 합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cm"&gt;&amp;lt;!-- {% for name in names %} --&amp;gt;&lt;/span&gt;
+&lt;span class="cm"&gt;&amp;lt;!-- {% if name %} --&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;{{ name }}&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="cm"&gt;&amp;lt;!-- {% endif %} --&amp;gt;&lt;/span&gt;
+&lt;span class="cm"&gt;&amp;lt;!-- {% endfor %} --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Development Articles"></category></entry><entry><title>Python Web Minification</title><link href="http://muteklab.com/python-web-minification.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/python-web-minification.html</id><summary type="html">&lt;p&gt;Python으로 웹 콘텐츠를 minification 하는 방법을 소개합니다. HTML, JavaScript, CSS 등의 소스 파일에서 불필요한 공백 문자나 주석을 제거하여 네트워크 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python으로 웹 콘텐츠를 minification 하는 방법을 소개합니다. HTML, JavaScript, CSS 등의 소스 파일에서 불필요한 공백 문자나 주석을 제거하여 네트워크 전송량을 줄이는 방법입니다. 우선 예제에 필요한 라이브러리를 모두 설치합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install jsmin htmlmin beautifulsoup4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;JavaScript or CSS Minification&lt;/h5&gt;
+&lt;p&gt;jsmin 라이브러리를 사용하여 minification 합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;jsmin&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;javascript or css content&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;단, CSS minification에는 htmlmin 라이브러리를 사용하는 것이 좋을 수도 있습니다.. 파일을 읽어 처리해야 한다면 다음과 같이 하면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;jsmin&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;
+
+&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;path.js or path.css&amp;#39;&lt;/span&gt;
+
+&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;rb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;decode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;wb&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;encode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;참고로 바이너리 모드로 파일을 읽은 후 utf-8 인코딩을 하지 않으면, 한글과 특수문자 등의 오류가 발생할 수 있으므로 주의해야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;HTML Minification&lt;/h5&gt;
+&lt;p&gt;htmlmin 라이브러리를 사용하여 minification 합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;htmlmin&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html content&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;htmlmin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;minify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;remove_empty_space&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;HTML 소스 내에 존재하는 script나 style은 htmlmin으로 처리되지 않습니다. BeautifulSoup을 사용하여 style과 script 태그의 내용을 찾아 별도로 처리하면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;jsmin&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;bs4&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;
+
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html content&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;soup&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html.parser&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;soup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find_all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;style&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_text&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;soup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find_all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;jsmin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_text&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;soup&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;htmlmin으로 주석은 제거되지 않습니다. 간혹 유명 포털 사이트 브라우징 시 HTML 소스보기 하더라도 많은 주석을 볼 수 있는 경우가 있습니다. 주석에는 개발자가 미처 생각하지 못한 보안 사항, 백도어의 힌트가 포함될 수도 있습니다. 주석을 제거하고 싶다면 다음과 같이 정규식을 사용할 수 있습니다. 단, HTML 조건문에서 사용되는 &lt;code&gt;![]&lt;/code&gt; 문자가 들어 있다면 제거되지 않는 정규식이므로 주의합니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;re&lt;/span&gt;
+
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html content&amp;#39;&lt;/span&gt;
+
+&lt;span class="n"&gt;ptrn&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;r&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;(&amp;lt;!--)([^!^[^]]*)(--&amp;gt;)&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sub&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ptrn&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;flags&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DOTALL&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;완벽하지 않은 정규식이며, 추후에 더 나은 방법을 발견하면 수정하도록 하겠습니다. 본문 내용자체에 주석을 설명하기 위해 &lt;code&gt;&amp;lt;!--&lt;/code&gt;와 &lt;code&gt;--&amp;gt;&lt;/code&gt;가 표기되어 있다면 의도하지 않게 제거될 수 있으므로 주의해야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;응용하기&lt;/h5&gt;
+&lt;p&gt;서비스를 유지 관리하는 측면에서 반복되는 minification 작업은 성가신 일입니다. 또한, 공백문자 제거로 인하여 예상하지 못한 결과물의 변형이 있을 수 있으므로, 소스 코드 수정 시 수시로 확인하는 과정이 필요하며, 응답 시 매번 minification하기 위해서는 응답속도가 증가하는 문제가 발생합니다. 이러한 문제를 해결하기 위해 minify된 파일을 메모리 데이터베이스에 캐싱하여 사용하는 방법이 있습니다. 즉, 파일 수정시간을 참조하여 캐시가 없거나 파일 수정시간 갱신 시에만 minify하여 캐싱하고 이로부터 읽어 응답할 수 있습니다. 이에 더하여 서버 측에서 클라이언트 캐시 응답을 처리하기 위해서는 파일 수정시간 참조가 필수적이므로 이를 함께 처리하도록 구현하면 보다 빠른 응답 속도를 기대할 수 있습니다.&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Python으로 신호처리 필터 구현하기</title><link href="http://muteklab.com/pythoneuro-sinhoceori-pilteo-guhyeonhagi.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/pythoneuro-sinhoceori-pilteo-guhyeonhagi.html</id><summary type="html">&lt;p&gt;신호처리의 기본이 되는 필터를 Python으로 구현해봤습니다. Matlab 예제로 많이 소개되는 필터 구현체를 참고 하였습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;FIR Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;신호처리의 기본이 되는 필터를 Python으로 구현해봤습니다. Matlab 예제로 많이 소개되는 필터 구현체를 참고 하였습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;FIR Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;fir_filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;29&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;nyq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;
+    &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;coeff&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;firwin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;coeff&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;firwin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pass_zero&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;coeff&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;firwin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;low&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;pass_zero&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lfilter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;coeff&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;1.0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Butterworth Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;butter_filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;nyq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;
+    &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;butter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;low&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;butter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;high&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;butter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;low&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;band&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filtfilt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Type I Chebyshev Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;cheby1_filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;nyq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;
+    &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;low&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;high&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;low&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;band&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filtfilt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Type II Chebyshev Filter&lt;/h5&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;cheby2_filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;nyq&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;fs&lt;/span&gt;
+    &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;highcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;low&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lowcut&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;nyq&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;high&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;low&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cheby2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;order&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;riple&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;low&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;high&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;btype&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;band&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filtfilt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Development Articles"></category></entry><entry><title>SublimeText 맞춤법 검사기 활용하기</title><link href="http://muteklab.com/sublimetext-majcumbeob-geomsagi-hwalyonghagi.html" rel="alternate"></link><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-22:/sublimetext-majcumbeob-geomsagi-hwalyonghagi.html</id><summary type="html">&lt;p&gt;SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원합니다. 사용자 환경설정 파일 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원합니다. 사용자 환경설정 파일 &lt;code&gt;Preference.sublime-settings&lt;/code&gt;에 &lt;code&gt;spell_check&lt;/code&gt;와 &lt;code&gt;dictionary&lt;/code&gt; 항목이 있으며, 다음과 같이 이를 수정하여 기능 활성화와 언어 선택이 가능합니다. 해당 항목이 없다면 추가하면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Packages/Language - English/en_US.dic&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;미국 영어와 영국 영어 사전이 기본 내장되어 있으며, 한글을 추가하고 싶다면 다음의 링크에서 한국어 사전을 내려받습니다. &lt;code&gt;*.dic&lt;/code&gt;와 &lt;code&gt;*.aff&lt;/code&gt; 파일만 있으면 됩니다. 참고로 아래가 유일한 hunspell 한국어 사전 공개 프로젝트이므로 다른 선택지는 없습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/spellcheck-ko/hunspell-dict-ko" target="_blank"&gt;https://github.com/spellcheck-ko/hunspell-dict-ko&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;그 다음 사용자가 원하는 경로에 사전을 저장하고 다음과 같이 &lt;code&gt;dictionary&lt;/code&gt; 항목에 경로를 지정해주면 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Packages/User/Dictionaries/ko.dic&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;일반적으로 코드 작성 시에는 맞춤법 검사기의 사용 빈도가 많지 않고, 주석 작업 등에 선택적으로 사용되어 질 것입니다. 반면, 마크다운 문서를 작성할 때는 항상 문법 검사기를 사용 할 것입니다. 이럴 때에는 마크다운 확장자가 정의 되어 있는 설정 파일에 &lt;code&gt;spell_check&lt;/code&gt;와 &lt;code&gt;dictionary&lt;/code&gt; 추가하여 사용하면 됩니다. MarkdownEditing 플러그인을 사용하는 필자의 경우, 사용자 환경설정이 있는 경로의 &lt;code&gt;Markdown.sublime-settings&lt;/code&gt; 파일에 다음의 항목을 추가하였습니다. &lt;code&gt;Preference.sublime-settings&lt;/code&gt;의 설정이 꺼져 있더라도 마크다운과 텍스트 파일에서는 항상 한글 맞춤법 검사를 하게 됩니다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;extensions&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;md&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;mdown&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;txt&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Packages/User/Dictionaries/ko.dic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;다음으로 검사기를 쉽게 toggle하고 언어를 선택할 수 있는 방법을 설명합니다. 코드 작성 시 맞춤법 검사기를 사용하게 되면 자연어와 다른 철자의 예약어, 축약된 변수명 등에서 많은 오류를 보게 될 것입니다. 검사기를 간편하게 toggle하고 싶은 욕구가 생길 것입니다. 다음과 같이 SublimeText의 사용자 환경설정 경로에 파일을 만들어 명령어를 등록하면 됩니다. 파일을 생성하면 명령어가 자동으로 등록되며, 명령어 팔레트에 &lt;code&gt;Spell Check&lt;/code&gt;라고 검색하면 해당 항목이 나타납니다. &lt;code&gt;Current View&lt;/code&gt;가 있는 항목을 통해서 현재 열려 있는 창에만 설정을 적용할 수 있습니다. &lt;code&gt;Current View&lt;/code&gt;가 없는 항목은 전체 설정으로 &lt;code&gt;Preferences.sublime-settings&lt;/code&gt;에 반영됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;SpellCheck.sublime-commands&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;caption&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Spell Check: Toggle&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dic_toggle&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;caption&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Spell Check: Toggle (Current View)&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dic_toggle_view&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;caption&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Spell Check: Set Language&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dic_set_language&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;caption&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Spell Check: Set Language (Current View)&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dic_set_view_language&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;SpellCheck.py&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sublime&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sublime_plugin&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;fnmatch&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os.path&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;find_resources&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;resources&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;hasattr&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;find_resources&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;resources&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find_resources&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;root&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dir_names&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;file_names&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;walk&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;packages_path&lt;/span&gt;&lt;span class="p"&gt;()):&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;.git&amp;quot;&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;root&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="k"&gt;continue&lt;/span&gt;
+            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;file_names&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="n"&gt;rel_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;relpath&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;root&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;packages_path&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+                &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;fnmatch&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fnmatch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rel_path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;*&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;pattern&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;()):&lt;/span&gt;
+                    &lt;span class="n"&gt;resources&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Packages&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;rel_path&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;resources&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DicSetViewLanguageCommand&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime_plugin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TextCommand&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;edit&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;items&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;find_resources&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;*.dic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_done&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="n"&gt;settings&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+                &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;window&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show_quick_panel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;on_done&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DicSetLanguageCommand&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime_plugin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WindowCommand&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;items&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;find_resources&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;*.dic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_done&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="n"&gt;settings&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;load_settings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Preferences.sublime-settings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+                &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dictionary&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+                &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;save_settings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Preferences.sublime-settings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;window&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show_quick_panel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;on_done&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DicToggleViewCommand&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime_plugin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TextCommand&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;edit&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;settings&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+        &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;DicToggleCommand&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sublime_plugin&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WindowCommand&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;settings&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;load_settings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Preferences.sublime-settings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;spell_check&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;save_settings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Preferences.sublime-settings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;처음 사용 해보면 조금 부족함을 느낄 수 있습니다. 특히, 외래어나 전문 용어가 사전에 많이 포함 되어 있지 않아 더욱 그럴 것입니다. 그래도 상용 검사기에 근접하는 성능으로, 사용자 사전을 정리하는 수고를 조금만 더하면 꽤 유용하게 쓸 수 있는 편입니다. 오류가 표시된 단어에서 마우스 오른쪽 버튼을 눌러 Context 메뉴를 보면 &lt;code&gt;Add&lt;/code&gt;와 &lt;code&gt;Ignore&lt;/code&gt; 항목이 있으며, 이를 통해 곧바로 사용자 사전에 단어를 등록 할 수 있습니다. 등록된 단어는 &lt;code&gt;Preference.sublime-settings&lt;/code&gt;의 &lt;code&gt;added_words&lt;/code&gt;와 &lt;code&gt;ignored_words&lt;/code&gt; 항목에서 확인 및 관리 할 수 있으니 참고하도록 합니다.&lt;/p&gt;
+&lt;p&gt;애석하게도 SublimeText에서는 영어와 한국어 사전을 동시에 사용하지 못합니다. hunspell 자체는 여러 개의 사전을 동시에 사용할 수 있도록 구현되어 있지만, SublimeText에서는 그렇게까지 사용할 수 있도록 구현되어 있지 않습니다. 대안으로 영어와 한글 사전을 병합하는 방법이 있을 수 있습니다. 다음의 링크에서 병합 도구를 내려받을 수 있습니다. 그런데 다시 한번 더 애석하게도 병합이 잘 되지 않습니다. 단, 영어, 라틴어 등 유사한 언어 체계를 가진 사전들 사이의 병합은 잘 되는 것 같습니다. 다음 버전의 SublimeText에는 이 문제가 해결되어 있기를 바랍니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/arty-name/hunspell-merge/tree/master/dist" target="_blank"&gt;https://github.com/arty-name/hunspell-merge/tree/master/dist&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Author's Information</title><link href="http://muteklab.com/authors-information.html" rel="alternate"></link><published>2019-08-01T23:00:00+09:00</published><updated>2019-08-01T23:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-01:/authors-information.html</id><summary type="html"></summary><content type="html">&lt;h4&gt;Taehong Kim&lt;/h4&gt;
+&lt;div style="height: 15px;"&gt;&lt;/div&gt;
+
+&lt;table class="center rotate" style="margin-bottom: 24px;"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Name&lt;/td&gt;
+        &lt;td&gt;김태홍 (Taehong Kim)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Email&lt;/td&gt;
+        &lt;td&gt;peppy0510@hotmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;GitHub&lt;/td&gt;
+        &lt;td&gt;
+            &lt;a href="https://github.com/peppy0510" target="_blank"&gt;
+                https://github.com/peppy0510
+            &lt;/a&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="center"&gt;Degree&lt;/th&gt;
+&lt;th align="center"&gt;Major&lt;/th&gt;
+&lt;th align="center"&gt;University&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Master&lt;/td&gt;
+&lt;td align="center"&gt;Computer Science&lt;br&gt;Digital Signal Processing&lt;/td&gt;
+&lt;td align="center"&gt;Dankook, South Korea&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;Bachelor&lt;/td&gt;
+&lt;td align="center"&gt;Computer Engineering&lt;/td&gt;
+&lt;td align="center"&gt;Dankook, South Korea&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h4&gt;Experienced with&lt;/h4&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;MATLAB&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Django&lt;/code&gt; &lt;code&gt;Sanic&lt;/code&gt; &lt;code&gt;Flask&lt;/code&gt; &lt;code&gt;wxPython&lt;/code&gt; &lt;code&gt;NumPy&lt;/code&gt; &lt;code&gt;SciPy&lt;/code&gt; &lt;code&gt;FFmpeg&lt;/code&gt; &lt;code&gt;PyInstaller&lt;/code&gt; &lt;code&gt;InnoSetup&lt;/code&gt;
+&lt;code&gt;venv&lt;/code&gt; &lt;code&gt;pillow&lt;/code&gt; &lt;code&gt;BesutifulSoup&lt;/code&gt; &lt;code&gt;pandas&lt;/code&gt; &lt;code&gt;surprise&lt;/code&gt; &lt;code&gt;music21&lt;/code&gt; &lt;code&gt;OAuth&lt;/code&gt; &lt;code&gt;jsmin&lt;/code&gt; &lt;code&gt;htmlmin&lt;/code&gt; &lt;code&gt;xlsxwriter&lt;/code&gt;
+&lt;code&gt;mutagen&lt;/code&gt; &lt;code&gt;wmi&lt;/code&gt; &lt;code&gt;psutil&lt;/code&gt; &lt;code&gt;un4seen BASS&lt;/code&gt; &lt;code&gt;letsencrypt&lt;/code&gt; &lt;code&gt;objectlistview&lt;/code&gt; &lt;code&gt;pybass&lt;/code&gt; &lt;code&gt;pywin32&lt;/code&gt; &lt;code&gt;cryptography&lt;/code&gt;
+&lt;code&gt;netifaces&lt;/code&gt; &lt;code&gt;sshtunnel&lt;/code&gt; &lt;code&gt;webpy&lt;/code&gt; &lt;code&gt;certbot&lt;/code&gt; &lt;code&gt;pywebview&lt;/code&gt;
+&lt;code&gt;winshell&lt;/code&gt; &lt;code&gt;mido&lt;/code&gt; &lt;code&gt;pelican&lt;/code&gt; &lt;code&gt;jinja&lt;/code&gt; &lt;code&gt;markdown&lt;/code&gt; &lt;code&gt;selenium&lt;/code&gt; &lt;code&gt;livereload&lt;/code&gt; &lt;code&gt;parallel python&lt;/code&gt; &lt;code&gt;subprocess&lt;/code&gt;
+&lt;code&gt;multiprocessing&lt;/code&gt; &lt;code&gt;multithreading&lt;/code&gt; &lt;code&gt;uiautomation&lt;/code&gt; &lt;code&gt;ctype&lt;/code&gt; &lt;code&gt;SQLAlchemy&lt;/code&gt; &lt;code&gt;Kivy&lt;/code&gt; &lt;code&gt;pycrypto&lt;/code&gt; &lt;code&gt;paramiko&lt;/code&gt; &lt;code&gt;pexpect&lt;/code&gt;
+&lt;code&gt;XML&lt;/code&gt; &lt;code&gt;json&lt;/code&gt; &lt;code&gt;pep8&lt;/code&gt; &lt;code&gt;boto3&lt;/code&gt;
+&lt;code&gt;JavaScript&lt;/code&gt; &lt;code&gt;TypeScript&lt;/code&gt; &lt;code&gt;jQuery&lt;/code&gt; &lt;code&gt;AngularJS&lt;/code&gt; &lt;code&gt;Angular&lt;/code&gt; &lt;code&gt;ReactJS&lt;/code&gt; &lt;code&gt;ElectronJS&lt;/code&gt; &lt;code&gt;IONIC&lt;/code&gt; &lt;code&gt;WebPack&lt;/code&gt; &lt;code&gt;Cordova&lt;/code&gt; &lt;code&gt;HTML&lt;/code&gt; &lt;code&gt;CSS&lt;/code&gt; &lt;code&gt;SCSS&lt;/code&gt;
+&lt;code&gt;Responsive Web&lt;/code&gt; &lt;code&gt;viewport&lt;/code&gt; &lt;code&gt;opengraph&lt;/code&gt; &lt;code&gt;async&lt;/code&gt;
+&lt;code&gt;GCM&lt;/code&gt; &lt;code&gt;FCM&lt;/code&gt; &lt;code&gt;APNS&lt;/code&gt; &lt;code&gt;InAppPurchase&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt; &lt;code&gt;iOS&lt;/code&gt; &lt;code&gt;moment&lt;/code&gt; &lt;code&gt;timeago&lt;/code&gt; &lt;code&gt;taffydb&lt;/code&gt; &lt;code&gt;Font Awesome&lt;/code&gt; &lt;code&gt;tinymce&lt;/code&gt; &lt;code&gt;alertifyjs&lt;/code&gt;
+&lt;code&gt;jshint&lt;/code&gt; &lt;code&gt;Web Audio API&lt;/code&gt; &lt;code&gt;Web Worker&lt;/code&gt; &lt;code&gt;Web Canvas&lt;/code&gt; &lt;code&gt;Media Source Extension&lt;/code&gt; &lt;code&gt;Animation Frame&lt;/code&gt; &lt;code&gt;WebSocket&lt;/code&gt; &lt;code&gt;Deep Link&lt;/code&gt;
+&lt;code&gt;Bootstrap&lt;/code&gt; &lt;code&gt;Material Design&lt;/code&gt; &lt;code&gt;ADB&lt;/code&gt; &lt;code&gt;npm&lt;/code&gt; &lt;code&gt;pip&lt;/code&gt; &lt;code&gt;C&lt;/code&gt; &lt;code&gt;C++&lt;/code&gt; &lt;code&gt;ActionScript&lt;/code&gt; &lt;code&gt;Flash&lt;/code&gt; &lt;code&gt;Pascal Script&lt;/code&gt;
+&lt;code&gt;Regular Expression&lt;/code&gt; &lt;code&gt;zlib&lt;/code&gt; &lt;code&gt;VHDL&lt;/code&gt; &lt;code&gt;Verilog&lt;/code&gt; &lt;code&gt;Quartus&lt;/code&gt; &lt;code&gt;FPGA&lt;/code&gt; &lt;code&gt;VBScript&lt;/code&gt;
+&lt;code&gt;MySQL&lt;/code&gt; &lt;code&gt;MariaDB&lt;/code&gt; &lt;code&gt;Redis&lt;/code&gt; &lt;code&gt;Memcached&lt;/code&gt; &lt;code&gt;Solr&lt;/code&gt; &lt;code&gt;TokyoTyrant&lt;/code&gt; &lt;code&gt;SQLite&lt;/code&gt;
+&lt;code&gt;firebase&lt;/code&gt; &lt;code&gt;firestore&lt;/code&gt; &lt;code&gt;localStorage&lt;/code&gt; &lt;code&gt;Berkeley DB&lt;/code&gt;
+&lt;code&gt;Apache&lt;/code&gt; &lt;code&gt;NginX&lt;/code&gt; &lt;code&gt;uWSGI&lt;/code&gt; &lt;code&gt;IIS&lt;/code&gt; &lt;code&gt;Tomcat&lt;/code&gt; &lt;code&gt;HAProxy&lt;/code&gt; &lt;code&gt;VNC&lt;/code&gt;
+&lt;code&gt;Windows&lt;/code&gt; &lt;code&gt;MacOS&lt;/code&gt; &lt;code&gt;Ubuntu&lt;/code&gt; &lt;code&gt;Debian&lt;/code&gt; &lt;code&gt;CentOS&lt;/code&gt; &lt;code&gt;RedHat&lt;/code&gt; &lt;code&gt;VMWare&lt;/code&gt; &lt;code&gt;VirtualBox&lt;/code&gt;
+&lt;code&gt;SublimeText&lt;/code&gt; &lt;code&gt;WinSCP&lt;/code&gt; &lt;code&gt;DBeaver&lt;/code&gt; &lt;code&gt;Xshell&lt;/code&gt; &lt;code&gt;jMeter&lt;/code&gt; &lt;code&gt;LoadRunner&lt;/code&gt; &lt;code&gt;iTerm&lt;/code&gt; &lt;code&gt;Terminator&lt;/code&gt; &lt;code&gt;Putty&lt;/code&gt; &lt;code&gt;GitKraken&lt;/code&gt; &lt;code&gt;PyCharm&lt;/code&gt;
+&lt;code&gt;Eclipse&lt;/code&gt; &lt;code&gt;Visual Studio&lt;/code&gt;
+&lt;code&gt;GitHub&lt;/code&gt; &lt;code&gt;GitLab&lt;/code&gt; &lt;code&gt;Gogs&lt;/code&gt; &lt;code&gt;GitBucket&lt;/code&gt;
+&lt;code&gt;Digital Signal Processing&lt;/code&gt; &lt;code&gt;Audio Fingerprinting&lt;/code&gt; &lt;code&gt;Music Information Retrieval&lt;/code&gt;
+&lt;code&gt;Collaborative Filtering&lt;/code&gt; &lt;code&gt;Feature Vector&lt;/code&gt; &lt;code&gt;Classification&lt;/code&gt; &lt;code&gt;Machine Learning&lt;/code&gt; &lt;code&gt;PSOLA&lt;/code&gt; &lt;code&gt;Phase Vocoder&lt;/code&gt;
+&lt;code&gt;Audio Time Stretching&lt;/code&gt; &lt;code&gt;Audio Pitch Shifting&lt;/code&gt; &lt;code&gt;FFT&lt;/code&gt; &lt;code&gt;iFFT&lt;/code&gt; &lt;code&gt;MFCC&lt;/code&gt; &lt;code&gt;Mel-Frequency&lt;/code&gt;
+&lt;code&gt;Audio Filter&lt;/code&gt; &lt;code&gt;Audio Compressor&lt;/code&gt; &lt;code&gt;Audio Synthesis&lt;/code&gt;
+&lt;code&gt;Audio Engineering&lt;/code&gt; &lt;code&gt;Audio Codec&lt;/code&gt; &lt;code&gt;Image Codec&lt;/code&gt; &lt;code&gt;Video Codec&lt;/code&gt;
+&lt;code&gt;VST&lt;/code&gt; &lt;code&gt;VSTi&lt;/code&gt; &lt;code&gt;ASIO&lt;/code&gt; &lt;code&gt;MIDI&lt;/code&gt; &lt;code&gt;MEI&lt;/code&gt; &lt;code&gt;MusicXML&lt;/code&gt; &lt;code&gt;verovio&lt;/code&gt; &lt;code&gt;vexflow&lt;/code&gt; &lt;code&gt;SVG&lt;/code&gt; &lt;code&gt;RESTful API&lt;/code&gt; &lt;code&gt;GraphQL&lt;/code&gt;
+&lt;code&gt;Zynactiq DIRAC&lt;/code&gt; &lt;code&gt;echoprint&lt;/code&gt; &lt;code&gt;Ballistic Model&lt;/code&gt; &lt;code&gt;Ballistic Coefficient&lt;/code&gt;
+&lt;code&gt;Steinberg Cubase&lt;/code&gt; &lt;code&gt;Ableton Live&lt;/code&gt; &lt;code&gt;Sound Forge&lt;/code&gt; &lt;code&gt;Acid Pro&lt;/code&gt; &lt;code&gt;Vegas Pro&lt;/code&gt; &lt;code&gt;Avid Sibelius&lt;/code&gt; &lt;code&gt;Avid ProTools&lt;/code&gt; &lt;code&gt;Propellerhead Reason&lt;/code&gt; &lt;code&gt;MOTU Digital Performer&lt;/code&gt; &lt;code&gt;Traktor Pro&lt;/code&gt; &lt;code&gt;RekordBox&lt;/code&gt; &lt;code&gt;ReNamer&lt;/code&gt; &lt;code&gt;AstroGrep&lt;/code&gt; &lt;code&gt;htop&lt;/code&gt; &lt;code&gt;glances&lt;/code&gt; &lt;code&gt;iotop&lt;/code&gt; &lt;code&gt;speedometer&lt;/code&gt;
+&lt;code&gt;Linode&lt;/code&gt; &lt;code&gt;Digital Ocean&lt;/code&gt; &lt;code&gt;AWS&lt;/code&gt; &lt;code&gt;NCloud&lt;/code&gt; &lt;code&gt;Conoha&lt;/code&gt; &lt;code&gt;DNS&lt;/code&gt; &lt;code&gt;Load Balancing&lt;/code&gt; &lt;code&gt;AWS EC2&lt;/code&gt; &lt;code&gt;AWS S3&lt;/code&gt; &lt;code&gt;AWS EFS&lt;/code&gt; &lt;code&gt;AWS Lambda&lt;/code&gt; &lt;code&gt;AWS Route53&lt;/code&gt; &lt;code&gt;SeaweedFS&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt;
+&lt;code&gt;WSL&lt;/code&gt; &lt;code&gt;ZSH&lt;/code&gt; &lt;code&gt;PowerShell&lt;/code&gt; &lt;code&gt;HTTP Live Streaming&lt;/code&gt; &lt;code&gt;Fragmented MP4&lt;/code&gt;&lt;/p&gt;
+&lt;div style="margin-top: 10px;"&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h4&gt;Interested in&lt;/h4&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;VueJS&lt;/code&gt; &lt;code&gt;ElasticSearch&lt;/code&gt; &lt;code&gt;Jenkins&lt;/code&gt; &lt;code&gt;CircleCI&lt;/code&gt;
+&lt;code&gt;tensorflow&lt;/code&gt; &lt;code&gt;keras&lt;/code&gt; &lt;code&gt;freezegun&lt;/code&gt; &lt;code&gt;Element&lt;/code&gt; &lt;code&gt;Tailwind&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Portfolio&lt;/h4&gt;
+&lt;div style="height: 10px;"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a class="button" href="/category/authors-music.html" target="_blank"&gt;Author's Music&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="button" href="/category/authors-mixset.html" target="_blank"&gt;Author's Mixset&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="button" href="/category/authors-development.html" target="_blank"&gt;Author's Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="button" href="https://github.com/peppy0510" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="computer-001" src="/static/images/computer/computer-001.jpg#mw50"&gt;
+&lt;img alt="computer-002" src="/static/images/computer/computer-002.jpg#mw50"&gt;
+&lt;img alt="computer-003" src="/static/images/computer/computer-003.jpg#mw50"&gt;
+&lt;img alt="computer-004" src="/static/images/computer/computer-004.jpg#mw50"&gt;
+&lt;img alt="computer-005" src="/static/images/computer/computer-005.jpg#mw50"&gt;
+&lt;img alt="computer-006" src="/static/images/computer/computer-006.jpg#mw50"&gt;
+&lt;img alt="computer-007" src="/static/images/computer/computer-007.jpg#mw50"&gt;
+&lt;img alt="computer-008" src="/static/images/computer/computer-008.jpg#mw50"&gt;
+&lt;img alt="computer-009" src="/static/images/computer/computer-009.jpg#mw50"&gt;
+&lt;img alt="computer-010" src="/static/images/computer/computer-010.jpg#mw50"&gt;&lt;/p&gt;</content><category term="Author"></category></entry><entry><title>Ferry Corsten Live at Transmission Prague</title><link href="http://muteklab.com/ferry-corsten-live-at-transmission-prague.html" rel="alternate"></link><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-01:/ferry-corsten-live-at-transmission-prague.html</id><summary type="html">&lt;p&gt;&lt;youtube source="B4mJSmM6ni0"&gt;
+    Ferry Corsten - Lonely Inside (Ferry Fix) (Live at Transmission Prague 2017)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="D9Knb1jB8-Q"&gt;
+    Ferry Corsten feat. Haliene - Wherever You Are (Live at Transmission Prague 2017)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="tsmZYajTNsY"&gt;
+    Ferry Corsten pres. Gouryella - Ligaya (Live at Transmission Prague 2016)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="YAHnzmUqe-Y"&gt;
+    Ferry Corsten pres. Gouryella - Walhalla (Live at Transmission Prague 2016)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="cpuvCAjtycE"&gt;
+    Ferry Corsten pres. Gouryella - Anahera (Live at …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="B4mJSmM6ni0"&gt;
+    Ferry Corsten - Lonely Inside (Ferry Fix) (Live at Transmission Prague 2017)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="D9Knb1jB8-Q"&gt;
+    Ferry Corsten feat. Haliene - Wherever You Are (Live at Transmission Prague 2017)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="tsmZYajTNsY"&gt;
+    Ferry Corsten pres. Gouryella - Ligaya (Live at Transmission Prague 2016)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="YAHnzmUqe-Y"&gt;
+    Ferry Corsten pres. Gouryella - Walhalla (Live at Transmission Prague 2016)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="cpuvCAjtycE"&gt;
+    Ferry Corsten pres. Gouryella - Anahera (Live at Transmission Prague 2016)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="qkt_Cik5JmY"&gt;
+    Ferry Corsten pres. Gouryella - Venera (Vee's Theme)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="l3TaByyuYKY"&gt;
+    Ferry Corsten - A World Beyond
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;!-- &lt;youtube source="NGsaC0g52yk"&gt;
+    Simon Patterson feat. Lucy Pullin - Blink (Live at Transmission Australia 2019)
+&lt;/youtube&gt; --&gt;
+
+&lt;!-- &lt;youtube source="LNEpwxxn_VY"&gt;
+    Limelght - Don't Leave Me Now (Tom Fall Remix)
+&lt;/youtube&gt; --&gt;</content><category term="Music Articles"></category></entry><entry><title>Music Studio and Synthesizers</title><link href="http://muteklab.com/music-studio-and-synthesizers.html" rel="alternate"></link><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-01:/music-studio-and-synthesizers.html</id><summary type="html">&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
+    Look Mum No Computer - A Modular Synth Walkthrough Of My DIY Modular Setup
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="IR7WV_F0GCQ"&gt;
+    INSTANT vs. OZONE vs. REAL MASTERING
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="FURPQI3VW58"&gt;
+    Which STREAMING SERVICE SOUNDS the BEST?
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="lNwrE0Q28wI"&gt;
+    MIXING on HEADPHONES!?!?
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="geO7Npecmcg"&gt;
+    Here Are My Computer's Specs!
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9WYaqTQwEHo"&gt;
+    Machine Room &amp;amp; VSL Connection - Studio Time: S2E14
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="AdwHCtpjn3A"&gt;
+    One Bassline (Mad Max: Fury Road) - Studio Time: S2E7
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="qs-s3uK7a9E"&gt;
+    Inside …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
+    Look Mum No Computer - A Modular Synth Walkthrough Of My DIY Modular Setup
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="IR7WV_F0GCQ"&gt;
+    INSTANT vs. OZONE vs. REAL MASTERING
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="FURPQI3VW58"&gt;
+    Which STREAMING SERVICE SOUNDS the BEST?
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="lNwrE0Q28wI"&gt;
+    MIXING on HEADPHONES!?!?
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="geO7Npecmcg"&gt;
+    Here Are My Computer's Specs!
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9WYaqTQwEHo"&gt;
+    Machine Room &amp;amp; VSL Connection - Studio Time: S2E14
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="AdwHCtpjn3A"&gt;
+    One Bassline (Mad Max: Fury Road) - Studio Time: S2E7
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="qs-s3uK7a9E"&gt;
+    Inside Junkie XL's Incredible Studio &amp;amp; Demonstrations of Composing for 'The Dark Tower'
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="97YqsOGVLGc"&gt;
+    Ferry Corsten WKNDR Episode 2: Ferry &amp;amp; Armin in the studio!
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="tmc_DMwBfv4"&gt;
+    Ferry Corsten WKNDR Episode 27: Not Coming Down studio session
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="CfCmoEixxro"&gt;
+    Martin Garrix In The Studio With Future Music
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="DY8Zw80Cj3w"&gt;
+    Composing with The Ton: The Black Weekend 2019
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="BqsHHHGkPxc"&gt;
+    How to Make Techno with Tom Hades at ADE 2018
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="LKiWt8IcMmM"&gt;
+    Roland TR-909 Famous Patterns
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="SjJWESw3vSY"&gt;
+    Quick beat made on the SP 1200
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="B_fj7qO5V_o"&gt;
+    Fairlight CMI IIx "Vinyl Sampling Demonstration"
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="qK_ATzpPzKM"&gt;
+    DJ Jazzy Jeff - Can THIS change everything?
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="lzRvSWPZQYk"&gt;
+    The Truth About Vinyl - Vinyl vs. Digital
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="6ZYLp5uX9Yw"&gt;
+    Making of "The Prodigy - Voodoo People" in Ableton by Jim Pavloff
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="5t1aO9fJGE8"&gt;
+    Vince Clarke studio tour - Waveshaper TV - IDOW archive series
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>Japanese City Pop, Anime Songs and More</title><link href="http://muteklab.com/japanese-city-pop-anime-songs-and-more.html" rel="alternate"></link><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-07-01:/japanese-city-pop-anime-songs-and-more.html</id><summary type="html">&lt;p&gt;&lt;youtube source="TH_572d1XA4"&gt;
+    Maison Ikkoku - Opening 2
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="DI9OepKF3Ms"&gt;
+    Project A-ko - Dance Away
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="o25UNrb2YVw"&gt;
+    Anri - Shyness Boy
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="u-HFULCtPYs"&gt;
+    The Five Star Stories - Far Away
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="F9IN0JYE5UM"&gt;
+    Magic Knight Rayearth - 明日への勇気
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="6kwlmq8knpk"&gt;
+    Sailor Moon - Sailor Stars Song
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;!-- &lt;youtube source="YGIr2PaDqrE"&gt;
+    Zard - Ready Go
+&lt;/youtube&gt; --&gt;
+
+&lt;p&gt;&lt;youtube source="Zp7wU3TXGeQ"&gt;
+    The End of Evangelion - Komm Susser Tod
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9Gj47G2e1Jc"&gt;
+    Mariya Takeuchi - Plastic Love
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nhuNb0XtRhQ"&gt;
+    Takako Mamiya - 真夜中のジョ …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="TH_572d1XA4"&gt;
+    Maison Ikkoku - Opening 2
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="DI9OepKF3Ms"&gt;
+    Project A-ko - Dance Away
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="o25UNrb2YVw"&gt;
+    Anri - Shyness Boy
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="u-HFULCtPYs"&gt;
+    The Five Star Stories - Far Away
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="F9IN0JYE5UM"&gt;
+    Magic Knight Rayearth - 明日への勇気
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="6kwlmq8knpk"&gt;
+    Sailor Moon - Sailor Stars Song
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;!-- &lt;youtube source="YGIr2PaDqrE"&gt;
+    Zard - Ready Go
+&lt;/youtube&gt; --&gt;
+
+&lt;p&gt;&lt;youtube source="Zp7wU3TXGeQ"&gt;
+    The End of Evangelion - Komm Susser Tod
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="9Gj47G2e1Jc"&gt;
+    Mariya Takeuchi - Plastic Love
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="nhuNb0XtRhQ"&gt;
+    Takako Mamiya - 真夜中のジョーク
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="7OETkMPLHaM"&gt;
+    Akina Nakamori - Oh No Oh Yes
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>Musical Instrument Performances</title><link href="http://muteklab.com/musical-instrument-performances.html" rel="alternate"></link><published>2019-05-01T00:00:00+09:00</published><updated>2019-05-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-05-01:/musical-instrument-performances.html</id><summary type="html">&lt;p&gt;&lt;youtube source="zucBfXpCA6s"&gt;
+    Beethoven "Moonlight" Sonata, III "Presto Agitato" Valentina Lisitsa
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="JsIaOg1dUr8"&gt;
+    Nord at NAMM 2018: Jesús Molina highlights
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="BQJfJAnqEBw"&gt;
+    【 英雄の証 】エレクトーン演奏
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="2DG8C9peznw"&gt;
+    ルパン三世’80 瀬川順子
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Pt9_2lwlyjk"&gt;
+    Late nite Jam session at Small's Jazz Club (3 AM on 8/17 …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="zucBfXpCA6s"&gt;
+    Beethoven "Moonlight" Sonata, III "Presto Agitato" Valentina Lisitsa
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="JsIaOg1dUr8"&gt;
+    Nord at NAMM 2018: Jesús Molina highlights
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="BQJfJAnqEBw"&gt;
+    【 英雄の証 】エレクトーン演奏
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="2DG8C9peznw"&gt;
+    ルパン三世’80 瀬川順子
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="Pt9_2lwlyjk"&gt;
+    Late nite Jam session at Small's Jazz Club (3 AM on 8/17/18)
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="L0r37REA4a8"&gt;
+    smalls nyc ROY HARGROVE SPIKE WILMER TRIO
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="uuttY_gBeVA"&gt;
+    I’ve never been in love before - Mezzrow NYC
+&lt;/youtube&gt;&lt;/p&gt;</content><category term="Music Articles"></category></entry><entry><title>PyWinLayout</title><link href="http://muteklab.com/pywinlayout.html" rel="alternate"></link><published>2019-04-22T00:00:00+09:00</published><updated>2019-04-22T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-04-22:/pywinlayout.html</id><summary type="html">&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;윈도우 데스크탑 애플리케이션&lt;/li&gt;
+&lt;li&gt;윈도우 창을 단축키로 정렬&lt;/li&gt;
+&lt;li&gt;트레이 아이콘에서 동작&lt;/li&gt;
+&lt;li&gt;부팅 시 자동 시작 기능 지원&lt;/li&gt;
+&lt;li&gt;멀티 모니터 환경 지원&lt;/li&gt;
+&lt;li&gt;창이 위치한 화면의 가로 세로 비율에 따른 정렬 기능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, wxPython, PyInstaller, InnoSetup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="button" href="https://github.com/peppy0510/PyWinLayout" target="_blank"&gt;GitHub&lt;/a&gt;
+&lt;a class="button" href="https://github.com/peppy0510/PyWinLayout/releases" target="_blank"&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/64308026-790de880-cf87-11e9-9165-12ccef82026f.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>Pockestra Web</title><link href="http://muteklab.com/pockestra-web.html" rel="alternate"></link><published>2019-03-10T00:00:00+09:00</published><updated>2019-03-10T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-03-10:/pockestra-web.html</id><summary type="html">&lt;p&gt;반응형 웹 페이지&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;반응형 웹 페이지&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, Django, JavaScript, HTML, SCSS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="button" href="https://pockestra.com" target="_blank"&gt;Web&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/62962193-eb0e6a00-bded-11e9-8b91-831d84860e6b.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>Pockestra App</title><link href="http://muteklab.com/pockestra-app.html" rel="alternate"></link><published>2018-12-20T00:00:00+09:00</published><updated>2018-12-20T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2018-12-20:/pockestra-app.html</id><summary type="html">&lt;p&gt;하이브리드 앱&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;하이브리드 앱&lt;/li&gt;
+&lt;li&gt;애플앱스토어, 구글플레이스토어 출시&lt;/li&gt;
+&lt;li&gt;클래식 음악 반주 플레이어&lt;/li&gt;
+&lt;li&gt;악보와 반주 음원을 동기화하여 재생&lt;/li&gt;
+&lt;li&gt;조성과 템포 조절 기능 지원&lt;/li&gt;
+&lt;li&gt;인앱 구독 결제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;IONIC 3, TypeScript, JavaScript, HTML, SCSS&lt;/li&gt;
+&lt;li&gt;Web Audio API, WebWorker&lt;/li&gt;
+&lt;li&gt;InAppSubscription, Google and Facebook Oauth Login&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="button" href="https://pockestra.com" target="_blank"&gt;Web&lt;/a&gt;
+&lt;a class="button" href="https://apps.apple.com/app/id1110254729" target="_blank"&gt;Apple AppStore&lt;/a&gt;
+&lt;a class="button" href="https://play.google.com/store/apps/details?id=com.eastcontrol.pockestra" target="_blank"&gt;Google PlayStore&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Apple AppStore&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-101" src="https://user-images.githubusercontent.com/21299773/62961570-8acaf880-bdec-11e9-8b29-87be03a504a2.png"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Google PlayStore&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-102" src="https://user-images.githubusercontent.com/21299773/64308504-069e0800-cf89-11e9-956d-75b722fcae85.png"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/62960033-599cf900-bde9-11e9-887b-0bed9b72c082.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-002" src="https://user-images.githubusercontent.com/21299773/62960095-7d603f00-bde9-11e9-9d02-c45225f5b0a0.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-003" src="https://user-images.githubusercontent.com/21299773/62960944-4d19a000-bdeb-11e9-9d04-91bf1444a69c.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-004" src="https://user-images.githubusercontent.com/21299773/62960208-b26c9180-bde9-11e9-8390-7e688bef9a12.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-005" src="https://user-images.githubusercontent.com/21299773/62960493-450d3080-bdea-11e9-9644-33da5a8d3a56.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-006" src="https://user-images.githubusercontent.com/21299773/62960489-43dc0380-bdea-11e9-9010-4b13b2db0a6b.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-007" src="https://user-images.githubusercontent.com/21299773/62960484-42124000-bdea-11e9-92a6-e4d3f5cb8432.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-008" src="https://user-images.githubusercontent.com/21299773/62960928-45f29200-bdeb-11e9-9b24-8e9b9356e6cd.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-009" src="https://user-images.githubusercontent.com/21299773/62960285-ddef7c00-bde9-11e9-8c83-30c95898f87f.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-010" src="https://user-images.githubusercontent.com/21299773/62960261-d3cd7d80-bde9-11e9-9fea-790cd3679183.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-011" src="https://user-images.githubusercontent.com/21299773/62960419-2313ae00-bdea-11e9-9635-813c9c703630.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-012" src="https://user-images.githubusercontent.com/21299773/62960499-48082100-bdea-11e9-9693-e92c2ab0bb47.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-013" src="https://user-images.githubusercontent.com/21299773/62960237-c7492500-bde9-11e9-9ec1-16cad1c30ba7.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-014" src="https://user-images.githubusercontent.com/21299773/62960496-46d6f400-bdea-11e9-8cc4-62b1041ee474.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-015" src="https://user-images.githubusercontent.com/21299773/62961231-e5b02000-bdeb-11e9-9518-f56d45f5905a.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-016" src="https://user-images.githubusercontent.com/21299773/62961219-dcbf4e80-bdeb-11e9-8e0b-9732e13d5c2f.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-017" src="https://user-images.githubusercontent.com/21299773/62961187-ce713280-bdeb-11e9-936d-0da03d85f740.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-018" src="https://user-images.githubusercontent.com/21299773/62961189-cf09c900-bdeb-11e9-839d-051c39d8d05f.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>Calculator App</title><link href="http://muteklab.com/calculator-app.html" rel="alternate"></link><published>2018-11-06T00:00:00+09:00</published><updated>2018-11-06T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2018-11-06:/calculator-app.html</id><summary type="html">&lt;p&gt;하이브리드 앱&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;하이브리드 앱&lt;/li&gt;
+&lt;li&gt;계산기&lt;/li&gt;
+&lt;li&gt;수식과 결과 히스토리 기능&lt;/li&gt;
+&lt;li&gt;JavaScript Math 함수 사용 가능&lt;/li&gt;
+&lt;li&gt;자릿수 구분기호 표기 기능 지원&lt;/li&gt;
+&lt;li&gt;자동 반올림, 올림, 내림 기능 지원&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;IONIC 3, TypeScript, JavaScript, HTML, SCSS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/62963069-c87d5080-bdef-11e9-9fc6-7d6bf9a7f9b9.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-002" src="https://user-images.githubusercontent.com/21299773/62963072-c87d5080-bdef-11e9-9890-a7f0c8741a70.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>Sibelius Macro</title><link href="http://muteklab.com/sibelius-macro.html" rel="alternate"></link><published>2018-10-20T00:00:00+09:00</published><updated>2018-10-20T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2018-10-20:/sibelius-macro.html</id><summary type="html">&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;윈도우 데스크탑 애플리케이션&lt;/li&gt;
+&lt;li&gt;악보 출판물 제작 소프트웨어 Sibelius를 위한 매크로 도구&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, wxPython, PyInstaller, InnoSetup, UIAutomation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/62963317-45102f00-bdf0-11e9-9279-688c52218ddc.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>나는 왜 맥을 버렸나, 더 이상 프로용 컴퓨터를 만들지 않는 애플 컴퓨터</title><link href="http://muteklab.com/naneun-wae-maegeul-beoryeossna-deo-isang-peuroyong-keompyuteoreul-mandeulji-anhneun-aepeul-keompyuteo.html" rel="alternate"></link><published>2018-08-09T00:00:00+09:00</published><updated>2018-08-09T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2018-08-09:/naneun-wae-maegeul-beoryeossna-deo-isang-peuroyong-keompyuteoreul-mandeulji-anhneun-aepeul-keompyuteo.html</id><content type="html">&lt;p&gt;&lt;youtube source="BkD5vpHM970"&gt;&lt;/youtube&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>PyRenamer</title><link href="http://muteklab.com/pyrenamer.html" rel="alternate"></link><published>2018-07-05T00:00:00+09:00</published><updated>2018-07-05T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2018-07-05:/pyrenamer.html</id><summary type="html">&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;윈도우 데스크탑 애플리케이션&lt;/li&gt;
+&lt;li&gt;Python 스크립트를 사용하는 파일명 변환 도구&lt;/li&gt;
+&lt;li&gt;Python 스크립트를 사용하여 파일 Batch 프로세싱 도구로 사용 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, wxPython, PyInstaller, InnoSetup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+---
+[GitHub](https://github.com/peppy0510/PyRenamer){:target="_blank" class="button"}
+[Download](https://github.com/peppy0510/PyRenamer/releases){:target="_blank" class="button"}
+--&gt;
+
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/62962662-e1393680-bdee-11e9-8c7d-ebafb5687c0b.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>OWASP TOP 10 2017</title><link href="http://muteklab.com/owasp-top-10-2017.html" rel="alternate"></link><published>2017-12-29T00:00:00+09:00</published><updated>2017-12-29T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2017-12-29:/owasp-top-10-2017.html</id><summary type="html">&lt;p&gt;OWASP(Open Web Application Security Project)는 오픈소스 웹 애플리케이션 보안 프로젝트입니다.&lt;/p&gt;
+&lt;p&gt;OWASP처럼 애플리케이션 보안에만 전념하는 여러 커뮤니티 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;OWASP(Open Web Application Security Project)는 오픈소스 웹 애플리케이션 보안 프로젝트입니다.&lt;/p&gt;
+&lt;p&gt;OWASP처럼 애플리케이션 보안에만 전념하는 여러 커뮤니티 그룹의 조직이 상당히 커지고 있습니다. OWASP는 가장 큰 오픈소스 웹 애플리케이션 보안 프로젝트로 주로 웹에 관한 정보노출, 악성 파일 및 스크립트, 보안 취약점 등을 연구하며, 10대 웹 애플리케이션의 취약점(OWASP TOP 10)을 발표합니다. OWASP TOP 10은 웹 애플리케이션 취약점 중에서 빈도가 많이 발생하고, 보안상 영향을 크게 줄 수 있는 것들 10가지를 선정한 문서입니다. 다음은 2017년 발표한 10대 웹 애플리케이션 취약점입니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Injection(인젝션)&lt;/h5&gt;
+&lt;p&gt;SQL, OS, XXE(Xml eXternal Entity), LDAP 인젝션 취약점은 신뢰할 수 없는 데이터가 명령어나 쿼리문의 일부분이 인터프리터로 보내질때 발생합니다. 공격자의 악의적인 데이터는 예상하지 못하는 명령을 실행하거나 적절한 권한 없이 데이터에 접근하도록 인터프리터를 속일 수 있습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Broken Authentication and Session Management(인증 및 세션 관리 취약점)&lt;/h5&gt;
+&lt;p&gt;인증과 세션 관리와 관련된 애플리케이션 기능이 정확하게 구현되어 있지 않아서, 공격자가 패스워드, 키 또는 세션 토큰을 해킹하거나 다른 구현 취약점을 공격하여 다른 사용자 계정을 일시적 또는 영구적으로 탈취하는 것을 허용합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Cross-Site Scripting (XSS) (크로스 사이트 스크립팅)&lt;/h5&gt;
+&lt;p&gt;XSS 취약점은 애플리케이션이 신뢰할 수 없는 데이터를 가져와 적절한 검증이나 제한 없이 웹브라우저로 보낼때 발생합니다. XSS는 공격자가 피해자의 브라우저에 스크립트를 실행하여 사용자 세션 탈취, 웹사이트 변조, 악의적인 사이트로 이동할 수 있습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Broken Access Control (취약한 접근 제어)&lt;/h5&gt;
+&lt;p&gt;취약한 접근 제어는 인증된 사용자가 수행할 수 있는 것에 대한 제한이 제대로 적용되지 않는 것을 의미합니다. 공격자는 이러한 취약점을 악용하여 사용자의 계정 액세스, 중요한 파일 보기, 사용자의 데이터 수정, 액세스 권한 변경 등과 같은 권한 없는 기능, 또는 데이터에 액세스할 수 있습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Security Misconfiguration (보안 설정 오류)&lt;/h5&gt;
+&lt;p&gt;훌륭한 보안은 애플리케이션, 프레임워크, 애플리케이션 서버, 웹 서버, 데이터베이스 서버 및 플랫폼에 대해 보안 설정이 정의되고 적용되어 있습니다. 기본으로 제공되는 값은 종종 안전하지 않기 때문에 보안 설정은 정의, 구현 및 유지되어야 합니다. 또한 소프트웨어는 최신의 상태로 유지해야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Sensitive Data Exposure (민감 데이터 노출)&lt;/h5&gt;
+&lt;p&gt;많은 웹 애플리케이션들이 신용카드, 개인 식별 정보 및 인증 정보와 같은 중요한 데이터를 제대로 보호하지 않습니다. 공격자는 신용카드 사기, 신분 도용 또는 다른 범죄를 수행하는 등 약하게 보호된 데이터를 훔치거나 변경할 수 있습니다. 중요 데이터가 저장 또는 전송 중이거나 브라우저와 교환하는 경우 특별히 주의하여야 하며, 암호화와 같은 보호조치를 취해야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Insufficient Attack Protection (공격 방어 취약점)&lt;/h5&gt;
+&lt;p&gt;대부분의 애플리케이션과 API는 수동 및 자동화된 공격을 모두 탐지(detect), 방지(prevent), 대응(respond)할 수 있는 기본 기능이 부족합니다. 공격 방어(protection)는 기본적인 입력 유효성 검사를 뛰어 넘어 자동으로 탐지, 로깅, 응답 및 공격 시도 차단을 포함합니다. 애플리케이션 소유자는 공격으로부터 보호하기 위해 패치를 신속하게 배포할 수 있어야 합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Cross-Site Request Forgery (CSRF) (크로스 사이트 요청 변조)&lt;/h5&gt;
+&lt;p&gt;CSRF 공격은 로그온 뒤 피해자의 취약한 웹 애플리케이션에 피해자의 세션 쿠키와 기타 다른 인증정보를 자동으로 포함하여 위조된 HTTP 요청을 강제로 보내도록 하는 것입니다. 이것은 공격자가 취약한 애플리케이션이 피해자로부터의 정당한 요청이라고 오해할 수 있는 요청들을 강제로 만들 수 있습니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Using Components with Known Vulnerabilities (알려진 취약점이 있는 컴포넌트 사용)&lt;/h5&gt;
+&lt;p&gt;컴포넌트, 라이브러리, 프레임워크 및 다른 소프트웨어 모듈은 대부분 항상 전체 권한으로 실행됩니다. 이러한 취약한 컴포넌트를 악용하여 공격하는 경우 심각한 데이터 손실이 발생하거나 서버가 장악됩니다. 알려진 취약점이 있는 컴포넌트를 사용하는 애플리케이션은 애플리케이션 방어 체계를 손상하거나, 공격 가능한 범위를 활성화 하는 등의 영향을 미칩니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;h5&gt;Underprotected APIs (취약한 API)&lt;/h5&gt;
+&lt;p&gt;최신 애플리케이션 및 API에는 API(SOAP / XML, REST / JSON, RPC, GWT 등)에 연결하는 브라우저 및 모바일 애플리케이션의 자바스크립트와 같은 여러 클라이언트 애플리케이션이 포함되는 경우가 많습니다. 이러한 API는 대부분 보호되지 않으며 수많은 취약점을 포함합니다.&lt;/p&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;a href="https://www.owasp.org" target="_blank"&gt;https://www.owasp.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://12bme.tistory.com/98" target="_blank"&gt;https://12bme.tistory.com/98&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ko.wikipedia.org/wiki/OWASP" target="_blank"&gt;https://ko.wikipedia.org/wiki/OWASP&lt;/a&gt;&lt;/p&gt;</content><category term="Development Articles"></category></entry><entry><title>Eastcontrol Web</title><link href="http://muteklab.com/eastcontrol-web.html" rel="alternate"></link><published>2017-07-03T00:00:00+09:00</published><updated>2017-07-03T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2017-07-03:/eastcontrol-web.html</id><summary type="html">&lt;p&gt;반응형 웹 페이지&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;반응형 웹 페이지&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, Django, AngularJS, JavaScript, HTML, SCSS&lt;/li&gt;
+&lt;li&gt;Material Design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="button" href="https://east-control.com" target="_blank"&gt;Web&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/62963181-05e1de00-bdf0-11e9-8f5a-5b8a0af18551.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-002" src="https://user-images.githubusercontent.com/21299773/62963182-05e1de00-bdf0-11e9-9b77-034704b30fcc.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-003" src="https://user-images.githubusercontent.com/21299773/62963183-05e1de00-bdf0-11e9-9740-b2f779e816ce.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-004" src="https://user-images.githubusercontent.com/21299773/62963184-067a7480-bdf0-11e9-916a-31950f37df2d.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-005" src="https://user-images.githubusercontent.com/21299773/62963186-067a7480-bdf0-11e9-8be8-213f5c66b46d.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-006" src="https://user-images.githubusercontent.com/21299773/62963187-067a7480-bdf0-11e9-88df-057667317d9e.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-007" src="https://user-images.githubusercontent.com/21299773/62963188-067a7480-bdf0-11e9-9b5f-0e460b0c77d7.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-008" src="https://user-images.githubusercontent.com/21299773/62963190-07130b00-bdf0-11e9-8bdd-3361f7bf9ccd.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-009" src="https://user-images.githubusercontent.com/21299773/62963191-07130b00-bdf0-11e9-8720-0f0148fdf772.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>Super Star</title><link href="http://muteklab.com/super-star.html" rel="alternate"></link><published>2016-07-03T00:00:00+09:00</published><updated>2016-07-03T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2016-07-03:/super-star.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Break Beat
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: Single Album
+* Genre: Break Beat
+* BPM: 100
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/super-star-128.mp3', 'Super Star');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>PyMusicPlayer</title><link href="http://muteklab.com/pymusicplayer.html" rel="alternate"></link><published>2014-11-03T00:00:00+09:00</published><updated>2014-11-03T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2014-11-03:/pymusicplayer.html</id><summary type="html">&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;윈도우 데스크탑 애플리케이션, 음악 플레이어&lt;/li&gt;
+&lt;li&gt;음악 오디오파일에서 하이라이트 구간, 템포, 조성 정보를 인식하여 표기&lt;/li&gt;
+&lt;li&gt;PCT/KR2013/011935 알고리즘, 멀티프로세스를 이용한 오디오파일 분석&lt;/li&gt;
+&lt;li&gt;일반 재생 모드와 하이라이트 재생 모드 제공, 하이라이트 구간 연속재생&lt;/li&gt;
+&lt;li&gt;Log Scale Mel-Frequency 스펙트럼과 스테레오 벡터 스코프 비쥬얼라이제이션&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, wxPython, PyInstaller, InnoSetup, un4seen BASS, NumPy, SciPy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="button" href="https://github.com/peppy0510/PyMusicPlayer" target="_blank"&gt;GitHub&lt;/a&gt;
+&lt;a class="button" href="https://github.com/peppy0510/PyMusicPlayer/releases" target="_blank"&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/62962587-ba7b0000-bdee-11e9-9f1c-0e18e2767180.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-002" src="https://user-images.githubusercontent.com/21299773/62962588-ba7b0000-bdee-11e9-8d8a-90ab17ae9053.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-003" src="https://user-images.githubusercontent.com/21299773/62962591-bb139680-bdee-11e9-8c68-57cd994a6bb3.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-004" src="https://user-images.githubusercontent.com/21299773/62962592-bb139680-bdee-11e9-8938-8c73c407d7ef.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>Muteklab Web</title><link href="http://muteklab.com/muteklab-web.html" rel="alternate"></link><published>2014-08-01T00:00:00+09:00</published><updated>2014-08-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2014-08-01:/muteklab-web.html</id><summary type="html">&lt;p&gt;반응형 웹 페이지&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Description&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;반응형 웹 페이지&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Development Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, Django, JavaScript, HTML, CSS&lt;/li&gt;
+&lt;li&gt;Bootstrap, Paypal, Facebook API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="screenshot-001" src="https://user-images.githubusercontent.com/21299773/64303352-40661300-cf77-11e9-95fb-76ee0ddf2239.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="screenshot-002" src="https://user-images.githubusercontent.com/21299773/64303353-40661300-cf77-11e9-96ff-280b004a1343.png"&gt;&lt;/p&gt;</content><category term="Author's Development"></category></entry><entry><title>Style O Sanda</title><link href="http://muteklab.com/style-o-sanda.html" rel="alternate"></link><published>2012-01-03T00:00:00+09:00</published><updated>2012-01-03T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2012-01-03:/style-o-sanda.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Deep House
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: TV Commercial
+* Genre: Deep House
+* BPM: 120
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/style-o-sanda-128.mp3', 'Style O Sanda');
+    });
+&lt;/script&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="style-o-sanda-001" src="https://user-images.githubusercontent.com/21299773/63366749-ed327480-c369-11e9-9961-450252046d3e.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-002" src="https://user-images.githubusercontent.com/21299773/63366751-ed327480-c369-11e9-8f92-80c90795ef3d.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-003" src="https://user-images.githubusercontent.com/21299773/63366752-edcb0b00-c369-11e9-9d7b-cf70fc0a508d.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-004" src="https://user-images.githubusercontent.com/21299773/63366753-edcb0b00-c369-11e9-946f-bad305c83df6.jpg#mw50"&gt;
+&lt;img alt="2019-08-21_014700" src="https://user-images.githubusercontent.com/21299773/63367138-b741c000-c36a-11e9-80b1-b7efa0833fb6.jpg#mw50"&gt;
+&lt;img alt="2019-08-21_014736" src="https://user-images.githubusercontent.com/21299773/63367140-b741c000-c36a-11e9-86f2-df5c727897ea.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-005" src="https://user-images.githubusercontent.com/21299773/63366754-edcb0b00-c369-11e9-9279-98cdfdcd3f9e.jpg#mw50"&gt;
+&lt;img alt="style-o-sanda-006" src="https://user-images.githubusercontent.com/21299773/63366755-ee63a180-c369-11e9-8f5d-fbcfe3737c84.jpg#mw50"&gt;
+&lt;img alt="2019-08-21_014814" src="https://user-images.githubusercontent.com/21299773/63367143-b7da5680-c36a-11e9-8dca-53ba574acfb5.jpg#mw50"&gt;
+&lt;img alt="2019-08-21_014759" src="https://user-images.githubusercontent.com/21299773/63367141-b7da5680-c36a-11e9-9aaa-5bbc71f907b7.jpg#mw50"&gt;&lt;/p&gt;</content><category term="Author's Music"></category></entry><entry><title>Frisky Radio</title><link href="http://muteklab.com/frisky-radio.html" rel="alternate"></link><published>2012-01-01T00:00:00+09:00</published><updated>2012-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2012-01-01:/frisky-radio.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Ffrisky-radio-2012%2F" frameborder="0" &gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Olympus Camera</title><link href="http://muteklab.com/olympus-camera.html" rel="alternate"></link><published>2011-12-24T00:00:00+09:00</published><updated>2011-12-24T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2011-12-24:/olympus-camera.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Break Beat
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: TV Commercial
+* Genre: Break Beat
+* BPM: 126
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/olympus-camera-128.mp3', 'Olympus Camera');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>Lost States</title><link href="http://muteklab.com/lost-states.html" rel="alternate"></link><published>2011-11-10T00:00:00+09:00</published><updated>2011-11-10T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2011-11-10:/lost-states.html</id><summary type="html"></summary><content type="html">&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/lost-states-128.mp3', 'Lost States');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>The Secret of Love</title><link href="http://muteklab.com/the-secret-of-love.html" rel="alternate"></link><published>2011-07-31T00:00:00+09:00</published><updated>2011-07-31T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2011-07-31:/the-secret-of-love.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Trance
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: Single Album
+* Genre: Trance
+* BPM: 130
+* Presented by: Oriental Funk Stew
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/the-secret-of-love-128.mp3', 'The Secret of Love');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>On and On</title><link href="http://muteklab.com/on-and-on.html" rel="alternate"></link><published>2009-08-15T00:00:00+09:00</published><updated>2009-08-15T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2009-08-15:/on-and-on.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Deep House
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: TV Commercial
+* Genre: Deep House
+* BPM: 125
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/on-and-on-128.mp3', 'On and On');
+    });
+&lt;/script&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="on-and-on-002" src="https://user-images.githubusercontent.com/21299773/63366384-23bbbf80-c369-11e9-8479-656920121b4e.jpg#mw50"&gt;
+&lt;img alt="on-and-on-003" src="https://user-images.githubusercontent.com/21299773/63366411-39c98000-c369-11e9-932e-5a08e6ac5e6e.jpg#mw50"&gt;
+&lt;img alt="on-and-on-004" src="https://user-images.githubusercontent.com/21299773/63366386-24545600-c369-11e9-83c1-34d53d30b1cd.jpg#mw50"&gt;
+&lt;img alt="on-and-on-005" src="https://user-images.githubusercontent.com/21299773/63366387-24545600-c369-11e9-84ed-0d0c5355f206.jpg#mw50"&gt;
+&lt;img alt="on-and-on-006" src="https://user-images.githubusercontent.com/21299773/63366389-24ecec80-c369-11e9-9307-717ec12d3095.jpg#mw50"&gt;
+&lt;img alt="on-and-on-007" src="https://user-images.githubusercontent.com/21299773/63366391-24ecec80-c369-11e9-81d8-57bdbf0631e7.jpg#mw50"&gt;
+&lt;img alt="on-and-on-008" src="https://user-images.githubusercontent.com/21299773/63366392-25858300-c369-11e9-87fb-fda1f2510465.jpg#mw50"&gt;
+&lt;img alt="on-and-on-001" src="https://user-images.githubusercontent.com/21299773/63366382-23bbbf80-c369-11e9-84ce-58074d3819f9.jpg#mw50"&gt;&lt;/p&gt;</content><category term="Author's Music"></category></entry><entry><title>Where Were You At</title><link href="http://muteklab.com/where-were-you-at.html" rel="alternate"></link><published>2008-01-01T00:00:00+09:00</published><updated>2008-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2008-01-01:/where-were-you-at.html</id><summary type="html"></summary><content type="html">&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/where-were-you-at-128.mp3', 'Where Were You At');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>8th Wonder</title><link href="http://muteklab.com/8th-wonder.html" rel="alternate"></link><published>2007-01-01T00:00:00+09:00</published><updated>2007-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2007-01-01:/8th-wonder.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Classic Trance, Melodic Trance
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Classic Trance, Melodic Trance
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe id="mixcloud-iframe" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2F8th-wonder-2007%2F" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Progression 2007</title><link href="http://muteklab.com/progression-2007.html" rel="alternate"></link><published>2007-01-01T00:00:00+09:00</published><updated>2007-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2007-01-01:/progression-2007.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Fprogression-2007%2F" frameborder="0" &gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Deepest Blue</title><link href="http://muteklab.com/deepest-blue.html" rel="alternate"></link><published>2006-01-01T00:00:00+09:00</published><updated>2006-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2006-01-01:/deepest-blue.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Progressive House
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Progressive House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Fdeepest-blue-2005%2F" frameborder="0" &gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Monologue</title><link href="http://muteklab.com/monologue.html" rel="alternate"></link><published>2006-01-01T00:00:00+09:00</published><updated>2006-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2006-01-01:/monologue.html</id><summary type="html"></summary><content type="html">&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/monologue-128.mp3', 'Monologue');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry><entry><title>Progression 2006</title><link href="http://muteklab.com/progression-2006.html" rel="alternate"></link><published>2006-01-01T00:00:00+09:00</published><updated>2006-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2006-01-01:/progression-2006.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Fprogression-2006%2F" frameborder="0" &gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Promo House 2006</title><link href="http://muteklab.com/promo-house-2006.html" rel="alternate"></link><published>2006-01-01T00:00:00+09:00</published><updated>2006-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2006-01-01:/promo-house-2006.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Deep House, Disco House
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Deep House, Disco House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Fhouse-2006%2F" frameborder="0" &gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Groove Party</title><link href="http://muteklab.com/groove-party.html" rel="alternate"></link><published>2005-08-01T00:00:00+09:00</published><updated>2005-08-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2005-08-01:/groove-party.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Music Production
+Summary: Music Production / Break Beat
+--&gt;
+
+&lt;!--
+### Description
+
+* Release Type: PC Game
+* Genre: Break Beat
+* BPM: 110
+--&gt;
+
+&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/groove-party-128.mp3', 'Goove Party');
+    });
+&lt;/script&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="groove-party-001" src="https://user-images.githubusercontent.com/21299773/63367468-6d0d0e80-c36b-11e9-9296-9dea99331a3c.jpg#mw50"&gt;
+&lt;img alt="groove-party-003" src="https://user-images.githubusercontent.com/21299773/63367469-6d0d0e80-c36b-11e9-84a8-5209093cd46b.jpg#mw50"&gt;&lt;/p&gt;</content><category term="Author's Music"></category></entry><entry><title>Chemical Whore</title><link href="http://muteklab.com/chemical-whore.html" rel="alternate"></link><published>2005-01-01T00:00:00+09:00</published><updated>2005-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2005-01-01:/chemical-whore.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Fchemical-whore-2005%2F" frameborder="0" &gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Promo House 2002</title><link href="http://muteklab.com/promo-house-2002.html" rel="alternate"></link><published>2005-01-01T00:00:00+09:00</published><updated>2005-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2005-01-01:/promo-house-2002.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Deep House, Disco House
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Deep House, Disco House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Fdemo-house-2002%2F" frameborder="0" &gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Promo House 2005</title><link href="http://muteklab.com/promo-house-2005.html" rel="alternate"></link><published>2005-01-01T00:00:00+09:00</published><updated>2005-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2005-01-01:/promo-house-2005.html</id><summary type="html"></summary><content type="html">&lt;!--
+Tags: About, About Music, Continuous DJ Mix
+Summary: Continuous DJ Mix / Deep House, Disco House
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Deep House, Disco House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Froad-house-2005%2F" frameborder="0" &gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>Sahara</title><link href="http://muteklab.com/sahara.html" rel="alternate"></link><published>2005-01-01T00:00:00+09:00</published><updated>2005-01-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2005-01-01:/sahara.html</id><summary type="html"></summary><content type="html">&lt;!--
+Summary: Continuous DJ Mix / Tech House, Deep Tech House, Progressive House
+Tags: About, About Music, Continuous DJ Mix
+--&gt;
+
+&lt;!--
+### Description
+
+* Continuous DJ Mix
+* Genre: Tech House, Deep Tech House, Progressive House
+--&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Fsahara-2005-part-1%2F" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class="mixcloud-container"&gt;
+    &lt;iframe src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;light=1&amp;hide_artwork=1&amp;feed=%2Ftkmix%2Fsahara-2005-part-2%2F" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><category term="Author's Mixset"></category></entry><entry><title>It Began in Africa (Dry Mix)</title><link href="http://muteklab.com/it-began-in-africa-dry-mix.html" rel="alternate"></link><published>2002-10-02T00:00:00+09:00</published><updated>2002-10-02T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2002-10-02:/it-began-in-africa-dry-mix.html</id><summary type="html"></summary><content type="html">&lt;div class="audio-player"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        initAudioPlayer('/static/audio/production/it-began-in-africa-dry-mix-128.mp3', 'It Began in Africa (Dry Mix)');
+    });
+&lt;/script&gt;</content><category term="Author's Music"></category></entry></feed>
