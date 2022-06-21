@@ -77,36 +77,36 @@ function onYouTubeIframeAPIReady() {
         }
         function onPlayerStateChange(event) {
             if (event.data == YT.PlayerState.PLAYING) {
-                players.forEach((v, i) => {
-                    if (i !== index) {
-                        v.pauseVideo();
-                        // v.stopVideo();
+                for (let i = 0; i < players.length; i++) {
+                    if (i !== index && players[i].pauseVideo) {
+                        players[i].pauseVideo();
+                        // players[i].stopVideo();
                     }
-                });
+                }
             }
         }
 
         function onPlayerError(event) {}
-
-        players.push(
-            new window.YT.Player(iframes[index].id, {
-                height: '560',
-                width: '315',
-                videoId: source,
-                playerVars: {
-                    playsinline: 1,
-                    enablejsapi: 1,
-                    wmode: 'opaque',
-                    host: origin,
-                    origin: origin,
-                },
-                events: {
-                    onReady: onPlayerReady,
-                    onStateChange: onPlayerStateChange,
-                    onError: onPlayerError,
-                },
-            })
-        );
+        const player = new window.YT.Player(iframes[index].id, {
+            height: '560',
+            width: '315',
+            videoId: source,
+            // host: 'https://www.youtube.com',
+            playerVars: {
+                playsinline: 1,
+                enablejsapi: 1,
+                // wmode: 'opaque',
+                // host: origin,
+                // host: 'https://www.youtube.com',
+                origin: origin,
+            },
+            events: {
+                onReady: onPlayerReady,
+                onStateChange: onPlayerStateChange,
+                onError: onPlayerError,
+            },
+        });
+        players.push(player);
     }
 }
 
