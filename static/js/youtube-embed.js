@@ -65,7 +65,9 @@ function onPlayerStateChange(event) {
             // if (_state !== YT.PlayerState.PLAYING) continue;
             if (_videoId === videoId) continue;
             if (!player.pauseVideo) continue;
-            player.pauseVideo();
+            // player.pauseVideo();
+            player.seekTo(0);
+            player.stopVideo();
         }
         loadYoutubeVideoId(nextVideoId);
     } else if (event.data === YT.PlayerState.ENDED) {
@@ -80,19 +82,19 @@ function onPlayerStateChange(event) {
             player.stopVideo();
             break;
         }
-        clearTimeout(youtubePlayerTimeout);
-        youtubePlayerTimeout = setTimeout(() => {
-            for (let index = 0; index < youtubePlayers.length; index++) {
-                const player = youtubePlayers[index];
-                if (!player || !player.playerInfo || !player.playerInfo.videoData) continue;
-                // if (!youtubePlayers[index] || !youtubePlayers[index].getVideoData) continue;
-                if (player.playerInfo.videoData.video_id !== nextVideoId) continue;
-                if (!player.playVideo) continue;
-                player.seekTo(0);
-                player.playVideo();
-                break;
-            }
-        }, 100);
+        // clearTimeout(youtubePlayerTimeout);
+        // youtubePlayerTimeout = setTimeout(() => {
+        //     for (let index = 0; index < youtubePlayers.length; index++) {
+        //         const player = youtubePlayers[index];
+        //         if (!player || !player.playerInfo || !player.playerInfo.videoData) continue;
+        //         // if (!youtubePlayers[index] || !youtubePlayers[index].getVideoData) continue;
+        //         if (player.playerInfo.videoData.video_id !== nextVideoId) continue;
+        //         if (!player.playVideo) continue;
+        //         player.seekTo(0);
+        //         player.playVideo();
+        //         break;
+        //     }
+        // }, 100);
     }
 }
 
@@ -106,7 +108,7 @@ function loadYoutubeVideoId(videoId) {
         videoId: videoId,
         // host: 'https://www.youtube.com',
         playerVars: {
-            loop: 1,
+            // loop: 1,
             autoplay: 0,
             controls: 1,
             playsinline: 1,
