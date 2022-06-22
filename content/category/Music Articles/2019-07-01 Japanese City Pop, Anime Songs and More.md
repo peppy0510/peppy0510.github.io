@@ -11,11 +11,11 @@ Date: 2019-07-01 00:00
     Project A-ko - Dance Away
 </youtube>
 
-<youtube source="o25UNrb2YVw">
+<youtube source="PEAYwNFr_kc">
     Anri - Shyness Boy
 </youtube>
 
-<youtube source="u-HFULCtPYs">
+<youtube source="FZtgSKysrcE">
     The Five Star Stories - Far Away
 </youtube>
 
@@ -43,6 +43,6 @@ Date: 2019-07-01 00:00
     Takako Mamiya - 真夜中のジョーク
 </youtube>
 
-<youtube source="7OETkMPLHaM">
+<youtube source="zPlRLczZCxM">
     Akina Nakamori - Oh No Oh Yes
 </youtube>
