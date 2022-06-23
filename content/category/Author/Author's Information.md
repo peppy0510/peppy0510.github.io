@@ -47,18 +47,19 @@ Summary:
 `winshell` `mido` `pelican` `jinja` `markdown` `selenium` `livereload` `parallel python` `subprocess`
 `multiprocessing` `multithreading` `uiautomation` `ctype` `SQLAlchemy` `Kivy` `pycrypto` `paramiko` `pexpect`
 `XML` `json` `pep8` `boto3`
-`JavaScript` `TypeScript` `jQuery` `AngularJS` `Angular` `ReactJS` `ElectronJS` `IONIC` `WebPack` `Cordova` `HTML` `CSS` `SCSS`
+`JavaScript` `TypeScript` `jQuery` `AngularJS` `Angular` `ReactJS` `ElectronJS` `IONIC` `WebPack` `Cordova` `HTML` `CSS` `SCSS` `Redux`
 `Responsive Web` `viewport` `opengraph` `async`
 `GCM` `FCM` `APNS` `InAppPurchase` `Android` `iOS` `moment` `timeago` `taffydb` `Font Awesome` `tinymce` `alertifyjs`
 `jshint` `Web Audio API` `Web Worker` `Web Canvas` `Media Source Extension` `Animation Frame` `WebSocket` `Deep Link`
 `Bootstrap` `Material Design` `ADB` `npm` `pip` `C` `C++` `ActionScript` `Flash` `Pascal Script`
-`Regular Expression` `zlib` `VHDL` `Verilog` `Quartus` `FPGA` `VBScript`
-`MySQL` `MariaDB` `Redis` `Memcached` `Solr` `TokyoTyrant` `SQLite`
+`Regular Expression` `Shell Script` `zlib` `VHDL` `Verilog` `Quartus` `FPGA` `VBScript`
+`MySQL` `MariaDB` `Redis` `Memcached` `Solr` `Elasticsearch` `TokyoTyrant` `SQLite`
 `firebase` `firestore` `localStorage` `Berkeley DB`
 `Apache` `NginX` `uWSGI` `IIS` `Tomcat` `HAProxy` `VNC`
 `Windows` `MacOS` `Ubuntu` `Debian` `CentOS` `RedHat` `VMWare` `VirtualBox`
-`SublimeText` `WinSCP` `DBeaver` `Xshell` `jMeter` `LoadRunner` `iTerm` `Terminator` `Putty` `GitKraken` `PyCharm`
-`Eclipse` `Visual Studio`
+`SublimeText` `WinSCP` `DBeaver` `Xshell` `jMeter` `LoadRunner` `WindowsTerminal`
+`iTerm` `Terminator` `Putty` `GitKraken` `PyCharm`
+`Eclipse` `VSCode` `Visual Studio`
 `GitHub` `GitLab` `Gogs` `GitBucket`
 `Digital Signal Processing` `Audio Fingerprinting` `Music Information Retrieval`
 `Collaborative Filtering` `Feature Vector` `Classification` `Machine Learning` `PSOLA` `Phase Vocoder`
@@ -68,10 +69,14 @@ Summary:
 `VST` `VSTi` `ASIO` `MIDI` `MEI` `MusicXML` `verovio` `vexflow` `SVG` `RESTful API` `GraphQL`
 `Zynactiq DIRAC` `echoprint` `Ballistic Model` `Ballistic Coefficient`
 `Steinberg Cubase` `Ableton Live` `Sound Forge` `Acid Pro` `Vegas Pro` `Avid Sibelius` `Avid ProTools` `Propellerhead Reason` `MOTU Digital Performer` `Traktor Pro` `RekordBox` `ReNamer` `AstroGrep` `htop` `glances` `iotop` `speedometer`
-`Linode` `Digital Ocean` `AWS` `NCloud` `Conoha` `DNS` `Load Balancing` `AWS EC2` `AWS S3` `AWS EFS` `AWS Lambda` `AWS Route53` `SeaweedFS` `Docker`
+`Linode` `Digital Ocean` `AWS` `NCloud` `Conoha` `DNS` `Load Balancing` `AWS EC2` `AWS S3` `AWS EFS` `AWS ELB` `AWS Lambda` `AWS Route53` `AWS CloudFront` `SeaweedFS` `Docker`
 `WSL` `ZSH` `PowerShell` `HTTP Live Streaming` `Fragmented MP4`
+`WebRTC` `Agora` `Jitsi` `Jitsi Meet` `Jitsi Jicofo` `Jitsi Videobridge` `Prosody`
+`Video Chat` `Voice Chat` `Giphy` `OBS Studio`
+`Captcha` `Iamport` `firebase SMS` `Phone Authentication` `OTP Authentication`
+`Multi-factor Authentication` `goofys` `bento4`
 
-<div style="margin-top: 10px;"></div>
+<!-- <div style="margin-top: 10px;"></div>
 
 ---
 
@@ -79,8 +84,8 @@ Summary:
 
 <div style="height: 10px;"></div>
 
-`VueJS` `ElasticSearch` `Jenkins` `CircleCI`
-`tensorflow` `keras` `freezegun` `Element` `Tailwind`
+`VueJS` `Jenkins` `CircleCI`
+`tensorflow` `keras` `freezegun` `Element` `Tailwind` -->
 
 ---
 
