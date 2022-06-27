@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>MUTEKLAB - Taehong Kim</title><link>http://muteklab.com/</link><description></description><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0900</lastBuildDate><item><title>Python 아바타 이미지 생성 라이브러리</title><link>http://muteklab.com/python-abata-imiji-saengseong-raibeureori.html</link><description>&lt;h4&gt;identicon&lt;/h4&gt;
 &lt;p&gt;Python library for generating GitHub-like symmetrical 5x5 identicons.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/flavono123/identicon"&gt;https://github.com/flavono123/identicon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/flavono123/identicon" target="_blank"&gt;https://github.com/flavono123/identicon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://camo.githubusercontent.com/3c4eee845db4fa6af1d93b1c33b30074a9b0333f/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f363130342f3936313733302f61336334653261302d303464662d313165332d383234632d3733373865363535303730372e706e67#mh50"&gt;&lt;/p&gt;
 &lt;h4&gt;customidenticon&lt;/h4&gt;
 &lt;p&gt;Python library for generate a variety of identicons.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/lexserest/customidenticon"&gt;https://github.com/lexserest/customidenticon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lexserest/customidenticon" target="_blank"&gt;https://github.com/lexserest/customidenticon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/assets/22620605/2c1c3180-3d1a-11e9-84ca-64547fb6ad51#mh60"&gt;&lt;/p&gt;
 &lt;h4&gt;pagan&lt;/h4&gt;
 &lt;p&gt;Python Avatar Generator for Absolute Nerds.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/daboth/pagan"&gt;https://github.com/daboth/pagan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/daboth/pagan" target="_blank"&gt;https://github.com/daboth/pagan&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/pagan.png#mh50"&gt;
 &lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/python.png#mh50"&gt;
 &lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/avatar.png#mh50"&gt;
@@ -19,7 +19,17 @@
 &lt;img alt="" src="https://github.com/daboth/pagan/raw/master/images/piece%20of%20cake.png#mh50"&gt;&lt;/p&gt;
 &lt;h4&gt;python-avatars&lt;/h4&gt;
 &lt;p&gt;Avatar library in Python.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/ibonn/python_avatars"&gt;https://github.com/ibonn/python …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2022-06-01:/python-abata-imiji-saengseong-raibeureori.html</guid><category>Development Articles</category></item><item><title>SublimeText 3 플러그인</title><link>http://muteklab.com/sublimetext-3-peulreogeuin.html</link><description>&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
+&lt;p&gt;&lt;a href="https://github.com/ibonn/python_avatars" target="_blank"&gt;https://github.com/ibonn/python …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2022-06-01:/python-abata-imiji-saengseong-raibeureori.html</guid><category>Development Articles</category></item><item><title>사례로 보는 예외 처리 JSON 응답 형태</title><link>http://muteklab.com/saryero-boneun-yeoe-ceori-json-eungdab-hyeongtae.html</link><description>&lt;h5&gt;GitHub&lt;/h5&gt;
+&lt;p&gt;예외 참조문서 링크를 함께 응답.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;message&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Not Found&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;documentation_url&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://docs.github.com/rest&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h5&gt;GitLab&lt;/h5&gt;
+&lt;p&gt;클라이언트에서 사용되지 않을 합의되지 않은 예외 처리 응답 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 01 Jun 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-06-01:/saryero-boneun-yeoe-ceori-json-eungdab-hyeongtae.html</guid><category>Development Articles</category></item><item><title>HoneyPot</title><link>http://muteklab.com/honeypot.html</link><description>&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 10 May 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-05-10:/honeypot.html</guid><category>Author's Development</category></item><item><title>Ubuntu Desktop 잠자기 비활성화</title><link>http://muteklab.com/ubuntu-desktop-jamjagi-bihwalseonghwa.html</link><description>&lt;p&gt;어쩔 수 없이 Ubuntu Desktop 버전에서 서비스를 운영하게 되는 경우가 있습니다.
+이때 Desktop 버전은 잠자기 모드가 기본으로 활성화되어 있 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 01 May 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-05-01:/ubuntu-desktop-jamjagi-bihwalseonghwa.html</guid><category>Development Articles</category></item><item><title>SublimeText 3 플러그인</title><link>http://muteklab.com/sublimetext-3-peulreogeuin.html</link><description>&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
 우선순위 없이 열거하였으니 참고 하시기 바랍니다.&lt;/p&gt;
 &lt;h4&gt;Python&lt;/h4&gt;
 &lt;ul&gt;
@@ -72,7 +82,53 @@
     Awakenings Festival 2019 Sunday - Live set Joseph Capriati @ Area W
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="DnUEszxEgfw"&gt;
-    Awakenings ADE …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 31 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-31:/techno-mixsets.html</guid><category>Music Articles</category></item><item><title>Trance Mixsets</title><link>http://muteklab.com/trance-mixsets.html</link><description>&lt;p&gt;&lt;youtube source="EpGVYFILCNs"&gt;
+    Awakenings ADE …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 31 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-31:/techno-mixsets.html</guid><category>Music Articles</category></item><item><title>HTTP 서버 시장 점유율</title><link>http://muteklab.com/http-seobeo-sijang-jeomyuyul.html</link><description>&lt;!-- status: draft --&gt;
+&lt;hr&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="center"&gt;Ranking&lt;/th&gt;
+&lt;th align="center"&gt;Technology&lt;/th&gt;
+&lt;th align="center"&gt;Domains&lt;/th&gt;
+&lt;th align="center"&gt;Market Share&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;1&lt;/td&gt;
+&lt;td align="center"&gt;Apache HTTP Server&lt;/td&gt;
+&lt;td align="center"&gt;6,908,538&lt;/td&gt;
+&lt;td align="center"&gt;55.53%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;2&lt;/td&gt;
+&lt;td align="center"&gt;nginx&lt;/td&gt;
+&lt;td align="center"&gt;2,884,144&lt;/td&gt;
+&lt;td align="center"&gt;23.18%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;3&lt;/td&gt;
+&lt;td align="center"&gt;Microsoft IIS&lt;/td&gt;
+&lt;td align="center"&gt;1,545,685&lt;/td&gt;
+&lt;td align="center"&gt;12.42%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;4&lt;/td&gt;
+&lt;td align="center"&gt;OpenResty&lt;/td&gt;
+&lt;td align="center"&gt;373,666&lt;/td&gt;
+&lt;td align="center"&gt;3.00%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;5&lt;/td&gt;
+&lt;td align="center"&gt;LiteSpeed Web Server&lt;/td&gt;
+&lt;td align="center"&gt;350,502&lt;/td&gt;
+&lt;td align="center"&gt;2.82%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center"&gt;6&lt;/td&gt;
+&lt;td align="center"&gt;Phusion Passenger&lt;/td&gt;
+&lt;td align="center"&gt;127,603&lt;/td&gt;
+&lt;td align="center"&gt;1.03 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 30 Dec 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-12-30:/http-seobeo-sijang-jeomyuyul.html</guid><category>Development Articles</category></item><item><title>Trance Mixsets</title><link>http://muteklab.com/trance-mixsets.html</link><description>&lt;p&gt;&lt;youtube source="EpGVYFILCNs"&gt;
     Armin van Buuren live at AMF 2019 (Amsterdam Music Festival)
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="JSJW0PmFqQQ"&gt;
