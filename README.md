@@ -58,3 +58,12 @@ git push origin source
 ```
 git clone -b source git@github.com:peppy0510/peppy0510.github.io.git
 ```
+
+### 명령어
+
+```
+git checkout source
+python ./manage.py serve
+python ./manage.py build
+python ./manage.py commit
+```
