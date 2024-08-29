@@ -6,3 +6,5 @@
 /output
 desktop.ini
 *.sfk
+.sublime-workspace
+*.sublime-workspace
