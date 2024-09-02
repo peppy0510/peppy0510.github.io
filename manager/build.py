@@ -102,7 +102,7 @@ class BuildManager():
 
     def minify_template(self, content):
         if '<style' not in content and '<script' not in content:
-            content
+            return content
         soup = BeautifulSoup(content, 'html.parser')
         for v in soup.find_all('style'):
             try:

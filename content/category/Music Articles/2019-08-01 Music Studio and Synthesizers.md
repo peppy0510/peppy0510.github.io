@@ -3,6 +3,10 @@ Title: Music Studio and Synthesizers
 Date: 2019-08-01 00:00
 ---
 
+<youtube source="m3Fv3sw6kkE">
+    The sound of 90's Hip-Hop - SP1200 Beat Making
+</youtube>
+
 <youtube source="lJROZv3y270">
     Look Mum No Computer - A Modular Synth Walkthrough Of My DIY Modular Setup
 </youtube>
@@ -63,9 +67,9 @@ Date: 2019-08-01 00:00
     Quick beat made on the SP 1200
 </youtube>
 
-<youtube source="B_fj7qO5V_o">
+<!-- <youtube source="B_fj7qO5V_o">
     Fairlight CMI IIx "Vinyl Sampling Demonstration"
-</youtube>
+</youtube> -->
 
 <youtube source="qK_ATzpPzKM">
     DJ Jazzy Jeff - Can THIS change everything?

@@ -39,7 +39,10 @@ SITEMAP = {
         'review': 'daily',
     }
 }
-
+# PYGMENTS_RST_OPTIONS = {
+#     'classprefix': 'pgcss',
+#     'linenos': 'table'
+# }
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = True

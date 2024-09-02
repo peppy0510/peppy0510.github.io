@@ -25,6 +25,7 @@
                 "*.sublime-workspace"
             ],
             "folder_exclude_patterns": [
+                "//output",
                 "//.git",
                 "//.gradle",
                 "//.vscode",

@@ -39,9 +39,9 @@ Date: 2019-12-31 00:00
     James Grant & Jody Wisternoff Live at Anjunadeep Open Air: Prague (Official 4K Set) #ABGT350
 </youtube>
 
-<youtube source="q8lIuEMN8hk">
+<!-- <youtube source="q8lIuEMN8hk">
     Guy J @ Akvárium Klub (Budapest), 2016.11.26. - OneMusic
-</youtube>
+</youtube> -->
 
 <youtube source="Yg_tJ0P3hDE">
     John Digweed/Extended Set/Akvárium Klub 2019.03.02.Budapest

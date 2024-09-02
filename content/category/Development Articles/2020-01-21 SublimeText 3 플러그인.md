@@ -1,6 +1,7 @@
 ---
 Title: SublimeText 3 플러그인
 Date: 2020-01-21 00:00
+status: draft
 ---
 
 필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
