@@ -3,8 +3,10 @@
 &lt;p&gt;&lt;img alt="ishkurs-30" src="https://cdn8.openculture.com/2019/08/20220628/Ishkur3-e1566367374581.png#mw100"&gt;&lt;/p&gt;
 &lt;div style="height: 10px;"&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class="button" href="http://techno.org/electronic-music-guide/" target="_blank"&gt;Ishkur's Guide to Electronic Music version 2.5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="ishkurs-25" src="https://www.youredm.com/wp-content/uploads/2019/08/ishkurs-guide-to-electronic-music-site.jpg#mw100"&gt;&lt;/p&gt;
+&lt;!-- [Ishkur's Guide to Electronic Music version 2.5](http://techno.org/electronic-music-guide/){:target="_blank" class="button"} --&gt;
+
+&lt;!-- ![ishkurs-25](https://www.youredm.com/wp-content/uploads/2019/08/ishkurs-guide-to-electronic-music-site.jpg#mw100) --&gt;
+
 &lt;p&gt;&lt;youtube source="B4r0MdBQI6U"&gt;
     Guide to Electronic Music Genres
 &lt;/youtube&gt;&lt;/p&gt;
@@ -53,9 +55,10 @@
 &lt;p&gt;&lt;youtube source="_RQe4oMTtOE"&gt;
     James Grant &amp;amp; Jody Wisternoff Live at Anjunadeep Open Air: Prague (Official 4K Set) #ABGT350
 &lt;/youtube&gt;&lt;/p&gt;
-&lt;p&gt;&lt;youtube source="q8lIuEMN8hk"&gt;
+&lt;!-- &lt;youtube source="q8lIuEMN8hk"&gt;
     Guy J @ Akvárium Klub (Budapest), 2016.11.26. - OneMusic
-&lt;/youtube&gt;&lt;/p&gt;
+&lt;/youtube&gt; --&gt;
+
 &lt;p&gt;&lt;youtube source="Yg_tJ0P3hDE"&gt;
     John Digweed/Extended Set/Akvárium Klub 2019.03.02.Budapest
 &lt;/youtube&gt;&lt;/p&gt;
@@ -473,7 +476,10 @@
 
 &lt;!-- &lt;youtube source="LNEpwxxn_VY"&gt;
     Limelght - Don't Leave Me Now (Tom Fall Remix)
-&lt;/youtube&gt; --&gt;</content><category term="Music Articles"></category></entry><entry><title>Music Studio and Synthesizers</title><link href="http://muteklab.com/music-studio-and-synthesizers.html" rel="alternate"></link><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-01:/music-studio-and-synthesizers.html</id><summary type="html">&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
+&lt;/youtube&gt; --&gt;</content><category term="Music Articles"></category></entry><entry><title>Music Studio and Synthesizers</title><link href="http://muteklab.com/music-studio-and-synthesizers.html" rel="alternate"></link><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><author><name>Taehong Kim</name></author><id>tag:muteklab.com,2019-08-01:/music-studio-and-synthesizers.html</id><summary type="html">&lt;p&gt;&lt;youtube source="m3Fv3sw6kkE"&gt;
+    The sound of 90's Hip-Hop - SP1200 Beat Making
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
     Look Mum No Computer - A Modular Synth Walkthrough Of My DIY Modular Setup
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="IR7WV_F0GCQ"&gt;
@@ -492,10 +498,10 @@
     Machine Room &amp;amp; VSL Connection - Studio Time: S2E14
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="AdwHCtpjn3A"&gt;
-    One Bassline (Mad Max: Fury Road) - Studio Time: S2E7
+    One Bassline …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="m3Fv3sw6kkE"&gt;
+    The sound of 90's Hip-Hop - SP1200 Beat Making
 &lt;/youtube&gt;&lt;/p&gt;
-&lt;p&gt;&lt;youtube source="qs-s3uK7a9E"&gt;
-    Inside …&lt;/youtube&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
+&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
     Look Mum No Computer - A Modular Synth Walkthrough Of My DIY Modular Setup
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="IR7WV_F0GCQ"&gt;
@@ -540,9 +546,10 @@
 &lt;p&gt;&lt;youtube source="SjJWESw3vSY"&gt;
     Quick beat made on the SP 1200
 &lt;/youtube&gt;&lt;/p&gt;
-&lt;p&gt;&lt;youtube source="B_fj7qO5V_o"&gt;
+&lt;!-- &lt;youtube source="B_fj7qO5V_o"&gt;
     Fairlight CMI IIx "Vinyl Sampling Demonstration"
-&lt;/youtube&gt;&lt;/p&gt;
+&lt;/youtube&gt; --&gt;
+
 &lt;p&gt;&lt;youtube source="qK_ATzpPzKM"&gt;
     DJ Jazzy Jeff - Can THIS change everything?
 &lt;/youtube&gt;&lt;/p&gt;

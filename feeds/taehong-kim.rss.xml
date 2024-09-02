@@ -28,20 +28,17 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h5&gt;GitLab&lt;/h5&gt;
-&lt;p&gt;클라이언트에서 사용되지 않을 합의되지 않은 예외 처리 응답은 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 01 Jun 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-06-01:/saryero-boneun-yeoe-ceori-json-eungdab-hyeongtae.html</guid><category>Development Articles</category></item><item><title>HoneyPot</title><link>http://muteklab.com/honeypot.html</link><description>&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 10 May 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-05-10:/honeypot.html</guid><category>Author's Development</category></item><item><title>Ubuntu Desktop 잠자기 비활성화</title><link>http://muteklab.com/ubuntu-desktop-jamjagi-bihwalseonghwa.html</link><description>&lt;p&gt;어쩔 수 없이 Ubuntu Desktop 버전에서 서비스를 운영하게 되는 경우가 있습니다.
-이때 Desktop 버전은 잠자기 모드가 기본으로 활성화되어 있 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 01 May 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-05-01:/ubuntu-desktop-jamjagi-bihwalseonghwa.html</guid><category>Development Articles</category></item><item><title>SublimeText 3 플러그인</title><link>http://muteklab.com/sublimetext-3-peulreogeuin.html</link><description>&lt;p&gt;필자가 사용 중인 SublimeText 3 플러그인을 소개합니다.
-우선순위 없이 열거하였으니 참고 하시기 바랍니다.&lt;/p&gt;
-&lt;h4&gt;Python&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;MagicPython&lt;/li&gt;
-&lt;li&gt;Python 3&lt;/li&gt;
-&lt;li&gt;Python Fix Imports&lt;/li&gt;
-&lt;li&gt;Python Imports Sorter …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 21 Jan 2020 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2020-01-21:/sublimetext-3-peulreogeuin.html</guid><category>Development Articles</category></item><item><title>Guide to Electronic Music Genres</title><link>http://muteklab.com/guide-to-electronic-music-genres.html</link><description>&lt;p&gt;&lt;a class="button" href="https://music.ishkur.com/" target="_blank"&gt;Ishkur's Guide to Electronic Music version 3.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;클라이언트와 합의되지 않은 예외 처리 응답은 만들지 않음.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;error&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;404 …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Tue, 01 Jun 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-06-01:/saryero-boneun-yeoe-ceori-json-eungdab-hyeongtae.html</guid><category>Development Articles</category></item><item><title>HoneyPot</title><link>http://muteklab.com/honeypot.html</link><description>&lt;p&gt;윈도우 데스크탑 애플리케이션&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Mon, 10 May 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-05-10:/honeypot.html</guid><category>Author's Development</category></item><item><title>Ubuntu Desktop 잠자기 비활성화</title><link>http://muteklab.com/ubuntu-desktop-jamjagi-bihwalseonghwa.html</link><description>&lt;p&gt;간혹 Ubuntu Desktop 버전에서 서비스를 운영해야 하는 상황에 처할 수 있습니다.
+이때 Desktop 버전은 잠자기 모드가 기본으로 활성화되어 있 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Sat, 01 May 2021 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2021-05-01:/ubuntu-desktop-jamjagi-bihwalseonghwa.html</guid><category>Development Articles</category></item><item><title>Guide to Electronic Music Genres</title><link>http://muteklab.com/guide-to-electronic-music-genres.html</link><description>&lt;p&gt;&lt;a class="button" href="https://music.ishkur.com/" target="_blank"&gt;Ishkur's Guide to Electronic Music version 3.0&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="ishkurs-30" src="https://cdn8.openculture.com/2019/08/20220628/Ishkur3-e1566367374581.png#mw100"&gt;&lt;/p&gt;
 &lt;div style="height: 10px;"&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class="button" href="http://techno.org/electronic-music-guide/" target="_blank"&gt;Ishkur's Guide to Electronic Music version 2.5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="ishkurs-25" src="https://www.youredm.com/wp-content/uploads/2019/08/ishkurs-guide-to-electronic-music-site.jpg#mw100"&gt;&lt;/p&gt;
+&lt;!-- [Ishkur's Guide to Electronic Music version 2.5](http://techno.org/electronic-music-guide/){:target="_blank" class="button"} --&gt;
+
+&lt;!-- ![ishkurs-25](https://www.youredm.com/wp-content/uploads/2019/08/ishkurs-guide-to-electronic-music-site.jpg#mw100) --&gt;
+
 &lt;p&gt;&lt;youtube source="B4r0MdBQI6U"&gt;
     Guide to Electronic Music Genres
 &lt;/youtube&gt;&lt;/p&gt;
@@ -252,7 +249,10 @@
     Ferry Corsten pres. Gouryella - Walhalla (Live at Transmission Prague 2016)
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="cpuvCAjtycE"&gt;
-    Ferry Corsten pres. Gouryella - Anahera (Live at …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-01:/ferry-corsten-live-at-transmission-prague.html</guid><category>Music Articles</category></item><item><title>Music Studio and Synthesizers</title><link>http://muteklab.com/music-studio-and-synthesizers.html</link><description>&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
+    Ferry Corsten pres. Gouryella - Anahera (Live at …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-01:/ferry-corsten-live-at-transmission-prague.html</guid><category>Music Articles</category></item><item><title>Music Studio and Synthesizers</title><link>http://muteklab.com/music-studio-and-synthesizers.html</link><description>&lt;p&gt;&lt;youtube source="m3Fv3sw6kkE"&gt;
+    The sound of 90's Hip-Hop - SP1200 Beat Making
+&lt;/youtube&gt;&lt;/p&gt;
+&lt;p&gt;&lt;youtube source="lJROZv3y270"&gt;
     Look Mum No Computer - A Modular Synth Walkthrough Of My DIY Modular Setup
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="IR7WV_F0GCQ"&gt;
@@ -271,10 +271,7 @@
     Machine Room &amp;amp; VSL Connection - Studio Time: S2E14
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="AdwHCtpjn3A"&gt;
-    One Bassline (Mad Max: Fury Road) - Studio Time: S2E7
-&lt;/youtube&gt;&lt;/p&gt;
-&lt;p&gt;&lt;youtube source="qs-s3uK7a9E"&gt;
-    Inside …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-01:/music-studio-and-synthesizers.html</guid><category>Music Articles</category></item><item><title>Japanese City Pop, Anime Songs and More</title><link>http://muteklab.com/japanese-city-pop-anime-songs-and-more.html</link><description>&lt;p&gt;&lt;youtube source="TH_572d1XA4"&gt;
+    One Bassline …&lt;/youtube&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehong Kim</dc:creator><pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate><guid isPermaLink="false">tag:muteklab.com,2019-08-01:/music-studio-and-synthesizers.html</guid><category>Music Articles</category></item><item><title>Japanese City Pop, Anime Songs and More</title><link>http://muteklab.com/japanese-city-pop-anime-songs-and-more.html</link><description>&lt;p&gt;&lt;youtube source="TH_572d1XA4"&gt;
     Maison Ikkoku - Opening 2
 &lt;/youtube&gt;&lt;/p&gt;
 &lt;p&gt;&lt;youtube source="DI9OepKF3Ms"&gt;
