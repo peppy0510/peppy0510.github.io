@@ -16,9 +16,9 @@ email: peppy0510@hotmail.com
     background-image: none;
     background-color: #000000;
     border-radius: 0 !important;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.75);
-       -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.75);
-            box-shadow: 0px 0px 5px 0px rgba(0,0,0,.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     .container {
         height: 100%;
         display: flex;
@@ -29,10 +29,10 @@ email: peppy0510@hotmail.com
             user-select: none;
             margin: auto auto auto -4px;
             &:hover {
-                opacity: .9;
+                opacity: 0.9;
             }
             &:active {
-                opacity: .8;
+                opacity: 0.8;
             }
             &:not(:hover) {
                 opacity: none;
@@ -68,7 +68,7 @@ email: peppy0510@hotmail.com
                     display: flex;
                     align-items: center;
                     outline: none;
-                    color: #E0E0E0;
+                    color: #e0e0e0;
                     font-size: 11pt;
                     cursor: pointer;
                     padding-left: 20px;
@@ -109,14 +109,14 @@ email: peppy0510@hotmail.com
                     margin-right: 0;
                     flex-direction: column;
                     text-align: right;
-                    background-color: #D0D0D0;
+                    background-color: #d0d0d0;
                     border-top-left-radius: 0;
                     border-top-right-radius: 0;
                     border-bottom-left-radius: 6px;
                     border-bottom-right-radius: 6px;
-                    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.75);
-                       -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.75);
-                            box-shadow: 0px 0px 5px 0px rgba(0,0,0,.75);
+                    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                       -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
                     &.active {
                         display: block;
                     }
@@ -127,7 +127,7 @@ email: peppy0510@hotmail.com
                         height: 1px;
                         width: 100%;
                         margin: 9px auto;
-                        background-color: #B0B0B0;
+                        background-color: #b0b0b0;
                     }
                     a {
                         width: 100%;
@@ -143,11 +143,11 @@ email: peppy0510@hotmail.com
                         margin: 0;
                         &:hover,
                         &:active {
-                            color: #FFFFFF;
+                            color: #ffffff;
                             background-color: #606060;
                         }
                         &:active {
-                            opacity: .9;
+                            opacity: 0.9;
                         }
                         &:not(:hover) {
                             opacity: none;
@@ -216,7 +216,7 @@ email: peppy0510@hotmail.com
                 top: 50px;
                 left: 0;
                 right: 0;
-                opacity: .8;
+                opacity: 0.8;
                 display: none;
                 position: fixed;
                 bottom: -1000px;
@@ -234,10 +234,10 @@ email: peppy0510@hotmail.com
                 overflow-y: scroll;
                 flex-direction: column;
                 padding: 10px 10px 20px 10px;
-                background-color: #D0D0D0;
-                -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.5);
-                   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.5);
-                        box-shadow: 0px 0px 5px 0px rgba(0,0,0,.5);
+                background-color: #d0d0d0;
+                -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+                   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+                        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
                 -ms-overflow-style: none;
                 &:not(.active) {
                     display: none;
@@ -251,7 +251,7 @@ email: peppy0510@hotmail.com
                 .dropdown {
                     width: 100%;
                     height: auto;
-                    background-color: #D0D0D0;
+                    background-color: #d0d0d0;
                     &:not(:first-child) {
                         margin-top: 2px;
                     }
@@ -283,29 +283,29 @@ email: peppy0510@hotmail.com
                         margin-top: 0;
                         margin-left: auto;
                         margin-right: auto;
-                        background-color: #E0E0E0;
-                        border-left: 4px solid #B0B0B0;
+                        background-color: #e0e0e0;
+                        border-left: 4px solid #b0b0b0;
                         &:not(.active) {
                             display: block;
                         }
                         .divider {
                             display: none;
-                            background-color: #D0D0D0;
+                            background-color: #d0d0d0;
                         }
                         a {
                             text-align: left;
                             padding: 10px 10px;
                             background-color: transparent;
                             &:not(:first-child) {
-                                border-top: 1px solid #D0D0D0;
+                                border-top: 1px solid #d0d0d0;
                             }
                             &:hover {
                                 color: #181818;
-                                background-color: #E8E8E8;
+                                background-color: #e8e8e8;
                             }
                             &:active {
                                 color: #181818;
-                                background-color: #F0F0F0;
+                                background-color: #f0f0f0;
                             }
                         }
                     }

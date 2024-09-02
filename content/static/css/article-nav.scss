@@ -8,8 +8,8 @@ email: peppy0510@hotmail.com
     display: flex;
     margin-top: 0;
     position: relative;
-    border-top: 1px solid #E8E8E8;
-    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
     margin-bottom: 0;
     &:after {
         position: absolute;
@@ -18,7 +18,7 @@ email: peppy0510@hotmail.com
         height: 100%;
         left: 50%;
         top: 0;
-        background: #E5E4E1;
+        background: #e5e4e1;
         z-index: 2;
     }
     .article-nav-seperator {
@@ -36,21 +36,21 @@ email: peppy0510@hotmail.com
         color: #606060;
         &:hover {
             i {
-                color: #FF8080;
+                color: #ff8080;
             }
         }
         &:not(.article-nav-left-empty) {
             text-decoration: none;
             &:hover {
-                background-color: #F8F8F8;
+                background-color: #f8f8f8;
             }
             &:active {
-                -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
-                   -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
-                        box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
+                -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.025);
+                   -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.025);
+                        box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.025);
             }
             &:not(:hover) {
-                background-color: #FFFFFF;
+                background-color: #ffffff;
                 -webkit-box-shadow: inset none;
                    -moz-box-shadow: inset none;
                         box-shadow: inset none;
@@ -59,11 +59,11 @@ email: peppy0510@hotmail.com
         i {
             display: flex;
             align-items: center;
-            color: #E0E0E0;
+            color: #e0e0e0;
             margin-top: auto;
             margin-bottom: auto;
-            font-size: 20pt;
-            line-height: 20pt;
+            font-size: 12pt;
+            line-height: 12pt;
             text-align: center;
             &.ic-arrow-left {
                 left: 0;

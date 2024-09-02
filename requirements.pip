@@ -1,8 +1,8 @@
-jsmin
-pyscss
-htmlmin
-pelican
-markdown
-webassets
-livereload
 beautifulsoup4
+htmlmin
+jsmin
+livereload
+markdown
+pelican
+pyscss
+webassets

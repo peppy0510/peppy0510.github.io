@@ -11,7 +11,7 @@ email: peppy0510@hotmail.com
         display: table-cell;
         div {
             &:first-child {
-                background-color: #F0F0F0;
+                background-color: #f0f0f0;
             }
             div {
             }
@@ -35,7 +35,7 @@ email: peppy0510@hotmail.com
         tbody tr td {
             font-size: 9pt;
             line-height: 12pt;
-            border: 1px solid #D8D8D8;
+            border: 1px solid #d8d8d8;
             padding: 5px 6px 3px 6px;
             &[align='center'] {
                 text-align: center;
@@ -47,14 +47,14 @@ email: peppy0510@hotmail.com
         thead {
             tr {
                 th {
-                    background-color: #F0F0F0;
+                    background-color: #f0f0f0;
                 }
             }
         }
         &.rotate {
             tbody tr td:first-child {
                 font-weight: bold;
-                background-color: #F0F0F0;
+                background-color: #f0f0f0;
             }
         }
         &.center {
@@ -72,8 +72,8 @@ email: peppy0510@hotmail.com
             font-size: 10pt;
             line-height: 15pt;
             padding: 8px 12px;
-            border: 1px solid #F0F0F0;
-            background-color: #F8F8F8;
+            border: 1px solid #f0f0f0;
+            background-color: #f8f8f8;
         }
     }
 
@@ -96,13 +96,13 @@ email: peppy0510@hotmail.com
         font-size: 18pt;
         margin-top: 20px;
         padding-bottom: 10px;
-        border-bottom: 1px solid #E8E8E8;
+        border-bottom: 1px solid #e8e8e8;
     }
     h2 {
         font-size: 16pt;
         margin-top: 20px;
         padding-bottom: 10px;
-        border-bottom: 1px solid #E8E8E8;
+        border-bottom: 1px solid #e8e8e8;
     }
     h3 {
         font-size: 14pt;
@@ -114,8 +114,8 @@ email: peppy0510@hotmail.com
         font-size: 11pt;
         margin-top: 6px;
         margin-bottom: 8px !important;
-        color: #FFFFFF;
-        background-color: #A0A0A0;
+        color: #ffffff;
+        background-color: #a0a0a0;
         padding: 4px 6px 4px 6px !important;
         display: inline-flex;
     }
@@ -158,7 +158,7 @@ email: peppy0510@hotmail.com
             align-items: center;
             border-radius: 2px;
             color: #606060;
-            background-color: #F0F0F0;
+            background-color: #f0f0f0;
             font-family: 'Consolas', Monaco, monospace;
         }
     }
@@ -206,7 +206,7 @@ email: peppy0510@hotmail.com
             &:before {
                 color: #404040;
                 margin-right: 2px;
-                content: counter(ol-custom-counter) ". ";
+                content: counter(ol-custom-counter) '. ';
             }
         }
     }
@@ -220,7 +220,7 @@ email: peppy0510@hotmail.com
         border: none;
         margin-top: 20px;
         margin-bottom: 20px;
-        background-color: #E8E8E8;
+        background-color: #e8e8e8;
     }
     a {
         color: #808080;
@@ -230,7 +230,7 @@ email: peppy0510@hotmail.com
         word-break: break-all;
         display: inline-block;
         &:hover {
-            color: #FF2020;
+            color: #ff2020;
             text-decoration: none;
         }
     }
@@ -250,7 +250,7 @@ email: peppy0510@hotmail.com
             color: #808080;
             border-radius: 8px;
             text-decoration: none;
-            border: 1px solid #D8D8D8;
+            border: 1px solid #d8d8d8;
             padding-left: 10px;
             padding-right: 10px;
             padding: 5px 15px 5px 15px;
@@ -258,13 +258,13 @@ email: peppy0510@hotmail.com
             text-align: center;
             display: inline-block;
             &:hover {
-                background-color: #F8F8F8;
+                background-color: #f8f8f8;
             }
             &:active {
-                background-color: #F8F8F8;
-                -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
-                   -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
-                        box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,.025);
+                background-color: #f8f8f8;
+                -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.025);
+                   -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.025);
+                        box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.025);
             }
             label {
                 margin: auto;
@@ -279,10 +279,10 @@ email: peppy0510@hotmail.com
         // display: none;
         font-size: 11pt;
         margin-top: 10px;
-        color: #FFFFFF;
+        color: #ffffff;
         font-weight: bold;
         margin-bottom: 10px;
-        background-color: #A0A0A0;
+        background-color: #a0a0a0;
         line-height: 15pt;
         padding: 3px 6px 3px 6px !important;
         display: inline-flex;
@@ -387,10 +387,10 @@ email: peppy0510@hotmail.com
             height: 32px;
             display: flex;
             overflow: hidden;
-            border: 1px solid #E8E8E8;
+            border: 1px solid #e8e8e8;
             border-top-left-radius: 4px;
             border-top-right-radius: 4px;
-            background-color: #F8F8F8;
+            background-color: #f8f8f8;
             p {
                 margin: auto;
                 color: #808080;
@@ -404,17 +404,17 @@ email: peppy0510@hotmail.com
             overflow: hidden;
             text-align: center;
             position: relative;
-            background-color: #FFFFFF;
-            border-left: 1px solid #E8E8E8;
-            border-right: 1px solid #E8E8E8;
+            background-color: #ffffff;
+            border-left: 1px solid #e8e8e8;
+            border-right: 1px solid #e8e8e8;
             .waveform-canvas {
                 width: 100%;
                 height: 100%;
             }
             .waveform-cursor {
                 position: absolute;
-                background-color: #FF0000;
-                box-shadow: 0 0 3px 0 rgba(0, 0, 0, .25);
+                background-color: #ff0000;
+                box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
             }
             .processing-icon {
                 width: 30px;
@@ -432,10 +432,10 @@ email: peppy0510@hotmail.com
             height: 32px;
             display: flex;
             text-align: center;
-            border: 1px solid #E8E8E8;
+            border: 1px solid #e8e8e8;
             border-bottom-left-radius: 4px;
             border-bottom-right-radius: 4px;
-            background-color: #F8F8F8;
+            background-color: #f8f8f8;
             .current-time,
             .duration-time {
                 margin: auto;
@@ -452,8 +452,8 @@ email: peppy0510@hotmail.com
                 color: #808080;
                 box-shadow: none;
                 background: none;
-                border: 1px solid #D8D8D8;
-                background-color: #FFFFFF;
+                border: 1px solid #d8d8d8;
+                background-color: #ffffff;
                 padding: 0 4px 3px 4px;
                 display: flex;
                 align-items: center;
@@ -461,10 +461,10 @@ email: peppy0510@hotmail.com
                 cursor: pointer;
                 &:hover,
                 &:active {
-                    background-color: #F8F8F8;
+                    background-color: #f8f8f8;
                 }
                 &:not(:hover) {
-                    background-color: #FFFFFF;
+                    background-color: #ffffff;
                 }
                 .glyphicon {
                     padding: 0;

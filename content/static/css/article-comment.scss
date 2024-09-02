@@ -7,7 +7,6 @@ email: peppy0510@hotmail.com
 .article-comment {
     display: none;
     margin-top: 30px;
-    $border-color: #E8E8E8;
     .comment-title {
         .comment-count {
             font-size: 10pt;
@@ -20,12 +19,12 @@ email: peppy0510@hotmail.com
         margin-bottom: 10px;
         flex-direction: column;
         overflow: hidden;
-        border: 1px solid $border-color;
+        border: 1px solid #e8e8e8;
         input {
             border: none;
             box-shadow: none;
             &:not(:first-child) {
-                border-left: 1px solid $border-color;
+                border-left: 1px solid #e8e8e8;
             }
         }
         input,
@@ -36,7 +35,7 @@ email: peppy0510@hotmail.com
             font-family: Arial, Helvetica, sans-serif;
             &::placeholder {
                 font-size: 10pt;
-                color: #C0C0C0;
+                color: #c0c0c0;
                 font-family: Arial, Helvetica, sans-serif;
             }
         }
@@ -51,7 +50,7 @@ email: peppy0510@hotmail.com
                 min-height: 50px;
                 box-shadow: none;
                 line-height: 12pt;
-                border-bottom: 1px solid $border-color;
+                border-bottom: 1px solid #e8e8e8;
             }
         }
         .comment-foot {
@@ -75,13 +74,13 @@ email: peppy0510@hotmail.com
                 padding: 4px 8px;
                 margin-left: auto;
                 align-items: center;
-                background-color: #F8F8F8;
-                border-left: 1px solid $border-color;
+                background-color: #f8f8f8;
+                border-left: 1px solid #e8e8e8;
                 &:hover {
-                    background-color: #F0F0F0;
+                    background-color: #f0f0f0;
                 }
                 &:active {
-                    background-color: #E8E8E8;
+                    background-color: #e8e8e8;
                 }
             }
         }
@@ -93,13 +92,13 @@ email: peppy0510@hotmail.com
             font-size: 10pt;
             overflow: hidden;
             flex-direction: column;
-            border: 1px solid #E8E8E8;
+            border: 1px solid #e8e8e8;
             &:not(:last-child) {
                 border-bottom: none;
             }
             .comment-head {
                 display: flex;
-                background-color: #F8F8F8;
+                background-color: #f8f8f8;
                 padding: 5px 8px;
                 min-height: 35px;
                 align-items: center;
