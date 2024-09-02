@@ -5,6 +5,7 @@ email: peppy0510@hotmail.com
 
 
 .article-loop {
+    border-top: 1px solid #e8e8e8;
     .container {
         padding: 20px 0 20px 0;
         @media (min-width: 768px) {
@@ -57,5 +58,4 @@ email: peppy0510@hotmail.com
             }
         }
     }
-    border-top: 1px solid #E8E8E8;
 }
