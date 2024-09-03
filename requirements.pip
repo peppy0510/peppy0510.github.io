@@ -5,5 +5,8 @@ livereload
 markdown
 pelican
 pelican-markdown-include
+pelican-neighbors
+pelican-sitemap
+pelican-webassets
 pyscss
 webassets

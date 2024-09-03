@@ -5,7 +5,7 @@ Date: 2019-08-22 00:00
 
 SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고로 SublimeText는 hunspell을 사용하여 맞춤법 검사를 지원합니다. 사용자 환경설정 파일 `Preference.sublime-settings`에 `spell_check`와 `dictionary` 항목이 있으며, 다음과 같이 이를 수정하여 기능 활성화와 언어 선택이 가능합니다. 해당 항목이 없다면 추가하면 됩니다.
 
-```json
+```python
 {
     "spell_check": true,
     "dictionary": "Packages/Language - English/en_US.dic"
@@ -18,7 +18,7 @@ SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고�
 
 그 다음 사용자가 원하는 경로에 사전을 저장하고 다음과 같이 `dictionary` 항목에 경로를 지정해주면 됩니다.
 
-```json
+```python
 {
     "dictionary": "Packages/User/Dictionaries/ko.dic"
 }
@@ -26,7 +26,7 @@ SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고�
 
 일반적으로 코드 작성 시에는 맞춤법 검사기의 사용 빈도가 많지 않고, 주석 작업 등에 선택적으로 사용되어 질 것입니다. 반면, 마크다운 문서를 작성할 때는 항상 문법 검사기를 사용 할 것입니다. 이럴 때에는 마크다운 확장자가 정의 되어 있는 설정 파일에 `spell_check`와 `dictionary` 추가하여 사용하면 됩니다. MarkdownEditing 플러그인을 사용하는 필자의 경우, 사용자 환경설정이 있는 경로의 `Markdown.sublime-settings` 파일에 다음의 항목을 추가하였습니다. `Preference.sublime-settings`의 설정이 꺼져 있더라도 마크다운과 텍스트 파일에서는 항상 한글 맞춤법 검사를 하게 됩니다.
 
-```json
+```python
 {
     "extensions": ["md", "mdown", "txt"],
     "spell_check": true,
@@ -38,7 +38,7 @@ SublimeText에서 맞춤법 검사기 활용 방법을 소개합니다. 참고�
 
 `SpellCheck.sublime-commands`
 
-```json
+```python
 [
     {
         "caption": "Spell Check: Toggle",

@@ -21,11 +21,13 @@ TIMEZONE = 'Asia/Seoul'
 DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = 10
 
-PLUGIN_PATHS = ['plugins', 'venv/lib/python3.12/site-packages/pelican/plugins']
+# PLUGIN_PATHS = ['plugins', 'venv/lib/python3.12/site-packages/pelican/plugins']
+PLUGIN_PATHS = ['venv/lib/python3.12/site-packages/pelican/plugins']
 PLUGINS = [
     'sitemap',
     'neighbors',
-    'assets',
+    # 'assets',
+    'webassets',
     'md_include',
 ]
 
@@ -40,12 +42,18 @@ PLUGINS = [
 SITEMAP = {
     'format': 'xml',
     'priorities': {
-        'information': 0.5,
-        'review': 0.5,
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+        # 'information': 0.5,
+        # 'review': 0.5,
     },
     'changefreqs': {
-        'information': 'monthly',
-        'review': 'daily',
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+        # 'information': 'monthly',
+        # 'review': 'daily',
     }
 }
 # MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra']
