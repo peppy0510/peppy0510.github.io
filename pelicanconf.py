@@ -21,13 +21,22 @@ TIMEZONE = 'Asia/Seoul'
 DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = 10
 
-PLUGIN_PATHS = ['plugins']
+PLUGIN_PATHS = ['plugins', 'venv/lib/python3.12/site-packages/pelican/plugins']
 PLUGINS = [
     'sitemap',
     'neighbors',
-    'assets'
+    'assets',
+    'md_include',
 ]
 
+# MARKDOWN = {
+#     'extension_configs': {
+#         'markdown.extensions.codehilite': {'css_class': 'highlight'},
+#         'markdown.extensions.extra': {},
+#         'markdown.extensions.meta': {},
+#     },
+#     'output_format': 'html5',
+# }
 SITEMAP = {
     'format': 'xml',
     'priorities': {
@@ -39,6 +48,7 @@ SITEMAP = {
         'review': 'daily',
     }
 }
+# MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra']
 # PYGMENTS_RST_OPTIONS = {
 #     'classprefix': 'pgcss',
 #     'linenos': 'table'

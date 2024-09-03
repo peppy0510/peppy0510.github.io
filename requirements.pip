@@ -4,5 +4,6 @@ jsmin
 livereload
 markdown
 pelican
+pelican-markdown-include
 pyscss
 webassets
