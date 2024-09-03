@@ -3,13 +3,13 @@ Title: 70s 80s 90s Dance Music Single Tracks
 Date: 2019-08-29 00:00
 ---
 
-<youtube source="-gLs6YNnqZY">
+<!-- <youtube source="-gLs6YNnqZY">
     The KLF - Last Train to Trancentral
-</youtube>
+</youtube> -->
 
-<youtube source="RPjggN-KByI">
+<!-- <youtube source="RPjggN-KByI">
     The KLF - Justified and Ancient (Stand By The JAMs)
-</youtube>
+</youtube> -->
 
 <youtube source="nm6DO_7px1I">
     SNAP! - The Power
@@ -47,9 +47,9 @@ Date: 2019-08-29 00:00
     Mariah Carey - Emotions (From Mariah Carey Live)
 </youtube>
 
-<youtube source="iF_dFVqVyJI">
+<!-- <youtube source="iF_dFVqVyJI">
     Miami Sound Machine - Bad Boy
-</youtube>
+</youtube> -->
 
 <youtube source="Qn11R5l9vzY">
     Kylie Minogue - Turn It Into Love
@@ -91,6 +91,6 @@ Date: 2019-08-29 00:00
     Heavy D & The Boyz - Nuttin' But Love
 </youtube>
 
-<youtube source="MBIn10F5frE">
+<!-- <youtube source="MBIn10F5frE">
     Robin S., Crystal Waters & CeCe Peniston Perform Their Classics At Black Girls Rock 2019!
-</youtube>
+</youtube> -->
