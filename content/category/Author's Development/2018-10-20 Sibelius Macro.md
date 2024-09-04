@@ -18,6 +18,11 @@ Summary: 윈도우 데스크탑 애플리케이션
 
 ---
 
+[GitHub](https://github.com/peppy0510/SibeliusMacro){:target="_blank" class="button"}
+[Download](https://github.com/peppy0510/SibeliusMacro/releases){:target="_blank" class="button"}
+
+---
+
 #### Screenshots
 
 ![screenshot-001](https://user-images.githubusercontent.com/21299773/62963317-45102f00-bdf0-11e9-9279-688c52218ddc.png)
